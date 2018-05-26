@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="10" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1290,39 +1290,75 @@ Based on the previous libraries:
 &lt;/ul&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="MSTBA2" urn="urn:adsk.eagle:footprint:9521/1" library_version="1">
+<package name="MSTBA6" urn="urn:adsk.eagle:footprint:9524/1" library_version="1">
 <description>&lt;b&gt;PHOENIX&lt;/b&gt;</description>
-<wire x1="-6.096" y1="7.112" x2="-6.096" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-6.096" y1="7.112" x2="-3.175" y2="7.112" width="0.1524" layer="21"/>
-<wire x1="-3.175" y1="7.112" x2="-1.905" y2="7.112" width="0.1524" layer="51"/>
-<wire x1="-1.905" y1="7.112" x2="1.905" y2="7.112" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="7.112" x2="3.175" y2="7.112" width="0.1524" layer="51"/>
-<wire x1="3.175" y1="7.112" x2="6.096" y2="7.112" width="0.1524" layer="21"/>
-<wire x1="-6.096" y1="-1.905" x2="6.096" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="6.096" y1="7.112" x2="6.096" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-6.096" y1="-4.953" x2="-3.429" y2="-4.953" width="0.1524" layer="21"/>
-<wire x1="-6.096" y1="-1.905" x2="-6.096" y2="-4.953" width="0.1524" layer="21"/>
-<wire x1="6.096" y1="-1.905" x2="6.096" y2="-4.953" width="0.1524" layer="21"/>
-<wire x1="-1.651" y1="-4.953" x2="-2.032" y2="-3.683" width="0.1524" layer="21"/>
-<wire x1="-1.651" y1="-4.953" x2="1.651" y2="-4.953" width="0.1524" layer="21"/>
-<wire x1="-2.032" y1="-3.683" x2="-3.048" y2="-3.683" width="0.1524" layer="21"/>
-<wire x1="-3.429" y1="-4.953" x2="-3.048" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="-16.256" y1="7.112" x2="-16.256" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-16.256" y1="7.112" x2="-13.335" y2="7.112" width="0.1524" layer="21"/>
+<wire x1="-13.335" y1="7.112" x2="-12.065" y2="7.112" width="0.1524" layer="51"/>
+<wire x1="-12.065" y1="7.112" x2="-8.255" y2="7.112" width="0.1524" layer="21"/>
+<wire x1="-8.255" y1="7.112" x2="-6.985" y2="7.112" width="0.1524" layer="51"/>
+<wire x1="13.335" y1="7.112" x2="16.256" y2="7.112" width="0.1524" layer="21"/>
+<wire x1="-16.256" y1="-1.905" x2="16.256" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="16.256" y1="7.112" x2="16.256" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-16.256" y1="-4.953" x2="-13.589" y2="-4.953" width="0.1524" layer="21"/>
+<wire x1="-16.256" y1="-1.905" x2="-16.256" y2="-4.953" width="0.1524" layer="21"/>
+<wire x1="16.256" y1="-1.905" x2="16.256" y2="-4.953" width="0.1524" layer="21"/>
+<wire x1="-11.811" y1="-4.953" x2="-12.192" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="-11.811" y1="-4.953" x2="-8.509" y2="-4.953" width="0.1524" layer="21"/>
+<wire x1="-12.192" y1="-3.683" x2="-13.208" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="-13.589" y1="-4.953" x2="-13.208" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="-13.589" y1="-4.953" x2="-11.811" y2="-4.953" width="0.1524" layer="21"/>
+<wire x1="-6.731" y1="-4.953" x2="-7.112" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="-6.731" y1="-4.953" x2="-3.429" y2="-4.953" width="0.1524" layer="21"/>
 <wire x1="-3.429" y1="-4.953" x2="-1.651" y2="-4.953" width="0.1524" layer="21"/>
-<wire x1="3.429" y1="-4.953" x2="3.048" y2="-3.683" width="0.1524" layer="21"/>
-<wire x1="3.429" y1="-4.953" x2="6.096" y2="-4.953" width="0.1524" layer="21"/>
-<wire x1="1.651" y1="-4.953" x2="2.032" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="-1.651" y1="-4.953" x2="1.651" y2="-4.953" width="0.1524" layer="21"/>
 <wire x1="1.651" y1="-4.953" x2="3.429" y2="-4.953" width="0.1524" layer="21"/>
+<wire x1="3.429" y1="-4.953" x2="6.731" y2="-4.953" width="0.1524" layer="21"/>
+<wire x1="6.731" y1="-4.953" x2="8.509" y2="-4.953" width="0.1524" layer="21"/>
+<wire x1="8.509" y1="-4.953" x2="11.811" y2="-4.953" width="0.1524" layer="21"/>
+<wire x1="11.811" y1="-4.953" x2="13.589" y2="-4.953" width="0.1524" layer="21"/>
+<wire x1="13.589" y1="-4.953" x2="16.256" y2="-4.953" width="0.1524" layer="21"/>
+<wire x1="-8.509" y1="-4.953" x2="-8.128" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="-8.509" y1="-4.953" x2="-6.731" y2="-4.953" width="0.1524" layer="21"/>
+<wire x1="-8.128" y1="-3.683" x2="-7.112" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="-3.048" y1="-3.683" x2="-2.032" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="-1.651" y1="-4.953" x2="-2.032" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="-3.429" y1="-4.953" x2="-3.048" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="7.112" x2="-1.905" y2="7.112" width="0.1524" layer="51"/>
+<wire x1="-6.985" y1="7.112" x2="-3.175" y2="7.112" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="7.112" x2="3.175" y2="7.112" width="0.1524" layer="51"/>
+<wire x1="-1.905" y1="7.112" x2="1.905" y2="7.112" width="0.1524" layer="21"/>
 <wire x1="2.032" y1="-3.683" x2="3.048" y2="-3.683" width="0.1524" layer="21"/>
-<pad name="1" x="-2.54" y="5.08" drill="1.397" shape="long" rot="R90"/>
-<pad name="2" x="2.54" y="5.08" drill="1.397" shape="long" rot="R90"/>
-<text x="-6.096" y="7.62" size="1.778" layer="25" ratio="10">&gt;NAME</text>
-<text x="-5.08" y="0" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-4.572" y="4.445" size="1.27" layer="21" ratio="10">1</text>
-<text x="0.254" y="4.445" size="1.27" layer="21" ratio="10">2</text>
+<wire x1="3.429" y1="-4.953" x2="3.048" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="1.651" y1="-4.953" x2="2.032" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="6.985" y1="7.112" x2="8.255" y2="7.112" width="0.1524" layer="51"/>
+<wire x1="3.175" y1="7.112" x2="6.985" y2="7.112" width="0.1524" layer="21"/>
+<wire x1="7.112" y1="-3.683" x2="8.128" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="8.509" y1="-4.953" x2="8.128" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="6.731" y1="-4.953" x2="7.112" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="12.192" y1="-3.683" x2="13.208" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="11.811" y1="-4.953" x2="12.192" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="13.589" y1="-4.953" x2="13.208" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="12.065" y1="7.112" x2="13.335" y2="7.112" width="0.1524" layer="51"/>
+<wire x1="8.255" y1="7.112" x2="12.065" y2="7.112" width="0.1524" layer="21"/>
+<pad name="1" x="-12.7" y="5.08" drill="1.397" shape="long" rot="R90"/>
+<pad name="2" x="-7.62" y="5.08" drill="1.397" shape="long" rot="R90"/>
+<pad name="6" x="12.7" y="5.08" drill="1.397" shape="long" rot="R90"/>
+<pad name="3" x="-2.54" y="5.08" drill="1.397" shape="long" rot="R90"/>
+<pad name="4" x="2.54" y="5.08" drill="1.397" shape="long" rot="R90"/>
+<pad name="5" x="7.62" y="5.08" drill="1.397" shape="long" rot="R90"/>
+<text x="-16.256" y="7.62" size="1.778" layer="25" ratio="10">&gt;NAME</text>
+<text x="-15.24" y="0" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-14.732" y="4.445" size="1.27" layer="21" ratio="10">1</text>
+<text x="-9.906" y="4.445" size="1.27" layer="21" ratio="10">2</text>
+<text x="-4.826" y="4.445" size="1.27" layer="21" ratio="10">3</text>
+<text x="0.254" y="4.445" size="1.27" layer="21" ratio="10">4</text>
+<text x="5.334" y="4.445" size="1.27" layer="21" ratio="10">5</text>
+<text x="10.414" y="4.445" size="1.27" layer="21" ratio="10">6</text>
 </package>
 </packages>
 <packages3d>
-<package3d name="MSTBA2" urn="urn:adsk.eagle:package:9615/1" type="box" library_version="1">
+<package3d name="MSTBA6" urn="urn:adsk.eagle:package:9616/1" type="box" library_version="1">
 <description>PHOENIX</description>
 </package3d>
 </packages3d>
@@ -1352,27 +1388,35 @@ Based on the previous libraries:
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="MSTBA2" urn="urn:adsk.eagle:component:9687/1" prefix="X" library_version="1">
+<deviceset name="MSTBA6" urn="urn:adsk.eagle:component:9689/1" prefix="X" library_version="1">
 <description>&lt;b&gt;PHOENIX&lt;/b&gt;</description>
 <gates>
-<gate name="-1" symbol="SK" x="0" y="5.08" addlevel="always"/>
-<gate name="-2" symbol="SKV" x="0" y="0" addlevel="always"/>
+<gate name="-1" symbol="SK" x="0" y="17.78" addlevel="always"/>
+<gate name="-2" symbol="SK" x="0" y="12.7" addlevel="always"/>
+<gate name="-3" symbol="SK" x="0" y="7.62" addlevel="always"/>
+<gate name="-4" symbol="SK" x="0" y="2.54" addlevel="always"/>
+<gate name="-5" symbol="SK" x="0" y="-2.54" addlevel="always"/>
+<gate name="-6" symbol="SKV" x="0" y="-7.62" addlevel="always"/>
 </gates>
 <devices>
-<device name="" package="MSTBA2">
+<device name="" package="MSTBA6">
 <connects>
 <connect gate="-1" pin="1" pad="1"/>
 <connect gate="-2" pin="1" pad="2"/>
+<connect gate="-3" pin="1" pad="3"/>
+<connect gate="-4" pin="1" pad="4"/>
+<connect gate="-5" pin="1" pad="5"/>
+<connect gate="-6" pin="1" pad="6"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:9615/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:9616/1"/>
 </package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="MF" value="FARNELL" constant="no"/>
-<attribute name="MPN" value="1757242" constant="no"/>
-<attribute name="OC_FARNELL" value="3705171" constant="no"/>
-<attribute name="OC_NEWARK" value="71C4161" constant="no"/>
+<attribute name="MPN" value="1757284" constant="no"/>
+<attribute name="OC_FARNELL" value="3705213" constant="no"/>
+<attribute name="OC_NEWARK" value="71C4165" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -10274,8 +10318,6 @@ Source: http://pdfserv.maxim-ic.com/en/ds/MAX3095-MAX3096.pdf</description>
 <part name="SUPPLY10" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="ETHER" library="con-garry" library_urn="urn:adsk.eagle:library:147" deviceset="332-10" device="" package3d_urn="urn:adsk.eagle:package:6812/1"/>
-<part name="IN12V" library="con-phoenix-508" library_urn="urn:adsk.eagle:library:176" deviceset="MSTBA2" device="" package3d_urn="urn:adsk.eagle:package:9615/1"/>
-<part name="IN3V3" library="con-phoenix-508" library_urn="urn:adsk.eagle:library:176" deviceset="MSTBA2" device="" package3d_urn="urn:adsk.eagle:package:9615/1"/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY15" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
@@ -10283,7 +10325,6 @@ Source: http://pdfserv.maxim-ic.com/en/ds/MAX3095-MAX3096.pdf</description>
 <part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4.7k"/>
 <part name="SUPPLY39" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="IN5V" library="con-phoenix-508" library_urn="urn:adsk.eagle:library:176" deviceset="MSTBA2" device="" package3d_urn="urn:adsk.eagle:package:9615/1"/>
 <part name="SUPPLY24" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="GND39" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="RTC_" library="SKA_EP_molex_6410_7395" deviceset="RTC_WAVESHARE" device=""/>
@@ -10415,6 +10456,7 @@ Source: http://pdfserv.maxim-ic.com/en/ds/MAX3095-MAX3096.pdf</description>
 <part name="GND30" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND31" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND32" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="POWER" library="con-phoenix-508" library_urn="urn:adsk.eagle:library:176" deviceset="MSTBA6" device="" package3d_urn="urn:adsk.eagle:package:9616/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -10528,7 +10570,7 @@ Source: http://pdfserv.maxim-ic.com/en/ds/MAX3095-MAX3096.pdf</description>
 <instance part="X2" gate="-36" x="-43.84" y="176.88" rot="MR180"/>
 <instance part="X2" gate="-37" x="-18.44" y="179.42" rot="R180"/>
 <instance part="X2" gate="-38" x="-43.84" y="179.42" rot="MR180"/>
-<instance part="GND2" gate="1" x="-15.552978125" y="-118.11301875"/>
+<instance part="GND2" gate="1" x="-15.552978125" y="-115.57301875"/>
 <instance part="GND3" gate="1" x="63.027021875" y="-172.39301875"/>
 <instance part="SUPPLY2" gate="G$1" x="63.027021875" y="-164.69301875"/>
 <instance part="SUPPLY3" gate="G$1" x="1.88" y="220.06"/>
@@ -10544,19 +10586,13 @@ Source: http://pdfserv.maxim-ic.com/en/ds/MAX3095-MAX3096.pdf</description>
 <instance part="ETHER" gate="-8" x="53.527021875" y="-120.05301875"/>
 <instance part="ETHER" gate="-9" x="84.007021875" y="-122.59301875" rot="MR0"/>
 <instance part="ETHER" gate="-10" x="53.527021875" y="-122.59301875"/>
-<instance part="IN12V" gate="-1" x="-30.792978125" y="-168.91301875"/>
-<instance part="IN12V" gate="-2" x="-30.792978125" y="-173.99301875"/>
-<instance part="IN3V3" gate="-1" x="-30.792978125" y="-107.95301875"/>
-<instance part="IN3V3" gate="-2" x="-30.792978125" y="-113.03301875"/>
-<instance part="GND21" gate="1" x="-15.552978125" y="-179.07301875"/>
+<instance part="GND21" gate="1" x="-15.552978125" y="-176.53301875"/>
 <instance part="SUPPLY15" gate="G$1" x="-15.552978125" y="-166.37301875"/>
 <instance part="SUPPLY1" gate="G$1" x="-15.552978125" y="-105.41301875"/>
 <instance part="SUPPLY5" gate="G$1" x="-15.552978125" y="-135.89301875"/>
 <instance part="R18" gate="G$1" x="82.528246875" y="-388.03574375" rot="R90"/>
 <instance part="SUPPLY39" gate="G$1" x="82.528246875" y="-382.95574375"/>
-<instance part="GND4" gate="1" x="-15.552978125" y="-148.59301875"/>
-<instance part="IN5V" gate="-1" x="-30.792978125" y="-138.43301875"/>
-<instance part="IN5V" gate="-2" x="-30.792978125" y="-143.51301875"/>
+<instance part="GND4" gate="1" x="-15.552978125" y="-146.05301875"/>
 <instance part="SUPPLY24" gate="G$1" x="52.048246875" y="-382.95574375"/>
 <instance part="GND39" gate="1" x="52.048246875" y="-403.27574375"/>
 <instance part="RTC_" gate="RTCVCC" x="90.148246875" y="-398.19574375"/>
@@ -10771,6 +10807,12 @@ Source: http://pdfserv.maxim-ic.com/en/ds/MAX3095-MAX3096.pdf</description>
 <instance part="GND30" gate="1" x="-66.04" y="210.82"/>
 <instance part="GND31" gate="1" x="7.62" y="210.82"/>
 <instance part="GND32" gate="1" x="7.62" y="226.06"/>
+<instance part="POWER" gate="-1" x="-27.94" y="-106.68"/>
+<instance part="POWER" gate="-2" x="-27.94" y="-111.76"/>
+<instance part="POWER" gate="-3" x="-27.94" y="-137.16"/>
+<instance part="POWER" gate="-4" x="-27.94" y="-142.24"/>
+<instance part="POWER" gate="-5" x="-27.94" y="-167.64"/>
+<instance part="POWER" gate="-6" x="-27.94" y="-172.72"/>
 </instances>
 <busses>
 </busses>
@@ -11172,28 +11214,10 @@ Source: http://pdfserv.maxim-ic.com/en/ds/MAX3095-MAX3096.pdf</description>
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="-25.712978125" y1="-113.03301875" x2="-15.552978125" y2="-113.03301875" width="0.1524" layer="91"/>
-<wire x1="-15.552978125" y1="-113.03301875" x2="-15.552978125" y2="-115.57301875" width="0.1524" layer="91"/>
-<pinref part="IN3V3" gate="-2" pin="1"/>
-</segment>
-<segment>
 <pinref part="ETHER" gate="-10" pin="S"/>
 <wire x1="50.987021875" y1="-122.59301875" x2="48.447021875" y2="-122.59301875" width="0.1524" layer="91"/>
 <pinref part="GND8" gate="1" pin="GND"/>
 <wire x1="48.447021875" y1="-122.59301875" x2="48.447021875" y2="-125.13301875" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="IN12V" gate="-2" pin="1"/>
-<pinref part="GND21" gate="1" pin="GND"/>
-<wire x1="-25.712978125" y1="-173.99301875" x2="-15.552978125" y2="-173.99301875" width="0.1524" layer="91"/>
-<wire x1="-15.552978125" y1="-173.99301875" x2="-15.552978125" y2="-176.53301875" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="IN5V" gate="-2" pin="1"/>
-<pinref part="GND4" gate="1" pin="GND"/>
-<wire x1="-25.712978125" y1="-143.51301875" x2="-15.552978125" y2="-143.51301875" width="0.1524" layer="91"/>
-<wire x1="-15.552978125" y1="-143.51301875" x2="-15.552978125" y2="-146.05301875" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND39" gate="1" pin="GND"/>
@@ -11411,6 +11435,24 @@ Source: http://pdfserv.maxim-ic.com/en/ds/MAX3095-MAX3096.pdf</description>
 <wire x1="-15.9" y1="230.22" x2="7.62" y2="230.22" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="230.22" x2="7.62" y2="228.6" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="GND2" gate="1" pin="GND"/>
+<pinref part="POWER" gate="-2" pin="1"/>
+<wire x1="-15.552978125" y1="-113.03301875" x2="-15.552978125" y2="-111.76" width="0.1524" layer="91"/>
+<wire x1="-15.552978125" y1="-111.76" x2="-22.86" y2="-111.76" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND4" gate="1" pin="GND"/>
+<pinref part="POWER" gate="-4" pin="1"/>
+<wire x1="-15.552978125" y1="-143.51301875" x2="-15.552978125" y2="-142.24" width="0.1524" layer="91"/>
+<wire x1="-15.552978125" y1="-142.24" x2="-22.86" y2="-142.24" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND21" gate="1" pin="GND"/>
+<pinref part="POWER" gate="-6" pin="1"/>
+<wire x1="-15.552978125" y1="-173.99301875" x2="-15.552978125" y2="-172.72" width="0.1524" layer="91"/>
+<wire x1="-15.552978125" y1="-172.72" x2="-22.86" y2="-172.72" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="PA15" class="0">
 <segment>
@@ -11566,12 +11608,6 @@ Source: http://pdfserv.maxim-ic.com/en/ds/MAX3095-MAX3096.pdf</description>
 <wire x1="101.787021875" y1="-122.59301875" x2="86.547021875" y2="-122.59301875" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="-25.712978125" y1="-107.95301875" x2="-15.552978125" y2="-107.95301875" width="0.1524" layer="91"/>
-<wire x1="-15.552978125" y1="-107.95301875" x2="-15.552978125" y2="-105.41301875" width="0.1524" layer="91"/>
-<pinref part="IN3V3" gate="-1" pin="1"/>
-<pinref part="SUPPLY1" gate="G$1" pin="3.3V"/>
-</segment>
-<segment>
 <pinref part="R18" gate="G$1" pin="2"/>
 <pinref part="SUPPLY39" gate="G$1" pin="3.3V"/>
 </segment>
@@ -11714,14 +11750,14 @@ Source: http://pdfserv.maxim-ic.com/en/ds/MAX3095-MAX3096.pdf</description>
 <pinref part="R33" gate="G$1" pin="2"/>
 <pinref part="SUPPLY35" gate="G$1" pin="3.3V"/>
 </segment>
+<segment>
+<pinref part="SUPPLY1" gate="G$1" pin="3.3V"/>
+<pinref part="POWER" gate="-1" pin="1"/>
+<wire x1="-15.552978125" y1="-105.41301875" x2="-15.552978125" y2="-106.68" width="0.1524" layer="91"/>
+<wire x1="-15.552978125" y1="-106.68" x2="-22.86" y2="-106.68" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="5V" class="0">
-<segment>
-<pinref part="IN5V" gate="-1" pin="1"/>
-<pinref part="SUPPLY5" gate="G$1" pin="5V"/>
-<wire x1="-25.712978125" y1="-138.43301875" x2="-15.552978125" y2="-138.43301875" width="0.1524" layer="91"/>
-<wire x1="-15.552978125" y1="-138.43301875" x2="-15.552978125" y2="-135.89301875" width="0.1524" layer="91"/>
-</segment>
 <segment>
 <pinref part="ENDR2" gate="-2" pin="S"/>
 <pinref part="SUPPLY7" gate="G$1" pin="5V"/>
@@ -11745,6 +11781,12 @@ Source: http://pdfserv.maxim-ic.com/en/ds/MAX3095-MAX3096.pdf</description>
 <wire x1="40.64" y1="25.4" x2="45.407021875" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="SUPPLY11" gate="G$1" pin="5V"/>
 <wire x1="45.407021875" y1="29.20698125" x2="45.407021875" y2="25.4" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY5" gate="G$1" pin="5V"/>
+<pinref part="POWER" gate="-3" pin="1"/>
+<wire x1="-15.552978125" y1="-135.89301875" x2="-15.552978125" y2="-137.16" width="0.1524" layer="91"/>
+<wire x1="-15.552978125" y1="-137.16" x2="-22.86" y2="-137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="INT" class="0">
@@ -11783,14 +11825,6 @@ Source: http://pdfserv.maxim-ic.com/en/ds/MAX3095-MAX3096.pdf</description>
 <pinref part="ETHER" gate="-1" pin="S"/>
 <wire x1="86.547021875" y1="-112.43301875" x2="89.087021875" y2="-112.43301875" width="0.1524" layer="91"/>
 <label x="89.087021875" y="-112.43301875" size="1.27" layer="95" rot="MR180" xref="yes"/>
-</segment>
-</net>
-<net name="12V" class="0">
-<segment>
-<pinref part="IN12V" gate="-1" pin="1"/>
-<pinref part="SUPPLY15" gate="G$1" pin="12V"/>
-<wire x1="-25.712978125" y1="-168.91301875" x2="-15.552978125" y2="-168.91301875" width="0.1524" layer="91"/>
-<wire x1="-15.552978125" y1="-168.91301875" x2="-15.552978125" y2="-166.37301875" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="M11" class="0">
@@ -12423,6 +12457,14 @@ Source: http://pdfserv.maxim-ic.com/en/ds/MAX3095-MAX3096.pdf</description>
 <pinref part="IMU" gate="-6" pin="S"/>
 <wire x1="12.7" y1="-421.64" x2="2.54" y2="-421.64" width="0.1524" layer="91"/>
 <label x="2.54" y="-421.64" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="12V" class="0">
+<segment>
+<pinref part="SUPPLY15" gate="G$1" pin="12V"/>
+<pinref part="POWER" gate="-5" pin="1"/>
+<wire x1="-15.552978125" y1="-166.37301875" x2="-15.552978125" y2="-167.64" width="0.1524" layer="91"/>
+<wire x1="-15.552978125" y1="-167.64" x2="-22.86" y2="-167.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
