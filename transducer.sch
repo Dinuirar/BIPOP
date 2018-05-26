@@ -22351,7 +22351,7 @@ bandwidth = 15 kHz</text>
 <junction x="55.88" y="71.12"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="ADR" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="ADDR"/>
 <pinref part="R5" gate="G$1" pin="1"/>
