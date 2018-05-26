@@ -5085,7 +5085,7 @@ Source: AVX .. aphvc.pdf</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="0.508" drill="0">
 </class>
 </classes>
 <parts>
@@ -5110,10 +5110,10 @@ Source: AVX .. aphvc.pdf</description>
 <part name="D8" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="-MM3Z3V3T1G" value="33.3V"/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100uF"/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100uF"/>
-<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100uF"/>
 <part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100uF"/>
 <part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100uF"/>
 <part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100uF"/>
+<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -5150,10 +5150,10 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="D8" gate="G$1" x="-12.7" y="17.78" rot="R90"/>
 <instance part="C2" gate="G$1" x="20.32" y="81.28" rot="R90"/>
 <instance part="C3" gate="G$1" x="33.02" y="81.28" rot="R90"/>
-<instance part="C4" gate="G$1" x="45.72" y="81.28" rot="R90"/>
 <instance part="C5" gate="G$1" x="50.8" y="35.56"/>
 <instance part="C6" gate="G$1" x="50.8" y="25.4"/>
 <instance part="C7" gate="G$1" x="50.8" y="-10.16"/>
+<instance part="C4" gate="G$1" x="45.72" y="81.28" rot="R90"/>
 </instances>
 <busses>
 </busses>
