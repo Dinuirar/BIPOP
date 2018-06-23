@@ -1,25 +1,25 @@
 EAGLE AutoRouter Statistics:
 
-Job           : /home/kassus/Desktop/bipop/interfacing_board.brd
+Job           : /home/kassus/Desktop/repositories/bipop/interfacing_board.brd
 
-Start at      : 13:04:47 (26.05.2018)
-End at        : 13:06:04 (26.05.2018)
-Elapsed time  : 00:00:20
+Start at      : 21:39:55 (23.06.2018)
+End at        : 21:41:49 (23.06.2018)
+Elapsed time  : 00:00:13
 
-Signals       :   114   RoutingGrid: 12.5 mil  Layers: 2
-Connections   :   181   predefined:  0 ( 0 Vias )
+Signals       :    92   RoutingGrid: 12.5 mil  Layers: 2
+Connections   :   141   predefined:  0 ( 0 Vias )
 
-Router memory :   467896
+Router memory :   409836
 
-Passname          :    Busses     Route Optimize1 Optimize2 Optimize3 Optimize4
+Passname          :     Route Optimize1 Optimize2 Optimize3 Optimize4
 
-Time per pass     :  00:00:00  00:00:03  00:00:05  00:00:05  00:00:04  00:00:03
-Number of Ripups  :         0         0         0         0         0         0
-max. Level        :         0         0         0         0         0         0
-max. Total        :         0         0         0         0         0         0
+Time per pass     :  00:00:03  00:00:03  00:00:03  00:00:02  00:00:02
+Number of Ripups  :         0         0         0         0         0
+max. Level        :         0         0         0         0         0
+max. Total        :         0         0         0         0         0
 
-Routed            :        36       181       181       181       181       181
-Vias              :         0       234        84        70        66        66
-Resolution        :    19.9 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
+Routed            :       141       141       141       141       141
+Vias              :        67        32        32        29        24
+Resolution        :   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
 
 Final             : 100.0% finished

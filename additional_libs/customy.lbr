@@ -674,7 +674,7 @@ OpenLog</text>
 <wire x1="-17" y1="15" x2="-17" y2="-2" width="0.127" layer="21"/>
 <text x="-7" y="7" size="1.27" layer="21">ADS1015</text>
 </package>
-<package name="1X06">
+<package name="DRIVER">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <wire x1="0.635" y1="1.27" x2="1.905" y2="1.27" width="0.1524" layer="21"/>
 <wire x1="1.905" y1="1.27" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
@@ -729,10 +729,8 @@ OpenLog</text>
 <wire x1="6.35" y1="20.32" x2="6.35" y2="12.7" width="0.127" layer="21"/>
 <wire x1="6.35" y1="12.7" x2="-1.27" y2="12.7" width="0.127" layer="21"/>
 <wire x1="-1.27" y1="12.7" x2="-1.27" y2="20.32" width="0.127" layer="21"/>
-<pad name="5" x="3.81" y="16.51" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="6" x="1.27" y="16.51" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="7" x="-6.35" y="16.51" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="8" x="-8.89" y="16.51" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="MOTOR_GND" x="5.08" y="16.51" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="MOTOR_VCC" x="0" y="16.51" drill="1.016" shape="octagon" rot="R90"/>
 <text x="-6.35" y="6.35" size="1.27" layer="21">DRV8871</text>
 <text x="-10.16" y="11.43" size="1.27" layer="21">MOTOR</text>
 <text x="0" y="11.43" size="1.27" layer="21">POWER</text>
@@ -1200,13 +1198,17 @@ Source: http://pdf1.alldatasheet.com/datasheet-pdf/view/84563/STMICROELECTRONICS
 <gate name="IN1" symbol="PIN" x="2.54" y="7.62"/>
 <gate name="VM" symbol="PIN" x="2.54" y="-2.54"/>
 <gate name="GND" symbol="PIN" x="2.54" y="-7.62"/>
+<gate name="MOT_VCC" symbol="M" x="20.32" y="7.62"/>
+<gate name="MOT_GND" symbol="M" x="20.32" y="2.54"/>
 </gates>
 <devices>
-<device name="" package="1X06">
+<device name="" package="DRIVER">
 <connects>
-<connect gate="GND" pin="1" pad="GND"/>
+<connect gate="GND" pin="1" pad="GND" route="any"/>
 <connect gate="IN1" pin="1" pad="IN1"/>
 <connect gate="IN2" pin="1" pad="IN2"/>
+<connect gate="MOT_GND" pin="S" pad="MOTOR_GND"/>
+<connect gate="MOT_VCC" pin="S" pad="MOTOR_VCC"/>
 <connect gate="VM" pin="1" pad="VM"/>
 </connects>
 <technologies>
