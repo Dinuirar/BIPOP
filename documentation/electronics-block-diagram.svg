@@ -1,0 +1,2519 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 1052.3622 744.09448"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="schemat_blokowy-elektronika.svg">
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 372.04724 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="1052.3622 : 372.04724 : 1"
+       inkscape:persp3d-origin="526.1811 : 248.03149 : 1"
+       id="perspective7066" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4545">
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:15.07579899;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:10.55999947;stroke-opacity:1"
+         id="rect4547"
+         width="198.62157"
+         height="314.43607"
+         x="-359.84457"
+         y="-571.37311"
+         transform="scale(-1,1)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4545-4">
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:15.07579899;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:10.55999947;stroke-opacity:1"
+         id="rect4547-3"
+         width="198.62157"
+         height="314.43607"
+         x="-359.84457"
+         y="-571.37311"
+         transform="scale(-1,1)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4545-3">
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:15.07579899;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:10.55999947;stroke-opacity:1"
+         id="rect4547-6"
+         width="198.62157"
+         height="314.43607"
+         x="-359.84457"
+         y="-571.37311"
+         transform="scale(-1,1)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4545-4-7">
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:15.07579899;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:10.55999947;stroke-opacity:1"
+         id="rect4547-3-5"
+         width="198.62157"
+         height="314.43607"
+         x="-359.84457"
+         y="-571.37311"
+         transform="scale(-1,1)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4545-3-1">
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:15.07579899;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:10.55999947;stroke-opacity:1"
+         id="rect4547-6-8"
+         width="198.62157"
+         height="314.43607"
+         x="-359.84457"
+         y="-571.37311"
+         transform="scale(-1,1)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4545-3-0">
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:15.07579899;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:10.55999947;stroke-opacity:1"
+         id="rect4547-6-2"
+         width="198.62157"
+         height="314.43607"
+         x="-359.84457"
+         y="-571.37311"
+         transform="scale(-1,1)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4545-3-0-9">
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:15.07579899;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:10.55999947;stroke-opacity:1"
+         id="rect4547-6-2-2"
+         width="198.62157"
+         height="314.43607"
+         x="-359.84457"
+         y="-571.37311"
+         transform="scale(-1,1)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4545-3-2">
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:15.07579899;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:10.55999947;stroke-opacity:1"
+         id="rect4547-6-89"
+         width="198.62157"
+         height="314.43607"
+         x="-359.84457"
+         y="-571.37311"
+         transform="scale(-1,1)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4545-3-2-1">
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:15.07579899;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:10.55999947;stroke-opacity:1"
+         id="rect4547-6-89-2"
+         width="198.62157"
+         height="314.43607"
+         x="-359.84457"
+         y="-571.37311"
+         transform="scale(-1,1)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4766">
+      <rect
+         style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:5.42290497;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:50.95999527;stroke-opacity:1"
+         id="rect4768"
+         width="276.98587"
+         height="136.34422"
+         x="-587.30988"
+         y="-609.008" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4766-4">
+      <rect
+         style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:5.42290497;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:50.95999527;stroke-opacity:1"
+         id="rect4768-7"
+         width="276.98587"
+         height="136.34422"
+         x="-587.30988"
+         y="-609.008" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4545-3-2-1-8">
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:15.07579899;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:10.55999947;stroke-opacity:1"
+         id="rect4547-6-89-2-4"
+         width="198.62157"
+         height="314.43607"
+         x="-359.84457"
+         y="-571.37311"
+         transform="scale(-1,1)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4766-4-6">
+      <rect
+         style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:5.42290497;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:50.95999527;stroke-opacity:1"
+         id="rect4768-7-3"
+         width="276.98587"
+         height="136.34422"
+         x="-587.30988"
+         y="-609.008" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4545-3-2-1-8-2">
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:15.07579899;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:10.55999947;stroke-opacity:1"
+         id="rect4547-6-89-2-4-0"
+         width="198.62157"
+         height="314.43607"
+         x="-359.84457"
+         y="-571.37311"
+         transform="scale(-1,1)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4766-6">
+      <rect
+         style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:5.42290497;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:50.95999527;stroke-opacity:1"
+         id="rect4768-1"
+         width="276.98587"
+         height="136.34422"
+         x="-587.30988"
+         y="-609.008" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4545-3-2-1-5">
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:15.07579899;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:10.55999947;stroke-opacity:1"
+         id="rect4547-6-89-2-5"
+         width="198.62157"
+         height="314.43607"
+         x="-359.84457"
+         y="-571.37311"
+         transform="scale(-1,1)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4766-6-8">
+      <rect
+         style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:5.42290497;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:50.95999527;stroke-opacity:1"
+         id="rect4768-1-6"
+         width="276.98587"
+         height="136.34422"
+         x="-587.30988"
+         y="-609.008" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4545-3-2-1-5-8">
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:15.07579899;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:10.55999947;stroke-opacity:1"
+         id="rect4547-6-89-2-5-8"
+         width="198.62157"
+         height="314.43607"
+         x="-359.84457"
+         y="-571.37311"
+         transform="scale(-1,1)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4766-4-6-4">
+      <rect
+         style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:5.42290497;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:50.95999527;stroke-opacity:1"
+         id="rect4768-7-3-9"
+         width="276.98587"
+         height="136.34422"
+         x="-587.30988"
+         y="-609.008" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4545-3-2-1-8-2-2">
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:15.07579899;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:10.55999947;stroke-opacity:1"
+         id="rect4547-6-89-2-4-0-0"
+         width="198.62157"
+         height="314.43607"
+         x="-359.84457"
+         y="-571.37311"
+         transform="scale(-1,1)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5062">
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.31139922px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 80.843505,-373.23668 54.547255,-1.66096 -6.49983,-38.89308 -30.969591,10.32336 -21.637887,15.95783 z"
+         id="path5064"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4545-3-2-1-8-2-2-2">
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:15.07579899;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:10.55999947;stroke-opacity:1"
+         id="rect4547-6-89-2-4-0-0-6"
+         width="198.62157"
+         height="314.43607"
+         x="-359.84457"
+         y="-571.37311"
+         transform="scale(-1,1)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5126">
+      <path
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.53041959;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:50.95999527;stroke-opacity:1"
+         d="m -394.47508,1293.3371 -6.29883,9.3965 17.71875,11.2695 59.5293,0 0.25781,-0.3847 0,-10.4844 -15.4043,-9.7969 -55.80273,0 z"
+         id="path5128"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4545-3-28">
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:15.07579899;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:10.55999947;stroke-opacity:1"
+         id="rect4547-6-9"
+         width="198.62157"
+         height="314.43607"
+         x="-359.84457"
+         y="-571.37311"
+         transform="scale(-1,1)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4766-7">
+      <rect
+         style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:5.42290497;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:50.95999527;stroke-opacity:1"
+         id="rect4768-3"
+         width="276.98587"
+         height="136.34422"
+         x="-587.30988"
+         y="-609.008" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4545-3-2-1-6">
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:15.07579899;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:10.55999947;stroke-opacity:1"
+         id="rect4547-6-89-2-1"
+         width="198.62157"
+         height="314.43607"
+         x="-359.84457"
+         y="-571.37311"
+         transform="scale(-1,1)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4766-6-2">
+      <rect
+         style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:5.42290497;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:50.95999527;stroke-opacity:1"
+         id="rect4768-1-9"
+         width="276.98587"
+         height="136.34422"
+         x="-587.30988"
+         y="-609.008" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4545-3-2-1-5-3">
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:15.07579899;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:10.55999947;stroke-opacity:1"
+         id="rect4547-6-89-2-5-1"
+         width="198.62157"
+         height="314.43607"
+         x="-359.84457"
+         y="-571.37311"
+         transform="scale(-1,1)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4766-4-6-9">
+      <rect
+         style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:5.42290497;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:50.95999527;stroke-opacity:1"
+         id="rect4768-7-3-4"
+         width="276.98587"
+         height="136.34422"
+         x="-587.30988"
+         y="-609.008" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4545-3-2-1-8-2-7">
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:15.07579899;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:10.55999947;stroke-opacity:1"
+         id="rect4547-6-89-2-4-0-8"
+         width="198.62157"
+         height="314.43607"
+         x="-359.84457"
+         y="-571.37311"
+         transform="scale(-1,1)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4545-3-2-1-5-8-0">
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:15.07579899;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:10.55999947;stroke-opacity:1"
+         id="rect4547-6-89-2-5-8-3"
+         width="198.62157"
+         height="314.43607"
+         x="-359.84457"
+         y="-571.37311"
+         transform="scale(-1,1)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5062-6">
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.31139922px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 80.843505,-373.23668 54.547255,-1.66096 -6.49983,-38.89308 -30.969591,10.32336 -21.637887,15.95783 z"
+         id="path5064-1"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5126-0">
+      <path
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.53041959;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:50.95999527;stroke-opacity:1"
+         d="m -394.47508,1293.3371 -6.29883,9.3965 17.71875,11.2695 59.5293,0 0.25781,-0.3847 0,-10.4844 -15.4043,-9.7969 -55.80273,0 z"
+         id="path5128-6"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4545-3-2-1-8-2-2-3">
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:15.07579899;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:10.55999947;stroke-opacity:1"
+         id="rect4547-6-89-2-4-0-0-2"
+         width="198.62157"
+         height="314.43607"
+         x="-359.84457"
+         y="-571.37311"
+         transform="scale(-1,1)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4545-3-2-1-8-2-2-2-0">
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:15.07579899;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:10.55999947;stroke-opacity:1"
+         id="rect4547-6-89-2-4-0-0-6-6"
+         width="198.62157"
+         height="314.43607"
+         x="-359.84457"
+         y="-571.37311"
+         transform="scale(-1,1)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4545-4-7-1">
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:15.07579899;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:10.55999947;stroke-opacity:1"
+         id="rect4547-3-5-5"
+         width="198.62157"
+         height="314.43607"
+         x="-359.84457"
+         y="-571.37311"
+         transform="scale(-1,1)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4545-3-9">
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:15.07579899;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:10.55999947;stroke-opacity:1"
+         id="rect4547-6-0"
+         width="198.62157"
+         height="314.43607"
+         x="-359.84457"
+         y="-571.37311"
+         transform="scale(-1,1)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4766-9">
+      <rect
+         style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:5.42290497;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:50.95999527;stroke-opacity:1"
+         id="rect4768-17"
+         width="276.98587"
+         height="136.34422"
+         x="-587.30988"
+         y="-609.008" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4545-3-2-1-7">
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:15.07579899;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:10.55999947;stroke-opacity:1"
+         id="rect4547-6-89-2-11"
+         width="198.62157"
+         height="314.43607"
+         x="-359.84457"
+         y="-571.37311"
+         transform="scale(-1,1)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4766-6-5">
+      <rect
+         style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:5.42290497;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:50.95999527;stroke-opacity:1"
+         id="rect4768-1-97"
+         width="276.98587"
+         height="136.34422"
+         x="-587.30988"
+         y="-609.008" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4545-3-2-1-5-7">
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:15.07579899;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:10.55999947;stroke-opacity:1"
+         id="rect4547-6-89-2-5-6"
+         width="198.62157"
+         height="314.43607"
+         x="-359.84457"
+         y="-571.37311"
+         transform="scale(-1,1)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4766-4-6-7">
+      <rect
+         style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:5.42290497;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:50.95999527;stroke-opacity:1"
+         id="rect4768-7-3-3"
+         width="276.98587"
+         height="136.34422"
+         x="-587.30988"
+         y="-609.008" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4545-3-2-1-8-2-6">
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:15.07579899;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:10.55999947;stroke-opacity:1"
+         id="rect4547-6-89-2-4-0-5"
+         width="198.62157"
+         height="314.43607"
+         x="-359.84457"
+         y="-571.37311"
+         transform="scale(-1,1)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4766-6-8-6">
+      <rect
+         style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:5.42290497;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:50.95999527;stroke-opacity:1"
+         id="rect4768-1-6-3"
+         width="276.98587"
+         height="136.34422"
+         x="-587.30988"
+         y="-609.008" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4545-3-2-1-5-8-9">
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:15.07579899;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:10.55999947;stroke-opacity:1"
+         id="rect4547-6-89-2-5-8-4"
+         width="198.62157"
+         height="314.43607"
+         x="-359.84457"
+         y="-571.37311"
+         transform="scale(-1,1)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5062-8">
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.31139922px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 80.843505,-373.23668 54.547255,-1.66096 -6.49983,-38.89308 -30.969591,10.32336 -21.637887,15.95783 z"
+         id="path5064-12"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5126-9">
+      <path
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.53041959;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:50.95999527;stroke-opacity:1"
+         d="m -394.47508,1293.3371 -6.29883,9.3965 17.71875,11.2695 59.5293,0 0.25781,-0.3847 0,-10.4844 -15.4043,-9.7969 -55.80273,0 z"
+         id="path5128-3"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4545-3-2-1-8-2-2-9">
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:15.07579899;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:10.55999947;stroke-opacity:1"
+         id="rect4547-6-89-2-4-0-0-0"
+         width="198.62157"
+         height="314.43607"
+         x="-359.84457"
+         y="-571.37311"
+         transform="scale(-1,1)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4545-3-2-1-8-2-2-2-8">
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:15.07579899;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:10.55999947;stroke-opacity:1"
+         id="rect4547-6-89-2-4-0-0-6-8"
+         width="198.62157"
+         height="314.43607"
+         x="-359.84457"
+         y="-571.37311"
+         transform="scale(-1,1)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4545-4-7-5">
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:15.07579899;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:10.55999947;stroke-opacity:1"
+         id="rect4547-3-5-0"
+         width="198.62157"
+         height="314.43607"
+         x="-359.84457"
+         y="-571.37311"
+         transform="scale(-1,1)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath6348">
+      <rect
+         y="-609.008"
+         x="-587.30988"
+         height="136.34422"
+         width="276.98587"
+         id="rect6350"
+         style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:5.42290497;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:50.95999527;stroke-opacity:1" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7071068"
+     inkscape:cx="529.66028"
+     inkscape:cy="346.33494"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="744"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     showguides="false" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-308.26772)">
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:7.30000019;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect3564"
+       width="861.08307"
+       height="410.83386"
+       x="97.122955"
+       y="299.70258"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179"
+       inkscape:export-filename="/home/kassus/Desktop/PNPZ_projekt/block_obc_2.png" />
+    <g
+       id="g4730">
+      <g
+         id="g4721">
+        <rect
+           style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect4938-4-5-3-7-2-9-6-3-6"
+           width="5"
+           height="193.56413"
+           x="674.16687"
+           y="337.93292"
+           transform="matrix(0,1,1,0,0,0)"
+           inkscape:export-xdpi="179"
+           inkscape:export-ydpi="179" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:19.67141533px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="447.0755"
+           y="672.03796"
+           id="text3770-6-6"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3772-2-2"
+             x="447.0755"
+             y="672.03796"
+             style="font-size:15px">SPI</tspan></text>
+        <rect
+           style="opacity:1;fill:#bcbcbc;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.23654175;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect4161-7-0-9-2-7"
+           width="318.37955"
+           height="29.793549"
+           x="115.06419"
+           y="663.17645" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:17.93392181px;line-height:125%;font-family:Sans;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="117.45616"
+           y="683.56049"
+           id="text4175-2-3-6-0"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan4177-3-6-6-9"
+             x="117.45616"
+             y="683.56049">*RTC <tspan
+   style="font-style:italic"
+   id="tspan4418">DS1390</tspan></tspan></text>
+      </g>
+      <path
+         inkscape:export-ydpi="179"
+         inkscape:export-xdpi="179"
+         transform="matrix(0.01692797,0.39114195,-0.60863428,0.01087885,910.38032,604.96754)"
+         inkscape:transform-center-y="0.01736207"
+         inkscape:transform-center-x="2.9040941"
+         d="m 181.42857,666.64795 -33.30311,-0.77244 17.32051,-28.45512 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="true"
+         sodipodi:arg2="1.5939864"
+         sodipodi:arg1="0.54678884"
+         sodipodi:r2="9.6163654"
+         sodipodi:r1="19.232733"
+         sodipodi:cy="656.64795"
+         sodipodi:cx="165"
+         sodipodi:sides="3"
+         id="path5118-3-6-6-3-0-9-3-2-6-0"
+         style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="star" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:80px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-525.71429"
+       y="200.93362"
+       id="text4224"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4226"
+         x="-525.71429"
+         y="200.93362" /></text>
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.17303813;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4292-3"
+       width="562.88861"
+       height="466.30917"
+       x="-647.0813"
+       y="325.37021"
+       inkscape:export-xdpi="179.33466"
+       inkscape:export-ydpi="179.33466" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4938-0-0-6"
+       width="5"
+       height="73.571426"
+       x="-394.92047"
+       y="486.74506" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4938-5-3-1-4"
+       width="5"
+       height="86.785713"
+       x="503.18835"
+       y="461.62628"
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4938-4"
+       width="5"
+       height="152.85715"
+       x="478.62518"
+       y="237.59471"
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4938-5"
+       width="5"
+       height="73.571426"
+       x="556.2146"
+       y="239.02327"
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4938-5-3"
+       width="5"
+       height="73.571426"
+       x="493.11694"
+       y="311.16617"
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4938-8-6"
+       width="5"
+       height="67.343086"
+       x="-316.16617"
+       y="493.83118"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4938-8"
+       width="5"
+       height="82.85714"
+       x="-303.66617"
+       y="385.97406"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4938-5-3-1"
+       width="5"
+       height="86.785713"
+       x="463.83118"
+       y="298.66614"
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4938"
+       width="5"
+       height="95.146072"
+       x="-572.9519"
+       y="390.61694"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4938-5-3-1-0"
+       width="5"
+       height="107.66402"
+       x="480.97406"
+       y="465.09473"
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179" />
+    <g
+       id="g4891"
+       transform="translate(-394.19183,-331.93239)"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179">
+      <rect
+         y="875.08838"
+         x="135.29082"
+         height="31.117226"
+         width="102.38116"
+         id="rect4161-7-0"
+         style="opacity:1;fill:#bcbcbc;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text4175-2"
+         y="897.17517"
+         x="186.09613"
+         style="font-style:normal;font-weight:normal;font-size:17.93392181px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="897.17517"
+           x="186.09613"
+           id="tspan4177-3"
+           sodipodi:role="line">RTC</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:17.93392181px;line-height:125%;font-family:Sans;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-377.02106"
+       y="706.51349"
+       id="text4179-7"
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179"><tspan
+         sodipodi:role="line"
+         id="tspan4181-5"
+         x="-377.02106"
+         y="706.51349">CPU - central processing unit</tspan><tspan
+         sodipodi:role="line"
+         x="-377.02106"
+         y="728.93085"
+         id="tspan4183-9">RTC - real-time clock</tspan><tspan
+         sodipodi:role="line"
+         x="-377.02106"
+         y="751.34827"
+         id="tspan4780-2">IMU - inertial measurement unit</tspan><tspan
+         sodipodi:role="line"
+         x="-377.02106"
+         y="773.76569"
+         id="tspan5315">eth - ethernet card</tspan></text>
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4938-7"
+       width="5"
+       height="73.571426"
+       x="-428.46661"
+       y="390.97406" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4938-0"
+       width="5"
+       height="150"
+       x="-462.46661"
+       y="478.11688" />
+    <g
+       id="g4983"
+       transform="translate(-704.37835,-238.88812)">
+      <g
+         transform="translate(-42.426405,-72.730984)"
+         id="g4902">
+        <rect
+           style="opacity:1;fill:#bcbcbc;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect4161-0"
+           width="101.86633"
+           height="53.660301"
+           x="129.24223"
+           y="656.21338" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:17.93392181px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="179.69815"
+           y="678.24481"
+           id="text4163-6"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan4165-2"
+             x="182.55287"
+             y="678.24481">UV </tspan><tspan
+             sodipodi:role="line"
+             x="179.69815"
+             y="700.66223"
+             id="tspan4214-6">sensor</tspan></text>
+      </g>
+      <g
+         transform="translate(90.494325,-146.89543)"
+         id="g4896">
+        <rect
+           style="opacity:1;fill:#bcbcbc;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect4161-3-2"
+           width="115.95469"
+           height="47.252743"
+           x="119.96819"
+           y="733.5816" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:17.93392181px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="177.87547"
+           y="752.68512"
+           id="text4167-1"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan4169-8"
+             x="180.73019"
+             y="752.68512">Visible light </tspan><tspan
+             sodipodi:role="line"
+             x="177.87547"
+             y="775.10254"
+             id="tspan4212-7">sensor</tspan></text>
+      </g>
+      <g
+         transform="translate(232.33509,-223.26082)"
+         id="g4885">
+        <rect
+           style="opacity:1;fill:#bcbcbc;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.57726681;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect4161-6-7"
+           width="121.93282"
+           height="47.638428"
+           x="115.80111"
+           y="809.75415" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:17.93392181px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="175.93124"
+           y="829.05048"
+           id="text4171-9"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             x="175.93124"
+             y="829.05048"
+             id="tspan4782-0">position</tspan><tspan
+             sodipodi:role="line"
+             x="175.93124"
+             y="851.4679"
+             id="tspan4883">indicator</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g4931"
+       transform="translate(-797.43702,-310.60895)">
+      <rect
+         y="765.74695"
+         x="328.5571"
+         height="56.363762"
+         width="85.82663"
+         id="rect4136-9"
+         style="opacity:1;fill:#bcbcbc;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text4157-3"
+         y="800.45703"
+         x="371.75064"
+         style="font-style:normal;font-weight:normal;font-size:17.93392181px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="800.45703"
+           x="371.75064"
+           id="tspan4159-6"
+           sodipodi:role="line">CPU</tspan></text>
+    </g>
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4938-0-8"
+       width="5"
+       height="40"
+       x="-462.46661"
+       y="652.63293" />
+    <rect
+       style="opacity:1;fill:#bcbcbc;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4216-2"
+       width="76.859665"
+       height="59.566246"
+       x="-498.39648"
+       y="603.479" />
+    <rect
+       style="opacity:1;fill:#bcbcbc;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4161-36-1"
+       width="101.86633"
+       height="53.660301"
+       x="-258.64359"
+       y="454.29504" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:17.93392181px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-207.80675"
+       y="487.53516"
+       id="text4163-7-9"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="-207.80675"
+         y="487.53516"
+         id="tspan4214-3-4">IMU</tspan></text>
+    <path
+       sodipodi:type="star"
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path5118"
+       sodipodi:sides="3"
+       sodipodi:cx="165"
+       sodipodi:cy="656.64795"
+       sodipodi:r1="19.232733"
+       sodipodi:r2="9.6163654"
+       sodipodi:arg1="0.54678884"
+       sodipodi:arg2="1.5939864"
+       inkscape:flatsided="true"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 181.42857,666.64795 -33.30311,-0.77244 17.32051,-28.45512 z"
+       inkscape:transform-center-x="-0.027023533"
+       inkscape:transform-center-y="2.904094"
+       transform="matrix(0.60863428,0.01692797,0.01692797,-0.60863428,-537.3149,840.98579)"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179" />
+    <path
+       sodipodi:type="star"
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path5118-6"
+       sodipodi:sides="3"
+       sodipodi:cx="165"
+       sodipodi:cy="656.64795"
+       sodipodi:r1="19.232733"
+       sodipodi:r2="9.6163654"
+       sodipodi:arg1="0.54678884"
+       sodipodi:arg2="1.5939864"
+       inkscape:flatsided="true"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 181.42857,666.64795 -33.30311,-0.77244 17.32051,-28.45512 z"
+       inkscape:transform-center-x="-0.027023533"
+       inkscape:transform-center-y="2.904094"
+       transform="matrix(0.60863428,0.01692797,0.01692797,-0.60863428,-571.53401,988.92859)"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179" />
+    <path
+       sodipodi:type="star"
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path5118-3"
+       sodipodi:sides="3"
+       sodipodi:cx="165"
+       sodipodi:cy="656.64795"
+       sodipodi:r1="19.232733"
+       sodipodi:r2="9.6163654"
+       sodipodi:arg1="0.54678884"
+       sodipodi:arg2="1.5939864"
+       inkscape:flatsided="true"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 181.42857,666.64795 -33.30311,-0.77244 17.32051,-28.45512 z"
+       inkscape:transform-center-x="2.9040941"
+       inkscape:transform-center-y="0.01736207"
+       transform="matrix(-0.01692797,0.39114195,0.60863428,0.01087885,-769.16711,423.91759)"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179" />
+    <path
+       sodipodi:type="star"
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path5118-3-6"
+       sodipodi:sides="3"
+       sodipodi:cx="165"
+       sodipodi:cy="656.64795"
+       sodipodi:r1="19.232733"
+       sodipodi:r2="9.6163654"
+       sodipodi:arg1="0.54678884"
+       sodipodi:arg2="1.5939864"
+       inkscape:flatsided="true"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 181.42857,666.64795 -33.30311,-0.77244 17.32051,-28.45512 z"
+       inkscape:transform-center-x="2.9040941"
+       inkscape:transform-center-y="0.01736207"
+       transform="matrix(-0.01692797,0.39114195,0.60863428,0.01087885,-768.81356,409.42583)"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179" />
+    <path
+       sodipodi:type="star"
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path5118-3-1"
+       sodipodi:sides="3"
+       sodipodi:cx="165"
+       sodipodi:cy="656.64795"
+       sodipodi:r1="19.232733"
+       sodipodi:r2="9.6163654"
+       sodipodi:arg1="0.54678884"
+       sodipodi:arg2="1.5939864"
+       inkscape:flatsided="true"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 181.42857,666.64795 -33.30311,-0.77244 17.32051,-28.45512 z"
+       inkscape:transform-center-x="2.9040941"
+       inkscape:transform-center-y="0.01736207"
+       transform="matrix(-0.01692797,0.39114195,0.60863428,0.01087885,-768.99033,394.63182)"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179" />
+    <path
+       sodipodi:type="star"
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path5118-3-1-5"
+       sodipodi:sides="3"
+       sodipodi:cx="165"
+       sodipodi:cy="656.64795"
+       sodipodi:r1="19.232733"
+       sodipodi:r2="9.6163654"
+       sodipodi:arg1="0.54678884"
+       sodipodi:arg2="1.5939864"
+       inkscape:flatsided="true"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 181.42857,666.64795 -33.30311,-0.77244 17.32051,-28.45512 z"
+       inkscape:transform-center-x="-2.9040915"
+       inkscape:transform-center-y="0.01736207"
+       transform="matrix(0.01692797,0.39114195,-0.60863428,0.01087885,-84.27637,411.7747)"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4938-8-5"
+       width="5"
+       height="82.85714"
+       x="-548.56567"
+       y="503.27057"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179" />
+    <path
+       sodipodi:type="star"
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path5118-7"
+       sodipodi:sides="3"
+       sodipodi:cx="165"
+       sodipodi:cy="656.64795"
+       sodipodi:r1="19.232733"
+       sodipodi:r2="9.6163654"
+       sodipodi:arg1="0.54678884"
+       sodipodi:arg2="1.5939864"
+       inkscape:flatsided="true"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 181.42857,666.64795 -33.30311,-0.77244 17.32051,-28.45512 z"
+       inkscape:transform-center-x="-0.027023533"
+       inkscape:transform-center-y="2.904094"
+       transform="matrix(0.60863428,0.01692797,0.01692797,-0.60863428,-657.63305,979.13849)"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179" />
+    <path
+       sodipodi:type="star"
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path5118-3-1-5-6"
+       sodipodi:sides="3"
+       sodipodi:cx="165"
+       sodipodi:cy="656.64795"
+       sodipodi:r1="19.232733"
+       sodipodi:r2="9.6163654"
+       sodipodi:arg1="0.54678884"
+       sodipodi:arg2="1.5939864"
+       inkscape:flatsided="true"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 181.42857,666.64795 -33.30311,-0.77244 17.32051,-28.45512 z"
+       inkscape:transform-center-x="-2.9040915"
+       inkscape:transform-center-y="0.01736207"
+       transform="matrix(0.01692797,0.39114195,-0.60863428,0.01087885,-84.27637,433.989)"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:22.30024529px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-547.29626"
+       y="614.60626"
+       id="text5268"
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179"><tspan
+         sodipodi:role="line"
+         id="tspan5270"
+         x="-547.29626"
+         y="614.60626">E-Link</tspan></text>
+    <g
+       id="g5310"
+       transform="translate(-512.35455,-221.85282)">
+      <rect
+         y="743.70087"
+         x="-58.189838"
+         height="33.390972"
+         width="49.49157"
+         id="rect4161-36-1-9"
+         style="opacity:1;fill:#bcbcbc;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text4163-7-9-3"
+         y="767.08215"
+         x="-33.168217"
+         style="font-style:normal;font-weight:normal;font-size:17.93392181px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.935;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           id="tspan4214-3-4-7"
+           y="767.08215"
+           x="-33.168217"
+           sodipodi:role="line">eth</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:17.5px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-460.32977"
+       y="719.68256"
+       id="text4253"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4255"
+         x="-460.32977"
+         y="719.68256">motors</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:17.5px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-460.32977"
+       y="628.34454"
+       id="text4257"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4259"
+         x="-460.32977"
+         y="628.34454">motors</tspan><tspan
+         sodipodi:role="line"
+         x="-460.32977"
+         y="650.21954"
+         id="tspan4417">driver</tspan></text>
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4938-0-1"
+       width="5"
+       height="73.571426"
+       x="-369.12476"
+       y="555.99597" />
+    <g
+       id="g4925-2"
+       transform="translate(-923.76858,-156.22445)">
+      <rect
+         y="761.15393"
+         x="518.71399"
+         height="59.566246"
+         width="76.859665"
+         id="rect4216-2-7"
+         style="opacity:1;fill:#bcbcbc;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text4218-8-0"
+         y="786.25653"
+         x="557.45471"
+         style="font-style:normal;font-weight:normal;font-size:17.93392181px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="786.25653"
+           x="557.45471"
+           id="tspan4220-9-9"
+           sodipodi:role="line">SD</tspan><tspan
+           id="tspan4222-7-3"
+           y="808.67395"
+           x="557.45471"
+           sodipodi:role="line">Card</tspan></text>
+    </g>
+    <path
+       sodipodi:type="star"
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path5118-6-6"
+       sodipodi:sides="3"
+       sodipodi:cx="165"
+       sodipodi:cy="656.64795"
+       sodipodi:r1="19.232733"
+       sodipodi:r2="9.6163654"
+       sodipodi:arg1="0.54678884"
+       sodipodi:arg2="1.5939864"
+       inkscape:flatsided="true"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 181.42857,666.64795 -33.30311,-0.77244 17.32051,-28.45512 z"
+       inkscape:transform-center-x="-0.027023533"
+       inkscape:transform-center-y="2.904094"
+       transform="matrix(0.60863428,0.01692797,0.01692797,-0.60863428,-478.11087,990.37909)"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4938-0-0-2"
+       width="5"
+       height="30"
+       x="555.71942"
+       y="364.8866"
+       transform="matrix(0,1,-1,0,0,0)" />
+    <path
+       sodipodi:type="star"
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path5118-6-7"
+       sodipodi:sides="3"
+       sodipodi:cx="165"
+       sodipodi:cy="656.64795"
+       sodipodi:r1="19.232733"
+       sodipodi:r2="9.6163654"
+       sodipodi:arg1="0.54678884"
+       sodipodi:arg2="1.5939864"
+       inkscape:flatsided="true"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 181.42857,666.64795 -33.30311,-0.77244 17.32051,-28.45512 z"
+       inkscape:transform-center-x="-0.027023533"
+       inkscape:transform-center-y="2.904094"
+       transform="matrix(0.60863428,0.01692797,0.01692797,-0.60863428,-571.53401,1090.7164)"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4938-8-5-6-6-1-3"
+       width="5"
+       height="168.99243"
+       x="71.723244"
+       y="-11.317919"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4938-5-3-1-4-7-4-6"
+       width="5"
+       height="239.17595"
+       x="-12.655809"
+       y="-309.85538"
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4938-4-5-3-7"
+       width="5"
+       height="152.85715"
+       x="20.188185"
+       y="-302.1702"
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4938-2-6-9"
+       width="5"
+       height="95.146072"
+       x="176.61082"
+       y="122.14603"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4938-5-3-1-0-7-8-1"
+       width="5"
+       height="107.66402"
+       x="212.50308"
+       y="-284.46799"
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179" />
+    <path
+       sodipodi:type="star"
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path5118-3-6-6-3-0"
+       sodipodi:sides="3"
+       sodipodi:cx="165"
+       sodipodi:cy="656.64795"
+       sodipodi:r1="19.232733"
+       sodipodi:r2="9.6163654"
+       sodipodi:arg1="0.54678884"
+       sodipodi:arg2="1.5939864"
+       inkscape:flatsided="true"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 181.42857,666.64795 -33.30311,-0.77244 17.32051,-28.45512 z"
+       inkscape:transform-center-x="2.9040941"
+       inkscape:transform-center-y="0.01736207"
+       transform="matrix(-0.01692797,0.39114195,0.60863428,0.01087885,-229.04842,-49.011087)"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179" />
+    <path
+       sodipodi:type="star"
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path5118-3-1-5-0-5-6"
+       sodipodi:sides="3"
+       sodipodi:cx="165"
+       sodipodi:cy="656.64795"
+       sodipodi:r1="19.232733"
+       sodipodi:r2="9.6163654"
+       sodipodi:arg1="0.54678884"
+       sodipodi:arg2="1.5939864"
+       inkscape:flatsided="true"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 181.42857,666.64795 -33.30311,-0.77244 17.32051,-28.45512 z"
+       inkscape:transform-center-x="-2.9040915"
+       inkscape:transform-center-y="0.01736207"
+       transform="matrix(0.01692797,0.39114195,-0.60863428,0.01087885,665.28622,143.30381)"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179" />
+    <path
+       sodipodi:type="star"
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path5118-3-1-5-6-2-9-6"
+       sodipodi:sides="3"
+       sodipodi:cx="165"
+       sodipodi:cy="656.64795"
+       sodipodi:r1="19.232733"
+       sodipodi:r2="9.6163654"
+       sodipodi:arg1="0.54678884"
+       sodipodi:arg2="1.5939864"
+       inkscape:flatsided="true"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 181.42857,666.64795 -33.30311,-0.77244 17.32051,-28.45512 z"
+       inkscape:transform-center-x="-2.9040915"
+       inkscape:transform-center-y="0.01736207"
+       transform="matrix(0.01692797,0.39114195,-0.60863428,0.01087885,687.20552,-81.855177)"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179" />
+    <g
+       id="g3960"
+       transform="translate(-724.37556,-864.24055)">
+      <rect
+         inkscape:export-ydpi="179"
+         inkscape:export-xdpi="179"
+         y="902.98633"
+         x="984.39819"
+         height="73.571426"
+         width="5"
+         id="rect4938-0-0-6-6-8-3"
+         style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <rect
+         inkscape:export-ydpi="179"
+         inkscape:export-xdpi="179"
+         y="972.2373"
+         x="824.19403"
+         height="102.79695"
+         width="5"
+         id="rect4938-0-1-3-0-6"
+         style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="179"
+         inkscape:export-xdpi="179"
+         transform="matrix(0.60863428,0.01692797,0.01692797,-0.60863428,715.20792,1454.6206)"
+         inkscape:transform-center-y="2.904094"
+         inkscape:transform-center-x="-0.027023533"
+         d="m 181.42857,666.64795 -33.30311,-0.77244 17.32051,-28.45512 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="true"
+         sodipodi:arg2="1.5939864"
+         sodipodi:arg1="0.54678884"
+         sodipodi:r2="9.6163654"
+         sodipodi:r1="19.232733"
+         sodipodi:cy="656.64795"
+         sodipodi:cx="165"
+         sodipodi:sides="3"
+         id="path5118-6-6-4-6-2"
+         style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="star" />
+      <rect
+         inkscape:export-ydpi="179"
+         inkscape:export-xdpi="179"
+         transform="matrix(0,1,-1,0,0,0)"
+         y="-984.37793"
+         x="971.96069"
+         height="156.29604"
+         width="5"
+         id="rect4938-0-0-2-7-1-5"
+         style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <path
+       sodipodi:type="star"
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path5118-3-1-5-6-2-9-6-6"
+       sodipodi:sides="3"
+       sodipodi:cx="165"
+       sodipodi:cy="656.64795"
+       sodipodi:r1="19.232733"
+       sodipodi:r2="9.6163654"
+       sodipodi:arg1="0.54678884"
+       sodipodi:arg2="1.5939864"
+       inkscape:flatsided="true"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 181.42857,666.64795 -33.30311,-0.77244 17.32051,-28.45512 z"
+       inkscape:transform-center-x="0.017366885"
+       inkscape:transform-center-y="2.904081"
+       transform="matrix(-0.39114195,0.01692797,-0.01087885,-0.60863428,146.19184,536.50511)"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:20.42102051px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="44.738964"
+       y="787.17401"
+       id="text5008"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5010"
+         x="44.738964"
+         y="787.17401">STM32F103 interfaces:</tspan><tspan
+         sodipodi:role="line"
+         x="44.738964"
+         y="812.70032"
+         id="tspan5020">(72 MHz)</tspan><tspan
+         sodipodi:role="line"
+         x="44.738964"
+         y="838.22656"
+         id="tspan5012"> - ADC - 2x12 bit (16-channels)</tspan><tspan
+         sodipodi:role="line"
+         x="44.738964"
+         y="863.75281"
+         id="tspan5014"> - SPI - 2</tspan><tspan
+         sodipodi:role="line"
+         x="44.738964"
+         y="889.27911"
+         id="tspan5016"> - I2C - 2</tspan><tspan
+         sodipodi:role="line"
+         x="44.738964"
+         y="914.80542"
+         id="tspan5018"> - GPIO - ~30 </tspan><tspan
+         sodipodi:role="line"
+         x="44.738964"
+         y="940.33167"
+         id="tspan5337"> - USART - 3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16.27242851px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="14.879688"
+       y="1016.3738"
+       id="text5022"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="14.879688"
+         y="1016.3738"
+         id="tspan5026">*the need for external RTC is yet to be verified due to the presence of internal RTC in microcontroller. If it's accuracy will be </tspan><tspan
+         sodipodi:role="line"
+         x="14.879688"
+         y="1036.7144"
+         id="tspan4566">sufficient for the experiment's needs, then there will be no need for external RTC.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="174.18121"
+       y="919.51208"
+       id="text5339"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5341"
+         x="174.18121"
+         y="919.51208" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:30px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="570.35559"
+       y="883.37128"
+       id="text4360"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4362"
+         x="570.35559"
+         y="883.37128">- Humidity, temperature</tspan><tspan
+         sodipodi:role="line"
+         x="570.35559"
+         y="920.87128"
+         id="tspan4364"> and pressure sensor</tspan></text>
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4938-4-5-3-7-2-9-6-9-6"
+       width="5"
+       height="193.56413"
+       x="405.53925"
+       y="337.93292"
+       transform="matrix(0,1,1,0,0,0)"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179"
+       inkscape:export-filename="/home/kassus/Desktop/BEXUS1718_oC/1. SED/3. Electronics design/SEDv1.3_spotkanie_z_mentorami/obc_block.png" />
+    <path
+       sodipodi:type="star"
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path5118-3-6-6-3-0-9-3-2-2-1"
+       sodipodi:sides="3"
+       sodipodi:cx="165"
+       sodipodi:cy="656.64795"
+       sodipodi:r1="19.232733"
+       sodipodi:r2="9.6163654"
+       sodipodi:arg1="0.54678884"
+       sodipodi:arg2="1.5939864"
+       inkscape:flatsided="true"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 181.42857,666.64795 -33.30311,-0.77244 17.32051,-28.45512 z"
+       inkscape:transform-center-x="2.9040941"
+       inkscape:transform-center-y="0.01736207"
+       transform="matrix(0.01692797,0.39114195,-0.60863428,0.01087885,908.81467,336.33995)"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179"
+       inkscape:export-filename="/home/kassus/Desktop/BEXUS1718_oC/1. SED/3. Electronics design/SEDv1.3_spotkanie_z_mentorami/obc_block.png" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4938-4-5-3-7-2-9-6-3-9"
+       width="5"
+       height="193.56413"
+       x="602.91003"
+       y="338.18912"
+       transform="matrix(0,1,1,0,0,0)"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179"
+       inkscape:export-filename="/home/kassus/Desktop/BEXUS1718_oC/1. SED/3. Electronics design/SEDv1.3_spotkanie_z_mentorami/obc_block.png" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4938-4-5-3-7-2-9-6-1"
+       width="5"
+       height="209.80136"
+       x="524.59045"
+       y="322.23227"
+       transform="matrix(0,1,1,0,0,0)"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179"
+       inkscape:export-filename="/home/kassus/Desktop/BEXUS1718_oC/1. SED/3. Electronics design/SEDv1.3_spotkanie_z_mentorami/obc_block.png" />
+    <path
+       sodipodi:type="star"
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path5118-3-6-6-3-0-9-3-2-8"
+       sodipodi:sides="3"
+       sodipodi:cx="165"
+       sodipodi:cy="656.64795"
+       sodipodi:r1="19.232733"
+       sodipodi:r2="9.6163654"
+       sodipodi:arg1="0.54678884"
+       sodipodi:arg2="1.5939864"
+       inkscape:flatsided="true"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 181.42857,666.64795 -33.30311,-0.77244 17.32051,-28.45512 z"
+       inkscape:transform-center-x="2.9040941"
+       inkscape:transform-center-y="0.01736207"
+       transform="matrix(0.01692797,0.39114195,-0.60863428,0.01087885,910.39502,455.39118)"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179"
+       inkscape:export-filename="/home/kassus/Desktop/BEXUS1718_oC/1. SED/3. Electronics design/SEDv1.3_spotkanie_z_mentorami/obc_block.png" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4938-4-5-3-7-2-9-6-9"
+       width="5"
+       height="200.20663"
+       x="469.70178"
+       y="332.87076"
+       transform="matrix(0,1,1,0,0,0)"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179"
+       inkscape:export-filename="/home/kassus/Desktop/BEXUS1718_oC/1. SED/3. Electronics design/SEDv1.3_spotkanie_z_mentorami/obc_block.png" />
+    <path
+       sodipodi:type="star"
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path5118-3-6-6-3-0-9-3-2-2"
+       sodipodi:sides="3"
+       sodipodi:cx="165"
+       sodipodi:cy="656.64795"
+       sodipodi:r1="19.232733"
+       sodipodi:r2="9.6163654"
+       sodipodi:arg1="0.54678884"
+       sodipodi:arg2="1.5939864"
+       inkscape:flatsided="true"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 181.42857,666.64795 -33.30311,-0.77244 17.32051,-28.45512 z"
+       inkscape:transform-center-x="2.9040941"
+       inkscape:transform-center-y="0.01736207"
+       transform="matrix(0.01692797,0.39114195,-0.60863428,0.01087885,910.39502,400.50248)"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179"
+       inkscape:export-filename="/home/kassus/Desktop/BEXUS1718_oC/1. SED/3. Electronics design/SEDv1.3_spotkanie_z_mentorami/obc_block.png" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4938-4-5-3-7-2-9-6"
+       width="5"
+       height="203.89691"
+       x="567.21655"
+       y="327.61481"
+       transform="matrix(0,1,1,0,0,0)"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179"
+       inkscape:export-filename="/home/kassus/Desktop/BEXUS1718_oC/1. SED/3. Electronics design/SEDv1.3_spotkanie_z_mentorami/obc_block.png" />
+    <path
+       sodipodi:type="star"
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path5118-3-6-6-3-0-9-3-2"
+       sodipodi:sides="3"
+       sodipodi:cx="165"
+       sodipodi:cy="656.64795"
+       sodipodi:r1="19.232733"
+       sodipodi:r2="9.6163654"
+       sodipodi:arg1="0.54678884"
+       sodipodi:arg2="1.5939864"
+       inkscape:flatsided="true"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 181.42857,666.64795 -33.30311,-0.77244 17.32051,-28.45512 z"
+       inkscape:transform-center-x="2.9040941"
+       inkscape:transform-center-y="0.01736207"
+       transform="matrix(0.01692797,0.39114195,-0.60863428,0.01087885,910.39502,498.01728)"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179"
+       inkscape:export-filename="/home/kassus/Desktop/BEXUS1718_oC/1. SED/3. Electronics design/SEDv1.3_spotkanie_z_mentorami/obc_block.png" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4938-4-5-3-7-2-9"
+       width="5"
+       height="152.85715"
+       x="462.22021"
+       y="597.065"
+       transform="matrix(0,1,1,0,0,0)"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179"
+       inkscape:export-filename="/home/kassus/Desktop/BEXUS1718_oC/1. SED/3. Electronics design/SEDv1.3_spotkanie_z_mentorami/obc_block.png" />
+    <path
+       sodipodi:type="star"
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path5118-3-6-6-3-0-9-3"
+       sodipodi:sides="3"
+       sodipodi:cx="165"
+       sodipodi:cy="656.64795"
+       sodipodi:r1="19.232733"
+       sodipodi:r2="9.6163654"
+       sodipodi:arg1="0.54678884"
+       sodipodi:arg2="1.5939864"
+       inkscape:flatsided="true"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 181.42857,666.64795 -33.30311,-0.77244 17.32051,-28.45512 z"
+       inkscape:transform-center-x="2.9040941"
+       inkscape:transform-center-y="0.01736207"
+       transform="matrix(0.01692797,0.39114195,-0.60863428,0.01087885,1086.0207,393.02098)"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179"
+       inkscape:export-filename="/home/kassus/Desktop/BEXUS1718_oC/1. SED/3. Electronics design/SEDv1.3_spotkanie_z_mentorami/obc_block.png" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4938-4-5-3-7-2-2"
+       width="5"
+       height="152.85715"
+       x="605.20789"
+       y="597.84613"
+       transform="matrix(0,1,1,0,0,0)"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179"
+       inkscape:export-filename="/home/kassus/Desktop/BEXUS1718_oC/1. SED/3. Electronics design/SEDv1.3_spotkanie_z_mentorami/obc_block.png" />
+    <path
+       sodipodi:type="star"
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path5118-3-6-6-3-0-9-7"
+       sodipodi:sides="3"
+       sodipodi:cx="165"
+       sodipodi:cy="656.64795"
+       sodipodi:r1="19.232733"
+       sodipodi:r2="9.6163654"
+       sodipodi:arg1="0.54678884"
+       sodipodi:arg2="1.5939864"
+       inkscape:flatsided="true"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 181.42857,666.64795 -33.30311,-0.77244 17.32051,-28.45512 z"
+       inkscape:transform-center-x="2.9040941"
+       inkscape:transform-center-y="0.01736207"
+       transform="matrix(0.01692797,0.39114195,-0.60863428,0.01087885,1086.0207,536.00868)"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179"
+       inkscape:export-filename="/home/kassus/Desktop/BEXUS1718_oC/1. SED/3. Electronics design/SEDv1.3_spotkanie_z_mentorami/obc_block.png" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4938-4-5-3-7-2"
+       width="5"
+       height="152.85715"
+       x="523.18994"
+       y="596.80219"
+       transform="matrix(0,1,1,0,0,0)"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179"
+       inkscape:export-filename="/home/kassus/Desktop/BEXUS1718_oC/1. SED/3. Electronics design/SEDv1.3_spotkanie_z_mentorami/obc_block.png" />
+    <path
+       sodipodi:type="star"
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path5118-3-6-6-3-0-9"
+       sodipodi:sides="3"
+       sodipodi:cx="165"
+       sodipodi:cy="656.64795"
+       sodipodi:r1="19.232733"
+       sodipodi:r2="9.6163654"
+       sodipodi:arg1="0.54678884"
+       sodipodi:arg2="1.5939864"
+       inkscape:flatsided="true"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 181.42857,666.64795 -33.30311,-0.77244 17.32051,-28.45512 z"
+       inkscape:transform-center-x="2.9040941"
+       inkscape:transform-center-y="0.01736207"
+       transform="matrix(0.01692797,0.39114195,-0.60863428,0.01087885,1086.0207,453.99058)"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179"
+       inkscape:export-filename="/home/kassus/Desktop/BEXUS1718_oC/1. SED/3. Electronics design/SEDv1.3_spotkanie_z_mentorami/obc_block.png" />
+    <rect
+       style="opacity:1;fill:#bcbcbc;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.24185419;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4161-0-0-2-9"
+       width="316.38068"
+       height="52.449413"
+       x="115.06685"
+       y="445.97855"
+       inkscape:export-filename="/home/kassus/Desktop/BEXUS1718_oC/1. SED/3. Electronics design/SEDv1.3_spotkanie_z_mentorami/obc_block.png"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:17.93392181px;line-height:125%;font-family:Sans;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="117.88525"
+       y="467.40314"
+       id="text4163-6-2-7-2"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/kassus/Desktop/BEXUS1718_oC/1. SED/3. Electronics design/SEDv1.3_spotkanie_z_mentorami/obc_block.png"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179"><tspan
+         id="tspan4022"
+         sodipodi:role="line"
+         x="117.88525"
+         y="467.40314">UV sensors (photodiode x2)</tspan><tspan
+         sodipodi:role="line"
+         x="117.88525"
+         y="489.82053"
+         id="tspan4414"
+         style="font-style:italic">SG01M–18</tspan></text>
+    <rect
+       style="opacity:1;fill:#bcbcbc;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.26310492;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4161-3-2-9-1-7"
+       width="320.73685"
+       height="46.211063"
+       x="115.0775"
+       y="379.68866"
+       inkscape:export-filename="/home/kassus/Desktop/BEXUS1718_oC/1. SED/3. Electronics design/SEDv1.3_spotkanie_z_mentorami/obc_block.png"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:17.93392181px;line-height:125%;font-family:Sans;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="117.85022"
+       y="398.26831"
+       id="text4167-1-2-0-5"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/kassus/Desktop/BEXUS1718_oC/1. SED/3. Electronics design/SEDv1.3_spotkanie_z_mentorami/obc_block.png"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179"><tspan
+         id="tspan4026"
+         sodipodi:role="line"
+         x="117.85022"
+         y="398.26831">Vis sensors (photodiode x2)</tspan><tspan
+         sodipodi:role="line"
+         x="117.85022"
+         y="420.6857"
+         id="tspan4416"
+         style="font-style:italic">BPW 21</tspan></text>
+    <rect
+       style="opacity:1;fill:#bcbcbc;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.22997952;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4161-6-7-7-9-8"
+       width="314.62546"
+       height="46.747719"
+       x="115.06089"
+       y="504.77588"
+       inkscape:export-filename="/home/kassus/Desktop/BEXUS1718_oC/1. SED/3. Electronics design/SEDv1.3_spotkanie_z_mentorami/obc_block.png"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:17.93392181px;line-height:125%;font-family:Sans;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="117.21973"
+       y="523.62659"
+       id="text4171-9-3-4-9"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/kassus/Desktop/BEXUS1718_oC/1. SED/3. Electronics design/SEDv1.3_spotkanie_z_mentorami/obc_block.png"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179"><tspan
+         sodipodi:role="line"
+         x="117.21973"
+         y="523.62659"
+         id="tspan4073">position indicator (optocoupler x4)</tspan><tspan
+         sodipodi:role="line"
+         x="117.21973"
+         y="546.04401"
+         id="tspan4412"
+         style="font-style:italic">TCST1103</tspan></text>
+    <path
+       sodipodi:type="star"
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path5118-3-6-6-3-0-9-6"
+       sodipodi:sides="3"
+       sodipodi:cx="165"
+       sodipodi:cy="656.64795"
+       sodipodi:r1="19.232733"
+       sodipodi:r2="9.6163654"
+       sodipodi:arg1="0.54678884"
+       sodipodi:arg2="1.5939864"
+       inkscape:flatsided="true"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 181.42857,666.64795 -33.30311,-0.77244 17.32051,-28.45512 z"
+       inkscape:transform-center-x="-2.9040967"
+       inkscape:transform-center-y="0.01736207"
+       transform="matrix(-0.01692797,0.39114195,0.60863428,0.01087885,221.25629,453.99058)"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179"
+       inkscape:export-filename="/home/kassus/Desktop/BEXUS1718_oC/1. SED/3. Electronics design/SEDv1.3_spotkanie_z_mentorami/obc_block.png" />
+    <rect
+       style="opacity:1;fill:#bcbcbc;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.22842097;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4161-36-1-7-5-9"
+       width="315.30838"
+       height="25.636284"
+       x="115.06011"
+       y="556.89783"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179"
+       inkscape:export-filename="/home/kassus/Desktop/BEXUS1718_oC/1. SED/3. Electronics design/SEDv1.3_spotkanie_z_mentorami/obc_block.png" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:17.93392181px;line-height:125%;font-family:Sans;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="116.23021"
+       y="576.12653"
+       id="text4163-7-9-8-9-4"
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179"
+       inkscape:export-filename="/home/kassus/Desktop/BEXUS1718_oC/1. SED/3. Electronics design/SEDv1.3_spotkanie_z_mentorami/obc_block.png"><tspan
+         sodipodi:role="line"
+         x="116.23021"
+         y="576.12653"
+         id="tspan4214-3-4-4-7-7">IMU <tspan
+   style="font-style:italic"
+   id="tspan4408">SparkFun MPU-9250</tspan></tspan></text>
+    <g
+       id="g3721"
+       transform="matrix(0,1,1,0,-456.048,-745.04556)"
+       inkscape:export-filename="/home/kassus/Desktop/BEXUS1718_oC/1. SED/3. Electronics design/SEDv1.3_spotkanie_z_mentorami/obc_block.png"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179">
+      <rect
+         inkscape:export-ydpi="179"
+         inkscape:export-xdpi="179"
+         y="1271.7594"
+         x="1269.8163"
+         height="43.74017"
+         width="5"
+         id="rect4938-8-5-6-6-1"
+         style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="179"
+         inkscape:export-xdpi="179"
+         transform="matrix(0.60863428,0.01692797,0.01692797,-0.60863428,1160.7489,1708.5107)"
+         inkscape:transform-center-y="2.904094"
+         inkscape:transform-center-x="-0.027023533"
+         d="m 181.42857,666.64795 -33.30311,-0.77244 17.32051,-28.45512 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="true"
+         sodipodi:arg2="1.5939864"
+         sodipodi:arg1="0.54678884"
+         sodipodi:r2="9.6163654"
+         sodipodi:r1="19.232733"
+         sodipodi:cy="656.64795"
+         sodipodi:cx="165"
+         sodipodi:sides="3"
+         id="path5118-7-3-3-0"
+         style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="star" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:22.30024529px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="901.94873"
+       y="536.11572"
+       id="text5268-0-4-3"
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179"
+       inkscape:export-filename="/home/kassus/Desktop/BEXUS1718_oC/1. SED/3. Electronics design/SEDv1.3_spotkanie_z_mentorami/obc_block.png"><tspan
+         sodipodi:role="line"
+         id="tspan5270-6-8-2"
+         x="901.94873"
+         y="536.11572">LAN</tspan></text>
+    <rect
+       style="opacity:1;fill:#bcbcbc;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.07841539;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4161-36-1-9-5-2-6"
+       width="121.80258"
+       height="50.91721"
+       x="697.14429"
+       y="505.56036"
+       inkscape:export-filename="/home/kassus/Desktop/BEXUS1718_oC/1. SED/3. Electronics design/SEDv1.3_spotkanie_z_mentorami/obc_block.png"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:17.93392181px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.935;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="757.84576"
+       y="526.92297"
+       id="text4163-7-9-3-5-9-1"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/kassus/Desktop/BEXUS1718_oC/1. SED/3. Electronics design/SEDv1.3_spotkanie_z_mentorami/obc_block.png"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179"><tspan
+         sodipodi:role="line"
+         x="757.84576"
+         y="526.92297"
+         id="tspan4135">ethernet</tspan><tspan
+         sodipodi:role="line"
+         x="757.84576"
+         y="549.34039"
+         id="tspan4361"
+         style="font-style:italic">ENC28J60</tspan></text>
+    <rect
+       style="opacity:1;fill:#bcbcbc;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.50271273;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4216-2-7-4-6-3"
+       width="121.37837"
+       height="59.063534"
+       x="697.35638"
+       y="433.49905"
+       inkscape:export-filename="/home/kassus/Desktop/BEXUS1718_oC/1. SED/3. Electronics design/SEDv1.3_spotkanie_z_mentorami/obc_block.png"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:17.93392181px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="757.84576"
+       y="458.35034"
+       id="text4218-8-0-5-3-7"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/kassus/Desktop/BEXUS1718_oC/1. SED/3. Electronics design/SEDv1.3_spotkanie_z_mentorami/obc_block.png"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179"><tspan
+         sodipodi:role="line"
+         id="tspan4220-9-9-2-8-4"
+         x="757.84576"
+         y="458.35034">SD card</tspan><tspan
+         sodipodi:role="line"
+         x="757.84576"
+         y="480.76773"
+         id="tspan4363"
+         style="font-style:italic">MOD-08230</tspan><tspan
+         sodipodi:role="line"
+         x="757.84576"
+         y="503.18515"
+         id="tspan4222-7-3-5-5-5" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:17.5px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="905.55804"
+       y="577.60962"
+       id="text4253-7-9-5"
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179"
+       inkscape:export-filename="/home/kassus/Desktop/BEXUS1718_oC/1. SED/3. Electronics design/SEDv1.3_spotkanie_z_mentorami/obc_block.png"><tspan
+         sodipodi:role="line"
+         x="905.55804"
+         y="577.60962"
+         id="tspan3701">DC</tspan><tspan
+         sodipodi:role="line"
+         x="905.55804"
+         y="599.48462"
+         id="tspan4396">motor#1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:19.67141533px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="638.06354"
+       y="458.26819"
+       id="text3736"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/kassus/Desktop/BEXUS1718_oC/1. SED/3. Electronics design/SEDv1.3_spotkanie_z_mentorami/obc_block.png"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179"><tspan
+         sodipodi:role="line"
+         id="tspan3738"
+         x="638.06354"
+         y="458.26819"
+         style="font-size:15px">SPI</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:19.67141533px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="630.86383"
+       y="602.49548"
+       id="text3740"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/kassus/Desktop/BEXUS1718_oC/1. SED/3. Electronics design/SEDv1.3_spotkanie_z_mentorami/obc_block.png"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179"><tspan
+         sodipodi:role="line"
+         id="tspan3742"
+         x="630.86383"
+         y="602.49548"
+         style="font-size:15px">GPIO</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:19.67141533px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="448.23318"
+       y="403.12488"
+       id="text3744"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/kassus/Desktop/BEXUS1718_oC/1. SED/3. Electronics design/SEDv1.3_spotkanie_z_mentorami/obc_block.png"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179"><tspan
+         sodipodi:role="line"
+         id="tspan3746"
+         x="448.23318"
+         y="403.12488"
+         style="font-size:15px">ADC</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:19.67141533px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="447.28226"
+       y="521.93713"
+       id="text3748"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/kassus/Desktop/BEXUS1718_oC/1. SED/3. Electronics design/SEDv1.3_spotkanie_z_mentorami/obc_block.png"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179"><tspan
+         sodipodi:role="line"
+         id="tspan3750"
+         x="447.28226"
+         y="521.93713"><tspan
+           style="font-size:15px"
+           id="tspan4420">GPIO</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:19.67141533px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="447.09018"
+       y="565.08765"
+       id="text3770"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/kassus/Desktop/BEXUS1718_oC/1. SED/3. Electronics design/SEDv1.3_spotkanie_z_mentorami/obc_block.png"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179"><tspan
+         sodipodi:role="line"
+         id="tspan3772"
+         x="447.09018"
+         y="565.08765"
+         style="font-size:15px">SPI</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:19.67141533px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="638.06354"
+       y="520.32532"
+       id="text3736-3"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/kassus/Desktop/BEXUS1718_oC/1. SED/3. Electronics design/SEDv1.3_spotkanie_z_mentorami/obc_block.png"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179"><tspan
+         sodipodi:role="line"
+         id="tspan3738-56"
+         x="638.06354"
+         y="520.32532"
+         style="font-size:15px">SPI</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:19.67141533px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="448.23318"
+       y="466.66211"
+       id="text3744-6"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/kassus/Desktop/BEXUS1718_oC/1. SED/3. Electronics design/SEDv1.3_spotkanie_z_mentorami/obc_block.png"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179"><tspan
+         sodipodi:role="line"
+         id="tspan3746-1"
+         x="448.23318"
+         y="466.66211"
+         style="font-size:15px">ADC</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:24.74733925px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="240.62711"
+       y="338.14444"
+       id="text5333"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5335"
+         x="240.62711"
+         y="338.14444">Project LUSTRO - On-Board Computer's interfaces</tspan></text>
+    <path
+       sodipodi:type="star"
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path5118-3-6-6-3-0-9-3-2-6-1"
+       sodipodi:sides="3"
+       sodipodi:cx="165"
+       sodipodi:cy="656.64795"
+       sodipodi:r1="19.232733"
+       sodipodi:r2="9.6163654"
+       sodipodi:arg1="0.54678884"
+       sodipodi:arg2="1.5939864"
+       inkscape:flatsided="true"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 181.42857,666.64795 -33.30311,-0.77244 17.32051,-28.45512 z"
+       inkscape:transform-center-x="2.9040941"
+       inkscape:transform-center-y="0.01736207"
+       transform="matrix(0.01692797,0.39114195,-0.60863428,0.01087885,910.63653,533.71074)"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179"
+       inkscape:export-filename="/home/kassus/Desktop/BEXUS1718_oC/1. SED/3. Electronics design/SEDv1.3_spotkanie_z_mentorami/obc_block.png" />
+    <rect
+       style="opacity:1;fill:#bcbcbc;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.23368597;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4161-36-1-7-5-9-5-2"
+       width="317.61969"
+       height="28.51943"
+       x="115.06275"
+       y="591.81915"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179"
+       inkscape:export-filename="/home/kassus/Desktop/BEXUS1718_oC/1. SED/3. Electronics design/SEDv1.3_spotkanie_z_mentorami/obc_block.png" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:17.93392181px;line-height:125%;font-family:Sans;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="116.23021"
+       y="612.09583"
+       id="text4163-7-9-8-9-4-3-7"
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179"
+       inkscape:export-filename="/home/kassus/Desktop/BEXUS1718_oC/1. SED/3. Electronics design/SEDv1.3_spotkanie_z_mentorami/obc_block.png"><tspan
+         sodipodi:role="line"
+         x="116.23021"
+         y="612.09583"
+         id="tspan4372">HTP <tspan
+   style="font-style:italic"
+   id="tspan4410">Adafruit BME280 </tspan>x2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:19.67141533px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="447.3317"
+       y="600.78113"
+       id="text3770-6-9"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/kassus/Desktop/BEXUS1718_oC/1. SED/3. Electronics design/SEDv1.3_spotkanie_z_mentorami/obc_block.png"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179"><tspan
+         sodipodi:role="line"
+         id="tspan3772-2-3"
+         x="447.3317"
+         y="600.78113"
+         style="font-size:15px">SPI</tspan></text>
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4938-4-5-3-7-2-9-6-3-9-5"
+       width="5"
+       height="193.56413"
+       x="640.19336"
+       y="337.33954"
+       transform="matrix(0,1,1,0,0,0)"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179"
+       inkscape:export-filename="/home/kassus/Desktop/BEXUS1718_oC/1. SED/3. Electronics design/SEDv1.3_spotkanie_z_mentorami/obc_block.png" />
+    <rect
+       style="opacity:1;fill:#bcbcbc;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4136-9-9-1-1"
+       width="83.858162"
+       height="319.57248"
+       x="524.86517"
+       y="375.01938"
+       inkscape:export-filename="/home/kassus/Desktop/BEXUS1718_oC/1. SED/3. Electronics design/SEDv1.3_spotkanie_z_mentorami/obc_block.png"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:17.93392181px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="567.0744"
+       y="536.66943"
+       id="text4157-3-3-7-2"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/kassus/Desktop/BEXUS1718_oC/1. SED/3. Electronics design/SEDv1.3_spotkanie_z_mentorami/obc_block.png"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179"><tspan
+         sodipodi:role="line"
+         id="tspan4159-6-1-7-9"
+         x="567.0744"
+         y="536.66943">OBC</tspan><tspan
+         sodipodi:role="line"
+         x="567.0744"
+         y="559.08685"
+         id="tspan4359"
+         style="font-style:italic">STM32</tspan><tspan
+         sodipodi:role="line"
+         x="567.0744"
+         y="581.50421"
+         id="tspan5004"
+         style="font-style:italic">F103RB</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:17.5px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="905.6264"
+       y="628.72571"
+       id="text4253-7-9-5-5"
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179"
+       inkscape:export-filename="/home/kassus/Desktop/BEXUS1718_oC/1. SED/3. Electronics design/SEDv1.3_spotkanie_z_mentorami/obc_block.png"><tspan
+         sodipodi:role="line"
+         x="905.6264"
+         y="628.72571"
+         id="tspan3701-3">DC</tspan><tspan
+         sodipodi:role="line"
+         x="905.6264"
+         y="650.60071"
+         id="tspan4394">motor#2</tspan></text>
+    <g
+       id="g3697"
+       transform="matrix(0,1,1,0,-650.84345,-802.14422)"
+       inkscape:export-filename="/home/kassus/Desktop/BEXUS1718_oC/1. SED/3. Electronics design/SEDv1.3_spotkanie_z_mentorami/obc_block.png"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179">
+      <rect
+         inkscape:export-ydpi="179"
+         inkscape:export-xdpi="179"
+         y="1466.8062"
+         x="1381.821"
+         height="40"
+         width="5"
+         id="rect4938-0-8-9-1-3"
+         style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="179"
+         inkscape:export-xdpi="179"
+         transform="matrix(0.60863428,0.01692797,0.01692797,-0.60863428,1272.7537,1904.8898)"
+         inkscape:transform-center-y="2.904094"
+         inkscape:transform-center-x="-0.027023533"
+         d="m 181.42857,666.64795 -33.30311,-0.77244 17.32051,-28.45512 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="true"
+         sodipodi:arg2="1.5939864"
+         sodipodi:arg1="0.54678884"
+         sodipodi:r2="9.6163654"
+         sodipodi:r1="19.232733"
+         sodipodi:cy="656.64795"
+         sodipodi:cx="165"
+         sodipodi:sides="3"
+         id="path5118-6-7-4-1-4"
+         style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="star" />
+    </g>
+    <g
+       id="g3697-3"
+       transform="matrix(0,1,1,0,-650.84345,-751.02813)"
+       inkscape:export-filename="/home/kassus/Desktop/BEXUS1718_oC/1. SED/3. Electronics design/SEDv1.3_spotkanie_z_mentorami/obc_block.png"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179">
+      <rect
+         inkscape:export-ydpi="179"
+         inkscape:export-xdpi="179"
+         y="1466.8062"
+         x="1381.821"
+         height="40"
+         width="5"
+         id="rect4938-0-8-9-1-3-6"
+         style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="179"
+         inkscape:export-xdpi="179"
+         transform="matrix(0.60863428,0.01692797,0.01692797,-0.60863428,1272.7537,1904.8898)"
+         inkscape:transform-center-y="2.904094"
+         inkscape:transform-center-x="-0.027023533"
+         d="m 181.42857,666.64795 -33.30311,-0.77244 17.32051,-28.45512 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="true"
+         sodipodi:arg2="1.5939864"
+         sodipodi:arg1="0.54678884"
+         sodipodi:r2="9.6163654"
+         sodipodi:r1="19.232733"
+         sodipodi:cy="656.64795"
+         sodipodi:cx="165"
+         sodipodi:sides="3"
+         id="path5118-6-7-4-1-4-7"
+         style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="star" />
+    </g>
+    <rect
+       style="opacity:1;fill:#bcbcbc;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.17849016;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4216-2-4-1-1"
+       width="121.70251"
+       height="81.749931"
+       x="697.19434"
+       y="566.83307"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179"
+       inkscape:export-filename="/home/kassus/Desktop/BEXUS1718_oC/1. SED/3. Electronics design/SEDv1.3_spotkanie_z_mentorami/obc_block.png" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:17.5px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="757.63123"
+       y="603.30884"
+       id="text4257-5-8-7"
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179"
+       inkscape:export-filename="/home/kassus/Desktop/BEXUS1718_oC/1. SED/3. Electronics design/SEDv1.3_spotkanie_z_mentorami/obc_block.png"><tspan
+         style="font-style:normal"
+         id="tspan4357"
+         sodipodi:role="line"
+         x="757.63123"
+         y="603.30884">H-bridges</tspan><tspan
+         style="font-style:normal"
+         sodipodi:role="line"
+         x="760.41687"
+         y="625.18384"
+         id="tspan4466"> 2xVNH2SP30 <tspan
+   style="font-style:italic"
+   id="tspan4468" /></tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4521"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion4523"><rect
+           id="rect4525"
+           width="366.07578"
+           height="128.42175"
+           x="-578.63593"
+           y="501.27405" /></flowRegion><flowPara
+         id="flowPara4527" /></flowRoot>    <path
+       sodipodi:type="star"
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path5118-3-6-6-3-0-9-3-2-6-1-6"
+       sodipodi:sides="3"
+       sodipodi:cx="165"
+       sodipodi:cy="656.64795"
+       sodipodi:r1="19.232733"
+       sodipodi:r2="9.6163654"
+       sodipodi:arg1="0.54678884"
+       sodipodi:arg2="1.5939864"
+       inkscape:flatsided="true"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 181.42857,666.64795 -33.30311,-0.77244 17.32051,-28.45512 z"
+       inkscape:transform-center-x="2.9040941"
+       inkscape:transform-center-y="0.01736207"
+       transform="matrix(0.01692797,0.39114195,-0.60863428,0.01087885,909.78694,570.9941)"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179"
+       inkscape:export-filename="/home/kassus/Desktop/BEXUS1718_oC/1. SED/3. Electronics design/SEDv1.3_spotkanie_z_mentorami/obc_block.png" />
+    <rect
+       style="opacity:1;fill:#bcbcbc;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.23368597;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4161-36-1-7-5-9-5-2-2"
+       width="317.61969"
+       height="28.51943"
+       x="114.21317"
+       y="629.10248"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179"
+       inkscape:export-filename="/home/kassus/Desktop/BEXUS1718_oC/1. SED/3. Electronics design/SEDv1.3_spotkanie_z_mentorami/obc_block.png" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:17.93392181px;line-height:125%;font-family:Sans;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="115.38062"
+       y="649.37915"
+       id="text4163-7-9-8-9-4-3-7-9"
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179"
+       inkscape:export-filename="/home/kassus/Desktop/BEXUS1718_oC/1. SED/3. Electronics design/SEDv1.3_spotkanie_z_mentorami/obc_block.png"><tspan
+         sodipodi:role="line"
+         x="115.38062"
+         y="649.37915"
+         id="tspan4372-1">(encoder) x2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:19.67141533px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="447.21265"
+       y="637.82245"
+       id="text3744-6-7"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/kassus/Desktop/BEXUS1718_oC/1. SED/3. Electronics design/SEDv1.3_spotkanie_z_mentorami/obc_block.png"
+       inkscape:export-xdpi="179"
+       inkscape:export-ydpi="179"><tspan
+         sodipodi:role="line"
+         id="tspan3746-1-0"
+         x="447.21265"
+         y="637.82245"
+         style="font-size:15px">TBD</tspan></text>
+  </g>
+</svg>
