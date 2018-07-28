@@ -242,6 +242,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="5V" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
 <text x="0" y="2.794" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
 </symbol>
+<symbol name="3.3V" urn="urn:adsk.eagle:symbol:39411/1" library_version="1">
+<description>&lt;h3&gt;3.3V Voltage Supply&lt;/h3&gt;</description>
+<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
+<pin name="3.3V" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+<text x="0" y="2.794" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="GND" urn="urn:adsk.eagle:component:39439/1" prefix="GND" library_version="1">
@@ -263,6 +270,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 &lt;p&gt;Power supply symbol for a specifically-stated 5V source.&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="5V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="3.3V" urn="urn:adsk.eagle:component:39435/1" prefix="SUPPLY" library_version="1">
+<description>&lt;h3&gt;3.3V Supply Symbol&lt;/h3&gt;
+&lt;p&gt;Power supply symbol for a specifically-stated 3.3V source.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="3.3V" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -22165,6 +22186,65 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="3v3lm1117">
+<packages>
+<package name="SOT223">
+<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>
+<wire x1="3.277" y1="1.778" x2="3.277" y2="-1.778" width="0.2032" layer="21"/>
+<wire x1="3.277" y1="-1.778" x2="-3.277" y2="-1.778" width="0.2032" layer="21"/>
+<wire x1="-3.277" y1="-1.778" x2="-3.277" y2="1.778" width="0.2032" layer="21"/>
+<wire x1="-3.277" y1="1.778" x2="3.277" y2="1.778" width="0.2032" layer="21"/>
+<smd name="1" x="-2.311" y="-3.099" dx="1.219" dy="2.235" layer="1"/>
+<smd name="2" x="0" y="-3.099" dx="1.219" dy="2.235" layer="1"/>
+<smd name="3" x="2.311" y="-3.099" dx="1.219" dy="2.235" layer="1"/>
+<smd name="4" x="0" y="3.099" dx="3.6" dy="2.2" layer="1"/>
+<text x="-2.54" y="0.0508" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-1.3208" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.6002" y1="1.8034" x2="1.6002" y2="3.6576" layer="51"/>
+<rectangle x1="-0.4318" y1="-3.6576" x2="0.4318" y2="-1.8034" layer="51"/>
+<rectangle x1="-2.7432" y1="-3.6576" x2="-1.8796" y2="-1.8034" layer="51"/>
+<rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
+<rectangle x1="-1.6002" y1="1.8034" x2="1.6002" y2="3.6576" layer="51"/>
+<rectangle x1="-0.4318" y1="-3.6576" x2="0.4318" y2="-1.8034" layer="51"/>
+<rectangle x1="-2.7432" y1="-3.6576" x2="-1.8796" y2="-1.8034" layer="51"/>
+<rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="LM2936">
+<wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<text x="-2.413" y="-4.318" size="1.524" layer="95">GND</text>
+<text x="-7.62" y="6.35" size="1.778" layer="95">&gt;NAME</text>
+<text x="-6.35" y="-1.27" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="VIN" x="-10.16" y="2.54" length="short" direction="in"/>
+<pin name="VO" x="10.16" y="2.54" length="short" direction="pas" rot="R180"/>
+<pin name="GND" x="0" y="-7.62" visible="pad" length="short" direction="pas" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="3V3REGULATOR">
+<description>Voltage regulator LM1117MP 3.3 V in SOT223 package.</description>
+<gates>
+<gate name="G$1" symbol="LM2936" x="0" y="5.08"/>
+</gates>
+<devices>
+<device name="" package="SOT223">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="VIN" pad="3"/>
+<connect gate="G$1" pin="VO" pad="2 4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -22187,10 +22267,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1M"/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10pF"/>
 <part name="ADS1114" library="Texas Instruments_By_element14_Batch_1" deviceset="ADS1014IDGST" device=""/>
-<part name="SUPPLY3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="GND4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="SUPPLY4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="GND6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="0"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="0"/>
@@ -22201,11 +22279,19 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="SUPPLY5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="GND10" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="4.7µ"/>
+<part name="LM1117" library="3v3lm1117" deviceset="3V3REGULATOR" device=""/>
+<part name="GND8" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="SUPPLY3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
+<part name="SUPPLY4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
+<part name="SUPPLY6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
+<part name="SUPPLY7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
+<part name="C5" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:26137/1" value="100n"/>
+<part name="C6" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:26137/1" value="100n"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="109.22" y="30.48" size="1.778" layer="91">Uout = Ip * Rf
+<text x="68.58" y="22.86" size="1.778" layer="91">Uout = Ip * Rf
 bandwidth = 1 / (2 * pi * Rf * Cf)
 Rf = 10 MOhm
 Ip = 2600 nA (peak)
@@ -22229,10 +22315,8 @@ bandwidth = 15 kHz</text>
 <instance part="R1" gate="G$1" x="48.26" y="91.44"/>
 <instance part="C3" gate="G$1" x="45.72" y="81.28" rot="R90"/>
 <instance part="ADS1114" gate="A" x="106.68" y="-7.62"/>
-<instance part="SUPPLY3" gate="G$1" x="71.12" y="2.54"/>
 <instance part="GND4" gate="1" x="68.58" y="-27.94"/>
 <instance part="GND5" gate="1" x="68.58" y="-15.24"/>
-<instance part="SUPPLY4" gate="G$1" x="40.64" y="12.7"/>
 <instance part="GND6" gate="1" x="25.4" y="12.7"/>
 <instance part="R2" gate="G$1" x="33.02" y="5.08" rot="R90"/>
 <instance part="R3" gate="G$1" x="40.64" y="5.08" rot="R90"/>
@@ -22243,6 +22327,14 @@ bandwidth = 15 kHz</text>
 <instance part="SUPPLY5" gate="G$1" x="139.7" y="76.2"/>
 <instance part="GND10" gate="1" x="139.7" y="60.96"/>
 <instance part="C4" gate="G$1" x="139.7" y="71.12"/>
+<instance part="LM1117" gate="G$1" x="124.46" y="40.64"/>
+<instance part="GND8" gate="1" x="124.46" y="25.4"/>
+<instance part="SUPPLY3" gate="G$1" x="109.22" y="43.18"/>
+<instance part="SUPPLY4" gate="G$1" x="139.7" y="43.18"/>
+<instance part="SUPPLY6" gate="G$1" x="40.64" y="15.24"/>
+<instance part="SUPPLY7" gate="G$1" x="71.12" y="2.54"/>
+<instance part="C5" gate="G$1" x="109.22" y="35.56"/>
+<instance part="C6" gate="G$1" x="139.7" y="35.56"/>
 </instances>
 <busses>
 </busses>
@@ -22331,6 +22423,17 @@ bandwidth = 15 kHz</text>
 <pinref part="GND10" gate="1" pin="GND"/>
 <wire x1="139.7" y1="66.04" x2="139.7" y2="63.5" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="LM1117" gate="G$1" pin="GND"/>
+<pinref part="GND8" gate="1" pin="GND"/>
+<wire x1="124.46" y1="27.94" x2="124.46" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="C6" gate="G$1" pin="2"/>
+<wire x1="124.46" y1="30.48" x2="124.46" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="30.48" x2="124.46" y2="30.48" width="0.1524" layer="91"/>
+<junction x="124.46" y="30.48"/>
+<pinref part="C5" gate="G$1" pin="2"/>
+<wire x1="109.22" y1="30.48" x2="124.46" y2="30.48" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="ADR" class="0">
 <segment>
@@ -22411,11 +22514,6 @@ bandwidth = 15 kHz</text>
 <wire x1="139.7" y1="76.2" x2="139.7" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="40.64" y1="12.7" x2="40.64" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="SUPPLY4" gate="G$1" pin="5V"/>
-<pinref part="R3" gate="G$1" pin="2"/>
-</segment>
-<segment>
 <pinref part="SUPPLY1" gate="G$1" pin="5V"/>
 <pinref part="LMC6001" gate="G$1" pin="VDD"/>
 <wire x1="55.88" y1="73.66" x2="55.88" y2="71.12" width="0.1524" layer="91"/>
@@ -22429,9 +22527,32 @@ bandwidth = 15 kHz</text>
 <junction x="55.88" y="71.12"/>
 </segment>
 <segment>
+<pinref part="LM1117" gate="G$1" pin="VIN"/>
+<pinref part="SUPPLY3" gate="G$1" pin="5V"/>
+<wire x1="109.22" y1="43.18" x2="114.3" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="C5" gate="G$1" pin="1"/>
+<wire x1="109.22" y1="43.18" x2="109.22" y2="38.1" width="0.1524" layer="91"/>
+<junction x="109.22" y="43.18"/>
+</segment>
+</net>
+<net name="3.3V" class="0">
+<segment>
+<pinref part="LM1117" gate="G$1" pin="VO"/>
+<pinref part="SUPPLY4" gate="G$1" pin="3.3V"/>
+<wire x1="139.7" y1="43.18" x2="134.62" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="C6" gate="G$1" pin="1"/>
+<wire x1="139.7" y1="43.18" x2="139.7" y2="38.1" width="0.1524" layer="91"/>
+<junction x="139.7" y="43.18"/>
+</segment>
+<segment>
+<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="SUPPLY6" gate="G$1" pin="3.3V"/>
+<wire x1="40.64" y1="15.24" x2="40.64" y2="10.16" width="0.1524" layer="91"/>
+</segment>
+<segment>
 <pinref part="ADS1114" gate="A" pin="VDD"/>
 <wire x1="73.66" y1="2.54" x2="71.12" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="SUPPLY3" gate="G$1" pin="5V"/>
+<pinref part="SUPPLY7" gate="G$1" pin="3.3V"/>
 </segment>
 </net>
 </nets>
