@@ -354,6 +354,7 @@ UsedLibrary="/home/kassus/Downloads/eagle-8.5.1/lbr/3v3lm1117.lbr"
 UsedLibrary="/home/kassus/Downloads/eagle-8.5.1/lbr/bipop_elements.lbr"
 UsedLibrary="/home/kassus/eagle/additional_libs/SKA_EP_molex_6410_7395.lbr"
 UsedLibrary="/home/kassus/eagle/additional_libs/EP_molex_6410_7395.lbr"
+UsedLibrary="additional_libs/customy.lbr"
 
 [Win_1]
 Type="Control Panel"
