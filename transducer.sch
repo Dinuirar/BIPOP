@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -22187,8 +22187,10 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1M"/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10pF"/>
 <part name="ADS1114" library="Texas Instruments_By_element14_Batch_1" deviceset="ADS1014IDGST" device=""/>
+<part name="SUPPLY3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="GND4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="SUPPLY4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="GND6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="0"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="0"/>
@@ -22199,13 +22201,11 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="SUPPLY5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="GND10" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="4.7µ"/>
-<part name="SUPPLY6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
-<part name="SUPPLY7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="68.58" y="22.86" size="1.778" layer="91">Uout = Ip * Rf
+<text x="109.22" y="30.48" size="1.778" layer="91">Uout = Ip * Rf
 bandwidth = 1 / (2 * pi * Rf * Cf)
 Rf = 10 MOhm
 Ip = 2600 nA (peak)
@@ -22229,8 +22229,10 @@ bandwidth = 15 kHz</text>
 <instance part="R1" gate="G$1" x="48.26" y="91.44"/>
 <instance part="C3" gate="G$1" x="45.72" y="81.28" rot="R90"/>
 <instance part="ADS1114" gate="A" x="106.68" y="-7.62"/>
+<instance part="SUPPLY3" gate="G$1" x="71.12" y="2.54"/>
 <instance part="GND4" gate="1" x="68.58" y="-27.94"/>
 <instance part="GND5" gate="1" x="68.58" y="-15.24"/>
+<instance part="SUPPLY4" gate="G$1" x="40.64" y="12.7"/>
 <instance part="GND6" gate="1" x="25.4" y="12.7"/>
 <instance part="R2" gate="G$1" x="33.02" y="5.08" rot="R90"/>
 <instance part="R3" gate="G$1" x="40.64" y="5.08" rot="R90"/>
@@ -22241,12 +22243,44 @@ bandwidth = 15 kHz</text>
 <instance part="SUPPLY5" gate="G$1" x="139.7" y="76.2"/>
 <instance part="GND10" gate="1" x="139.7" y="60.96"/>
 <instance part="C4" gate="G$1" x="139.7" y="71.12"/>
-<instance part="SUPPLY6" gate="G$1" x="40.64" y="15.24"/>
-<instance part="SUPPLY7" gate="G$1" x="71.12" y="2.54"/>
 </instances>
 <busses>
 </busses>
 <nets>
+<net name="SDA" class="0">
+<segment>
+<pinref part="BIPOP" gate="-2" pin="S"/>
+<wire x1="111.76" y1="71.12" x2="109.22" y2="71.12" width="0.1524" layer="91"/>
+<label x="109.22" y="71.12" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="ADS1114" gate="A" pin="SDA"/>
+<wire x1="139.7" y1="2.54" x2="142.24" y2="2.54" width="0.1524" layer="91"/>
+<label x="142.24" y="2.54" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<wire x1="48.26" y1="12.7" x2="48.26" y2="10.16" width="0.1524" layer="91"/>
+<label x="48.26" y="12.7" size="1.27" layer="95" rot="R90" xref="yes"/>
+<pinref part="R4" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="SCL" class="0">
+<segment>
+<pinref part="BIPOP" gate="-3" pin="S"/>
+<wire x1="111.76" y1="66.04" x2="109.22" y2="66.04" width="0.1524" layer="91"/>
+<label x="109.22" y="66.04" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="ADS1114" gate="A" pin="SCL"/>
+<wire x1="73.66" y1="-5.08" x2="71.12" y2="-5.08" width="0.1524" layer="91"/>
+<label x="71.12" y="-5.08" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="55.88" y1="12.7" x2="55.88" y2="10.16" width="0.1524" layer="91"/>
+<label x="55.88" y="12.7" size="1.27" layer="95" rot="R90" xref="yes"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+</segment>
+</net>
 <net name="GND" class="0">
 <segment>
 <pinref part="BIPOP" gate="-4" pin="S"/>
@@ -22377,6 +22411,11 @@ bandwidth = 15 kHz</text>
 <wire x1="139.7" y1="76.2" x2="139.7" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
+<wire x1="40.64" y1="12.7" x2="40.64" y2="10.16" width="0.1524" layer="91"/>
+<pinref part="SUPPLY4" gate="G$1" pin="5V"/>
+<pinref part="R3" gate="G$1" pin="2"/>
+</segment>
+<segment>
 <pinref part="SUPPLY1" gate="G$1" pin="5V"/>
 <pinref part="LMC6001" gate="G$1" pin="VDD"/>
 <wire x1="55.88" y1="73.66" x2="55.88" y2="71.12" width="0.1524" layer="91"/>
@@ -22390,48 +22429,9 @@ bandwidth = 15 kHz</text>
 <junction x="55.88" y="71.12"/>
 </segment>
 <segment>
-<pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="40.64" y1="15.24" x2="40.64" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="SUPPLY6" gate="G$1" pin="5V"/>
-</segment>
-<segment>
 <pinref part="ADS1114" gate="A" pin="VDD"/>
 <wire x1="73.66" y1="2.54" x2="71.12" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="SUPPLY7" gate="G$1" pin="5V"/>
-</segment>
-</net>
-<net name="SDA" class="0">
-<segment>
-<pinref part="BIPOP" gate="-2" pin="S"/>
-<wire x1="111.76" y1="71.12" x2="109.22" y2="71.12" width="0.1524" layer="91"/>
-<label x="109.22" y="71.12" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<wire x1="48.26" y1="12.7" x2="48.26" y2="10.16" width="0.1524" layer="91"/>
-<label x="48.26" y="12.7" size="1.27" layer="95" rot="R90" xref="yes"/>
-<pinref part="R4" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<pinref part="ADS1114" gate="A" pin="SDA"/>
-<wire x1="139.7" y1="2.54" x2="142.24" y2="2.54" width="0.1524" layer="91"/>
-<label x="142.24" y="2.54" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="SCL" class="0">
-<segment>
-<pinref part="BIPOP" gate="-3" pin="S"/>
-<wire x1="111.76" y1="66.04" x2="109.22" y2="66.04" width="0.1524" layer="91"/>
-<label x="109.22" y="66.04" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<wire x1="55.88" y1="12.7" x2="55.88" y2="10.16" width="0.1524" layer="91"/>
-<label x="55.88" y="12.7" size="1.27" layer="95" rot="R90" xref="yes"/>
-<pinref part="R5" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<pinref part="ADS1114" gate="A" pin="SCL"/>
-<wire x1="73.66" y1="-5.08" x2="71.12" y2="-5.08" width="0.1524" layer="91"/>
-<label x="71.12" y="-5.08" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="SUPPLY3" gate="G$1" pin="5V"/>
 </segment>
 </net>
 </nets>

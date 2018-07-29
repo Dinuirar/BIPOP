@@ -10986,9 +10986,9 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <text x="-84.132978125" y="-13.97301875" size="3.81" layer="91">12 V input power</text>
 <text x="24.327021875" y="-48.43301875" size="3.81" layer="91">Motor's driver</text>
 <text x="-100.78511875" y="263.968075" size="6.4516" layer="91">Board for Interfacing Peripherals and OBC</text>
-<text x="37.49488125" y="254.968075" size="6.4516" layer="91">Rev1.5</text>
+<text x="37.49488125" y="254.968075" size="6.4516" layer="91">Rev1.6</text>
 <text x="-100.42511875" y="274.968075" size="6.4516" layer="91">LUSTRO - BIPOP</text>
-<text x="-97.42511875" y="255.308075" size="6.4516" layer="91">23.06.2018</text>
+<text x="-97.42511875" y="255.308075" size="6.4516" layer="91">29.07.2018</text>
 <text x="-44.62511875" y="254.808075" size="6.4516" layer="91">Mikołaj Owczarzak</text>
 <text x="-89.112978125" y="-49.69301875" size="3.81" layer="91">Rotation indicators' sockets</text>
 <text x="-22.851753125" y="-123.33574375" size="3.81" layer="91">RTC socket</text>
