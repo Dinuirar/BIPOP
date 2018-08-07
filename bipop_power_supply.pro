@@ -1,25 +1,25 @@
 EAGLE AutoRouter Statistics:
 
-Job           : /home/kassus/Desktop/bipop/bipop_power_supply.brd
+Job           : /media/jw/710e98d0-275d-43b0-8b8f-fe2afd44e38a/projects/bexus_lustro/bipop/bipop_power_supply.brd
 
-Start at      : 11:53:24 (27.05.2018)
-End at        : 11:53:41 (27.05.2018)
-Elapsed time  : 00:00:03
+Start at      : 16:06:34 (07.08.2018)
+End at        : 16:06:35 (07.08.2018)
+Elapsed time  : 00:00:01
 
-Signals       :    15   RoutingGrid: 12.5 mil  Layers: 2
-Connections   :    41   predefined:  0 ( 0 Vias )
+Signals       :    21   RoutingGrid: 25 mil  Layers: 2
+Connections   :    62   predefined:  0 ( 0 Vias )
 
-Router memory :   976896
+Router memory :   252288
 
 Passname          :     Route Optimize1 Optimize2 Optimize3 Optimize4
 
-Time per pass     :  00:00:00  00:00:01  00:00:00  00:00:01  00:00:01
+Time per pass     :  00:00:00  00:00:01  00:00:00  00:00:00  00:00:00
 Number of Ripups  :         0         0         0         0         0
 max. Level        :         0         0         0         0         0
 max. Total        :         0         0         0         0         0
 
-Routed            :        41        41        41        41        41
-Vias              :        10         1         1         1         1
+Routed            :        62        62        62        62        62
+Vias              :        32        10        10        10        10
 Resolution        :   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
 
 Final             : 100.0% finished
