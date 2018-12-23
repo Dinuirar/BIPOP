@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.5.1">
+<eagle version="9.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="10" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -11094,10 +11094,10 @@ Source: http://de.nanotec.com .. s094-095_leistungsendst_IMT901.pdf</description
 <plain>
 <text x="1.467021875" y="-0.27301875" size="3.81" layer="91">SD Card socket</text>
 <text x="-84.132978125" y="46.98698125" size="3.81" layer="91">3.3V input power</text>
-<text x="-59.08" y="242.92" size="3.81" layer="91">STM32F103RB Nucleo-64</text>
+<text x="-74.32" y="235.3" size="3.81" layer="91">STM32F103RB Nucleo-64</text>
 <text x="56.067021875" y="47.58698125" size="3.81" layer="91" rot="MR0">Ethernet connector</text>
 <text x="-88.039340625" y="-263.358909375" size="3.81" layer="91">UV sensors</text>
-<text x="-90.011753125" y="-123.89574375" size="3.81" layer="91">IMU socket</text>
+<text x="-69.691753125" y="-438.85574375" size="3.81" layer="91">IMU socket</text>
 <text x="-91.791753125" y="-198.65574375" size="3.81" layer="91">HTP sockets</text>
 <text x="-84.132978125" y="-13.97301875" size="3.81" layer="91">12 V input power</text>
 <text x="24.327021875" y="-48.43301875" size="3.81" layer="91">Motor's driver</text>
@@ -11107,11 +11107,11 @@ Source: http://de.nanotec.com .. s094-095_leistungsendst_IMT901.pdf</description
 <text x="-97.42511875" y="255.308075" size="6.4516" layer="91">15.08.2018</text>
 <text x="-44.62511875" y="254.808075" size="6.4516" layer="91">Mikołaj Owczarzak</text>
 <text x="-89.112978125" y="-49.69301875" size="3.81" layer="91">Rotation indicators' sockets</text>
-<text x="-22.851753125" y="-123.33574375" size="3.81" layer="91">RTC socket</text>
+<text x="-2.531753125" y="-438.29574375" size="3.81" layer="91">RTC socket</text>
 <text x="-84.132978125" y="16.50698125" size="3.81" layer="91">5 V input power</text>
-<text x="-88.24714375" y="-364.522509375" size="3.81" layer="91">Encoders' socket</text>
+<text x="-88.24714375" y="-346.742509375" size="3.81" layer="91">Encoders' socket</text>
 <text x="7.77285625" y="-262.262509375" size="3.81" layer="91">RS-422 encoder receiver</text>
-<text x="-16.98714375" y="-363.022509375" size="3.81" layer="91">Level translator 5V -&gt; 3.3V</text>
+<text x="-16.98714375" y="-345.242509375" size="3.81" layer="91">Level translator 5V -&gt; 3.3V</text>
 <wire x1="368.06863125" y1="224.244909375" x2="368.06863125" y2="-39.9755375" width="0.1524" layer="249"/>
 <wire x1="368.06863125" y1="-39.9755375" x2="548.3489125" y2="-39.9755375" width="0.1524" layer="249"/>
 <wire x1="548.34903125" y1="-39.955621875" x2="548.34903125" y2="224.242459375" width="0.1524" layer="249"/>
@@ -11127,17 +11127,17 @@ Source: http://de.nanotec.com .. s094-095_leistungsendst_IMT901.pdf</description
 <instance part="SUPPLY15" gate="G$1" x="-56.192978125" y="-21.59301875"/>
 <instance part="SUPPLY1" gate="G$1" x="-56.192978125" y="39.36698125"/>
 <instance part="SUPPLY5" gate="G$1" x="-56.192978125" y="8.88698125"/>
-<instance part="R18" gate="G$1" x="11.408246875" y="-139.11574375" rot="R90"/>
-<instance part="SUPPLY39" gate="G$1" x="11.408246875" y="-134.03574375"/>
+<instance part="R18" gate="G$1" x="26.648246875" y="-451.53574375" rot="R90"/>
+<instance part="SUPPLY39" gate="G$1" x="26.648246875" y="-446.45574375"/>
 <instance part="GND4" gate="1" x="-56.192978125" y="-1.27301875"/>
-<instance part="SUPPLY24" gate="G$1" x="-19.071753125" y="-134.03574375"/>
-<instance part="GND39" gate="1" x="-19.071753125" y="-154.35574375"/>
-<instance part="RTC_" gate="RTCVCC" x="19.028246875" y="-149.27574375"/>
-<instance part="RTC_" gate="RTCGND" x="19.028246875" y="-154.35574375"/>
-<instance part="RTC_" gate="RTCMISO" x="19.028246875" y="-159.43574375"/>
-<instance part="RTC_" gate="RTCMOSI" x="19.028246875" y="-164.51574375"/>
-<instance part="RTC_" gate="RTCSCK" x="19.028246875" y="-169.59574375"/>
-<instance part="RTC_" gate="RTCCS" x="19.028246875" y="-174.67574375"/>
+<instance part="SUPPLY24" gate="G$1" x="-3.831753125" y="-446.45574375"/>
+<instance part="GND39" gate="1" x="-3.831753125" y="-466.77574375"/>
+<instance part="RTC_" gate="RTCVCC" x="34.268246875" y="-461.69574375"/>
+<instance part="RTC_" gate="RTCGND" x="34.268246875" y="-466.77574375"/>
+<instance part="RTC_" gate="RTCMISO" x="34.268246875" y="-471.85574375"/>
+<instance part="RTC_" gate="RTCMOSI" x="34.268246875" y="-476.93574375"/>
+<instance part="RTC_" gate="RTCSCK" x="34.268246875" y="-482.01574375"/>
+<instance part="RTC_" gate="RTCCS" x="34.268246875" y="-487.09574375"/>
 <instance part="R5" gate="G$1" x="-93.98" y="-66.04" rot="R90"/>
 <instance part="R6" gate="G$1" x="-63.5" y="-66.04" rot="R90"/>
 <instance part="R23" gate="G$1" x="-63.5" y="-83.82" rot="R90"/>
@@ -11152,15 +11152,15 @@ Source: http://de.nanotec.com .. s094-095_leistungsendst_IMT901.pdf</description
 <instance part="SUPPLY55" gate="G$1" x="-10.16" y="-60.96"/>
 <instance part="GND38" gate="1" x="-10.16" y="-91.44"/>
 <instance part="GND58" gate="1" x="-40.64" y="-83.82"/>
-<instance part="R7" gate="G$1" x="-5.08" y="-373.38" rot="R90"/>
-<instance part="R16" gate="G$1" x="-5.08" y="-383.54" rot="R90"/>
-<instance part="GND5" gate="1" x="-5.074884375" y="-393.676565625"/>
-<instance part="R17" gate="G$1" x="20.32" y="-373.38" rot="R90"/>
-<instance part="R20" gate="G$1" x="20.32" y="-383.54" rot="R90"/>
-<instance part="GND10" gate="1" x="20.325115625" y="-393.676565625"/>
-<instance part="R21" gate="G$1" x="45.72" y="-373.38" rot="R90"/>
-<instance part="R22" gate="G$1" x="45.72" y="-383.54" rot="R90"/>
-<instance part="GND11" gate="1" x="45.725115625" y="-393.676565625"/>
+<instance part="R7" gate="G$1" x="-5.08" y="-355.6" rot="R90"/>
+<instance part="R16" gate="G$1" x="-5.08" y="-365.76" rot="R90"/>
+<instance part="GND5" gate="1" x="-5.074884375" y="-375.896565625"/>
+<instance part="R17" gate="G$1" x="20.32" y="-355.6" rot="R90"/>
+<instance part="R20" gate="G$1" x="20.32" y="-365.76" rot="R90"/>
+<instance part="GND10" gate="1" x="20.325115625" y="-375.896565625"/>
+<instance part="R21" gate="G$1" x="45.72" y="-355.6" rot="R90"/>
+<instance part="R22" gate="G$1" x="45.72" y="-365.76" rot="R90"/>
+<instance part="GND11" gate="1" x="45.725115625" y="-375.896565625"/>
 <instance part="IC1" gate="G$1" x="33.02" y="-299.72"/>
 <instance part="SUPPLY4" gate="G$1" x="50.487021875" y="-270.51301875"/>
 <instance part="R1" gate="G$1" x="60.96" y="-312.42" rot="R270"/>
@@ -11170,22 +11170,22 @@ Source: http://de.nanotec.com .. s094-095_leistungsendst_IMT901.pdf</description
 <instance part="GND19" gate="1" x="-73.66" y="-327.66"/>
 <instance part="GND20" gate="1" x="-22.86" y="-327.66"/>
 <instance part="GND25" gate="1" x="-22.86" y="-292.1"/>
-<instance part="SUPPLY14" gate="G$1" x="76.2" y="223.52"/>
-<instance part="SUPPLY17" gate="G$1" x="68.58" y="223.52"/>
-<instance part="R10" gate="G$1" x="76.2" y="218.44" rot="R90"/>
-<instance part="R11" gate="G$1" x="68.58" y="218.44" rot="R90"/>
-<instance part="R12" gate="G$1" x="83.82" y="190.5" rot="R90"/>
-<instance part="R13" gate="G$1" x="76.2" y="190.5" rot="R90"/>
-<instance part="R14" gate="G$1" x="68.58" y="190.5" rot="R90"/>
-<instance part="SUPPLY19" gate="G$1" x="83.82" y="195.58"/>
-<instance part="SUPPLY21" gate="G$1" x="76.2" y="195.58"/>
-<instance part="SUPPLY22" gate="G$1" x="68.58" y="195.58"/>
-<instance part="R15" gate="G$1" x="83.82" y="160.02" rot="R90"/>
-<instance part="R19" gate="G$1" x="76.2" y="160.02" rot="R90"/>
-<instance part="R27" gate="G$1" x="68.58" y="160.02" rot="R90"/>
-<instance part="SUPPLY25" gate="G$1" x="83.82" y="165.1"/>
-<instance part="SUPPLY26" gate="G$1" x="76.2" y="165.1"/>
-<instance part="SUPPLY27" gate="G$1" x="68.58" y="165.1"/>
+<instance part="SUPPLY14" gate="G$1" x="22.86" y="81.28"/>
+<instance part="SUPPLY17" gate="G$1" x="15.24" y="81.28"/>
+<instance part="R10" gate="G$1" x="22.86" y="76.2" rot="R90"/>
+<instance part="R11" gate="G$1" x="15.24" y="76.2" rot="R90"/>
+<instance part="R12" gate="G$1" x="-17.78" y="78.74" rot="R90"/>
+<instance part="R13" gate="G$1" x="-25.4" y="78.74" rot="R90"/>
+<instance part="R14" gate="G$1" x="-33.02" y="78.74" rot="R90"/>
+<instance part="SUPPLY19" gate="G$1" x="-17.78" y="83.82"/>
+<instance part="SUPPLY21" gate="G$1" x="-25.4" y="83.82"/>
+<instance part="SUPPLY22" gate="G$1" x="-33.02" y="83.82"/>
+<instance part="R15" gate="G$1" x="-55.88" y="78.74" rot="R90"/>
+<instance part="R19" gate="G$1" x="-63.5" y="78.74" rot="R90"/>
+<instance part="R27" gate="G$1" x="-71.12" y="78.74" rot="R90"/>
+<instance part="SUPPLY25" gate="G$1" x="-55.88" y="83.82"/>
+<instance part="SUPPLY26" gate="G$1" x="-63.5" y="83.82"/>
+<instance part="SUPPLY27" gate="G$1" x="-71.12" y="83.82"/>
 <instance part="R9" gate="G$1" x="-68.58" y="-215.9" rot="R90"/>
 <instance part="SUPPLY13" gate="G$1" x="-68.58" y="-210.82"/>
 <instance part="GND27" gate="1" x="-81.28" y="-243.84"/>
@@ -11194,19 +11194,19 @@ Source: http://de.nanotec.com .. s094-095_leistungsendst_IMT901.pdf</description
 <instance part="SUPPLY30" gate="G$1" x="-15.24" y="-210.82"/>
 <instance part="GND28" gate="1" x="-27.94" y="-243.84"/>
 <instance part="SUPPLY32" gate="G$1" x="-33.02" y="-251.46"/>
-<instance part="IMU" gate="-1" x="-55.88" y="-147.32"/>
-<instance part="IMU" gate="-2" x="-55.88" y="-152.4"/>
-<instance part="IMU" gate="-3" x="-55.88" y="-157.48"/>
-<instance part="IMU" gate="-4" x="-55.88" y="-162.56"/>
-<instance part="IMU" gate="-5" x="-55.88" y="-167.64"/>
-<instance part="IMU" gate="-6" x="-55.88" y="-172.72"/>
-<instance part="IMU" gate="-7" x="-55.88" y="-177.8"/>
-<instance part="IMU" gate="-8" x="-55.88" y="-182.88"/>
-<instance part="GND7" gate="1" x="-83.82" y="-185.42"/>
-<instance part="GND29" gate="1" x="-91.44" y="-170.18"/>
-<instance part="SUPPLY16" gate="G$1" x="-83.82" y="-177.8"/>
-<instance part="R33" gate="G$1" x="-60.96" y="-142.24" rot="R90"/>
-<instance part="SUPPLY35" gate="G$1" x="-60.96" y="-137.16"/>
+<instance part="IMU" gate="-1" x="-40.64" y="-454.66"/>
+<instance part="IMU" gate="-2" x="-40.64" y="-459.74"/>
+<instance part="IMU" gate="-3" x="-40.64" y="-464.82"/>
+<instance part="IMU" gate="-4" x="-40.64" y="-469.9"/>
+<instance part="IMU" gate="-5" x="-40.64" y="-474.98"/>
+<instance part="IMU" gate="-6" x="-40.64" y="-480.06"/>
+<instance part="IMU" gate="-7" x="-40.64" y="-485.14"/>
+<instance part="IMU" gate="-8" x="-40.64" y="-490.22"/>
+<instance part="GND7" gate="1" x="-68.58" y="-492.76"/>
+<instance part="GND29" gate="1" x="-76.2" y="-477.52"/>
+<instance part="SUPPLY16" gate="G$1" x="-68.58" y="-485.14"/>
+<instance part="R33" gate="G$1" x="-45.72" y="-449.58" rot="R90"/>
+<instance part="SUPPLY35" gate="G$1" x="-45.72" y="-444.5"/>
 <instance part="POWER" gate="-1" x="-68.58" y="38.1"/>
 <instance part="POWER" gate="-2" x="-68.58" y="33.02"/>
 <instance part="POWER" gate="-3" x="-68.58" y="7.62"/>
@@ -11231,7 +11231,7 @@ Source: http://de.nanotec.com .. s094-095_leistungsendst_IMT901.pdf</description
 <instance part="GND14" gate="1" x="60.96" y="12.7"/>
 <instance part="U$2" gate="G$1" x="-10.16" y="162.56"/>
 <instance part="GND8" gate="1" x="-12.7" y="134.62"/>
-<instance part="SUPPLY10" gate="G$1" x="55.88" y="152.4"/>
+<instance part="SUPPLY10" gate="G$1" x="50.8" y="152.4"/>
 <instance part="SUPPLY3" gate="G$1" x="-73.66" y="-274.32"/>
 <instance part="SUPPLY12" gate="G$1" x="-22.86" y="-274.32"/>
 <instance part="SUPPLY18" gate="G$1" x="-22.86" y="-309.88"/>
@@ -11255,9 +11255,9 @@ Source: http://de.nanotec.com .. s094-095_leistungsendst_IMT901.pdf</description
 <instance part="GND6" gate="1" x="43.18" y="-35.56"/>
 <instance part="OPTO1" gate="A" x="-76.2" y="-76.2"/>
 <instance part="OPTO2" gate="A" x="-22.86" y="-76.2"/>
-<instance part="U$3" gate="G$1" x="-58.42" y="-375.92"/>
-<instance part="SUPPLY2" gate="G$1" x="-63.5" y="-393.7"/>
-<instance part="GND3" gate="1" x="-53.34" y="-398.78"/>
+<instance part="U$3" gate="G$1" x="-58.42" y="-358.14"/>
+<instance part="SUPPLY2" gate="G$1" x="-63.5" y="-375.92"/>
+<instance part="GND3" gate="1" x="-53.34" y="-381"/>
 <instance part="UV1" gate="-1" x="-66.04" y="-279.4"/>
 <instance part="UV1" gate="-2" x="-66.04" y="-281.94"/>
 <instance part="UV1" gate="-3" x="-66.04" y="-284.48"/>
@@ -11285,17 +11285,17 @@ Source: http://de.nanotec.com .. s094-095_leistungsendst_IMT901.pdf</description
 <nets>
 <net name="SPI2_MOSI" class="0">
 <segment>
-<wire x1="16.488246875" y1="-164.51574375" x2="-13.991753125" y2="-164.51574375" width="0.1524" layer="91"/>
-<label x="-13.991753125" y="-164.51574375" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="31.728246875" y1="-476.93574375" x2="1.248246875" y2="-476.93574375" width="0.1524" layer="91"/>
+<label x="1.248246875" y="-476.93574375" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="RTC_" gate="RTCMOSI" pin="1"/>
 </segment>
 <segment>
-<wire x1="66.04" y1="152.4" x2="83.82" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="-73.66" y1="71.12" x2="-55.88" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="R15" gate="G$1" pin="1"/>
-<wire x1="83.82" y1="152.4" x2="88.9" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="154.94" x2="83.82" y2="152.4" width="0.1524" layer="91"/>
-<junction x="83.82" y="152.4"/>
-<label x="88.9" y="152.4" size="1.27" layer="95" xref="yes"/>
+<wire x1="-55.88" y1="71.12" x2="-50.8" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="-55.88" y1="73.66" x2="-55.88" y2="71.12" width="0.1524" layer="91"/>
+<junction x="-55.88" y="71.12"/>
+<label x="-50.8" y="71.12" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="-66.04" y1="-226.06" x2="-71.12" y2="-226.06" width="0.1524" layer="91"/>
@@ -11309,8 +11309,8 @@ Source: http://de.nanotec.com .. s094-095_leistungsendst_IMT901.pdf</description
 </segment>
 <segment>
 <pinref part="IMU" gate="-3" pin="S"/>
-<wire x1="-58.42" y1="-157.48" x2="-68.58" y2="-157.48" width="0.1524" layer="91"/>
-<label x="-68.58" y="-157.48" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="-43.18" y1="-464.82" x2="-53.34" y2="-464.82" width="0.1524" layer="91"/>
+<label x="-53.34" y="-464.82" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="PB15"/>
@@ -11320,17 +11320,17 @@ Source: http://de.nanotec.com .. s094-095_leistungsendst_IMT901.pdf</description
 </net>
 <net name="SPI2_MISO" class="0">
 <segment>
-<wire x1="16.488246875" y1="-159.43574375" x2="-13.991753125" y2="-159.43574375" width="0.1524" layer="91"/>
-<label x="-13.991753125" y="-159.43574375" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="31.728246875" y1="-471.85574375" x2="1.248246875" y2="-471.85574375" width="0.1524" layer="91"/>
+<label x="1.248246875" y="-471.85574375" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="RTC_" gate="RTCMISO" pin="1"/>
 </segment>
 <segment>
-<wire x1="66.04" y1="149.86" x2="76.2" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="-73.66" y1="68.58" x2="-63.5" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="R19" gate="G$1" pin="1"/>
-<wire x1="76.2" y1="149.86" x2="88.9" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="154.94" x2="76.2" y2="149.86" width="0.1524" layer="91"/>
-<junction x="76.2" y="149.86"/>
-<label x="88.9" y="149.86" size="1.27" layer="95" xref="yes"/>
+<wire x1="-63.5" y1="68.58" x2="-50.8" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="73.66" x2="-63.5" y2="68.58" width="0.1524" layer="91"/>
+<junction x="-63.5" y="68.58"/>
+<label x="-50.8" y="68.58" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="-66.04" y1="-231.14" x2="-71.12" y2="-231.14" width="0.1524" layer="91"/>
@@ -11344,8 +11344,8 @@ Source: http://de.nanotec.com .. s094-095_leistungsendst_IMT901.pdf</description
 </segment>
 <segment>
 <pinref part="IMU" gate="-4" pin="S"/>
-<wire x1="-58.42" y1="-162.56" x2="-68.58" y2="-162.56" width="0.1524" layer="91"/>
-<label x="-68.58" y="-162.56" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="-43.18" y1="-469.9" x2="-53.34" y2="-469.9" width="0.1524" layer="91"/>
+<label x="-53.34" y="-469.9" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="PB14"/>
@@ -11355,17 +11355,17 @@ Source: http://de.nanotec.com .. s094-095_leistungsendst_IMT901.pdf</description
 </net>
 <net name="SPI2_SCK" class="0">
 <segment>
-<label x="-13.991753125" y="-169.59574375" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="16.488246875" y1="-169.59574375" x2="-13.991753125" y2="-169.59574375" width="0.1524" layer="91"/>
+<label x="1.248246875" y="-482.01574375" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="31.728246875" y1="-482.01574375" x2="1.248246875" y2="-482.01574375" width="0.1524" layer="91"/>
 <pinref part="RTC_" gate="RTCSCK" pin="1"/>
 </segment>
 <segment>
-<wire x1="66.04" y1="147.32" x2="68.58" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="-73.66" y1="66.04" x2="-71.12" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="R27" gate="G$1" pin="1"/>
-<wire x1="68.58" y1="147.32" x2="88.9" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="154.94" x2="68.58" y2="147.32" width="0.1524" layer="91"/>
-<junction x="68.58" y="147.32"/>
-<label x="88.9" y="147.32" size="1.27" layer="95" xref="yes"/>
+<wire x1="-71.12" y1="66.04" x2="-50.8" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="-71.12" y1="73.66" x2="-71.12" y2="66.04" width="0.1524" layer="91"/>
+<junction x="-71.12" y="66.04"/>
+<label x="-50.8" y="66.04" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="-66.04" y1="-236.22" x2="-71.12" y2="-236.22" width="0.1524" layer="91"/>
@@ -11379,8 +11379,8 @@ Source: http://de.nanotec.com .. s094-095_leistungsendst_IMT901.pdf</description
 </segment>
 <segment>
 <pinref part="IMU" gate="-2" pin="S"/>
-<wire x1="-58.42" y1="-152.4" x2="-68.58" y2="-152.4" width="0.1524" layer="91"/>
-<label x="-68.58" y="-152.4" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="-43.18" y1="-459.74" x2="-53.34" y2="-459.74" width="0.1524" layer="91"/>
+<label x="-53.34" y="-459.74" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="PB13"/>
@@ -11390,12 +11390,12 @@ Source: http://de.nanotec.com .. s094-095_leistungsendst_IMT901.pdf</description
 </net>
 <net name="SPI1_SCK" class="0">
 <segment>
-<wire x1="66.04" y1="177.8" x2="68.58" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="-35.56" y1="66.04" x2="-33.02" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="R14" gate="G$1" pin="1"/>
-<wire x1="68.58" y1="177.8" x2="88.9" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="185.42" x2="68.58" y2="177.8" width="0.1524" layer="91"/>
-<junction x="68.58" y="177.8"/>
-<label x="88.9" y="177.8" size="1.27" layer="95" xref="yes"/>
+<wire x1="-33.02" y1="66.04" x2="-12.7" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="73.66" x2="-33.02" y2="66.04" width="0.1524" layer="91"/>
+<junction x="-33.02" y="66.04"/>
+<label x="-12.7" y="66.04" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="20.32" y1="-12.7" x2="12.7" y2="-12.7" width="0.1524" layer="91"/>
@@ -11415,12 +11415,12 @@ Source: http://de.nanotec.com .. s094-095_leistungsendst_IMT901.pdf</description
 </net>
 <net name="SPI1_MISO" class="0">
 <segment>
-<wire x1="66.04" y1="180.34" x2="76.2" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="-35.56" y1="68.58" x2="-25.4" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="R13" gate="G$1" pin="1"/>
-<wire x1="76.2" y1="180.34" x2="88.9" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="185.42" x2="76.2" y2="180.34" width="0.1524" layer="91"/>
-<junction x="76.2" y="180.34"/>
-<label x="88.9" y="180.34" size="1.27" layer="95" xref="yes"/>
+<wire x1="-25.4" y1="68.58" x2="-12.7" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="73.66" x2="-25.4" y2="68.58" width="0.1524" layer="91"/>
+<junction x="-25.4" y="68.58"/>
+<label x="-12.7" y="68.58" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="20.32" y1="-10.16" x2="12.7" y2="-10.16" width="0.1524" layer="91"/>
@@ -11440,12 +11440,12 @@ Source: http://de.nanotec.com .. s094-095_leistungsendst_IMT901.pdf</description
 </net>
 <net name="SPI1_MOSI" class="0">
 <segment>
-<wire x1="66.04" y1="182.88" x2="83.82" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="-35.56" y1="71.12" x2="-17.78" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="R12" gate="G$1" pin="1"/>
-<wire x1="83.82" y1="182.88" x2="88.9" y2="182.88" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="185.42" x2="83.82" y2="182.88" width="0.1524" layer="91"/>
-<junction x="83.82" y="182.88"/>
-<label x="88.9" y="182.88" size="1.27" layer="95" xref="yes"/>
+<wire x1="-17.78" y1="71.12" x2="-12.7" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="-17.78" y1="73.66" x2="-17.78" y2="71.12" width="0.1524" layer="91"/>
+<junction x="-17.78" y="71.12"/>
+<label x="-12.7" y="71.12" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="20.32" y1="-7.62" x2="12.7" y2="-7.62" width="0.1524" layer="91"/>
@@ -11466,9 +11466,9 @@ Source: http://de.nanotec.com .. s094-095_leistungsendst_IMT901.pdf</description
 <net name="GND" class="0">
 <segment>
 <pinref part="GND39" gate="1" pin="GND"/>
-<wire x1="-19.071753125" y1="-151.81574375" x2="-13.991753125" y2="-151.81574375" width="0.1524" layer="91"/>
-<wire x1="-13.991753125" y1="-151.81574375" x2="-13.991753125" y2="-154.35574375" width="0.1524" layer="91"/>
-<wire x1="-13.991753125" y1="-154.35574375" x2="16.488246875" y2="-154.35574375" width="0.1524" layer="91"/>
+<wire x1="-3.831753125" y1="-464.23574375" x2="1.248246875" y2="-464.23574375" width="0.1524" layer="91"/>
+<wire x1="1.248246875" y1="-464.23574375" x2="1.248246875" y2="-466.77574375" width="0.1524" layer="91"/>
+<wire x1="1.248246875" y1="-466.77574375" x2="31.728246875" y2="-466.77574375" width="0.1524" layer="91"/>
 <pinref part="RTC_" gate="RTCGND" pin="1"/>
 </segment>
 <segment>
@@ -11494,20 +11494,20 @@ Source: http://de.nanotec.com .. s094-095_leistungsendst_IMT901.pdf</description
 <segment>
 <pinref part="GND5" gate="1" pin="GND"/>
 <pinref part="R16" gate="G$1" pin="1"/>
-<wire x1="-5.074884375" y1="-391.136565625" x2="-5.08" y2="-391.022509375" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="-391.022509375" x2="-5.08" y2="-388.62" width="0.1524" layer="91"/>
+<wire x1="-5.074884375" y1="-373.356565625" x2="-5.08" y2="-373.242509375" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="-373.242509375" x2="-5.08" y2="-370.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND10" gate="1" pin="GND"/>
 <pinref part="R20" gate="G$1" pin="1"/>
-<wire x1="20.325115625" y1="-391.136565625" x2="20.32" y2="-391.022509375" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="-391.022509375" x2="20.32" y2="-388.62" width="0.1524" layer="91"/>
+<wire x1="20.325115625" y1="-373.356565625" x2="20.32" y2="-373.242509375" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="-373.242509375" x2="20.32" y2="-370.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND11" gate="1" pin="GND"/>
 <pinref part="R22" gate="G$1" pin="1"/>
-<wire x1="45.725115625" y1="-391.136565625" x2="45.72" y2="-391.022509375" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="-391.022509375" x2="45.72" y2="-388.62" width="0.1524" layer="91"/>
+<wire x1="45.725115625" y1="-373.356565625" x2="45.72" y2="-373.242509375" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="-373.242509375" x2="45.72" y2="-370.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
@@ -11555,12 +11555,12 @@ Source: http://de.nanotec.com .. s094-095_leistungsendst_IMT901.pdf</description
 </segment>
 <segment>
 <pinref part="IMU" gate="-8" pin="S"/>
-<wire x1="-58.42" y1="-182.88" x2="-83.82" y2="-182.88" width="0.1524" layer="91"/>
+<wire x1="-43.18" y1="-490.22" x2="-68.58" y2="-490.22" width="0.1524" layer="91"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="IMU" gate="-5" pin="S"/>
-<wire x1="-58.42" y1="-167.64" x2="-91.44" y2="-167.64" width="0.1524" layer="91"/>
+<wire x1="-43.18" y1="-474.98" x2="-76.2" y2="-474.98" width="0.1524" layer="91"/>
 <pinref part="GND29" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -11630,17 +11630,17 @@ Source: http://de.nanotec.com .. s094-095_leistungsendst_IMT901.pdf</description
 <segment>
 <pinref part="GND3" gate="1" pin="GND"/>
 <pinref part="U$3" gate="G$1" pin="GND"/>
-<wire x1="-53.34" y1="-396.24" x2="-53.34" y2="-391.16" width="0.1524" layer="91"/>
+<wire x1="-53.34" y1="-378.46" x2="-53.34" y2="-373.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CS_IMU" class="0">
 <segment>
 <pinref part="IMU" gate="-1" pin="S"/>
-<wire x1="-58.42" y1="-147.32" x2="-60.96" y2="-147.32" width="0.1524" layer="91"/>
-<label x="-68.58" y="-147.32" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="-43.18" y1="-454.66" x2="-45.72" y2="-454.66" width="0.1524" layer="91"/>
+<label x="-53.34" y="-454.66" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="R33" gate="G$1" pin="1"/>
-<wire x1="-60.96" y1="-147.32" x2="-68.58" y2="-147.32" width="0.1524" layer="91"/>
-<junction x="-60.96" y="-147.32"/>
+<wire x1="-45.72" y1="-454.66" x2="-53.34" y2="-454.66" width="0.1524" layer="91"/>
+<junction x="-45.72" y="-454.66"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="PC12"/>
@@ -11724,8 +11724,8 @@ Source: http://de.nanotec.com .. s094-095_leistungsendst_IMT901.pdf</description
 </segment>
 <segment>
 <pinref part="SUPPLY24" gate="G$1" pin="3.3V"/>
-<wire x1="-19.071753125" y1="-134.03574375" x2="-19.071753125" y2="-149.27574375" width="0.1524" layer="91"/>
-<wire x1="-19.071753125" y1="-149.27574375" x2="16.488246875" y2="-149.27574375" width="0.1524" layer="91"/>
+<wire x1="-3.831753125" y1="-446.45574375" x2="-3.831753125" y2="-461.69574375" width="0.1524" layer="91"/>
+<wire x1="-3.831753125" y1="-461.69574375" x2="31.728246875" y2="-461.69574375" width="0.1524" layer="91"/>
 <pinref part="RTC_" gate="RTCVCC" pin="1"/>
 </segment>
 <segment>
@@ -11796,7 +11796,7 @@ Source: http://de.nanotec.com .. s094-095_leistungsendst_IMT901.pdf</description
 </segment>
 <segment>
 <pinref part="IMU" gate="-7" pin="S"/>
-<wire x1="-58.42" y1="-177.8" x2="-83.82" y2="-177.8" width="0.1524" layer="91"/>
+<wire x1="-43.18" y1="-485.14" x2="-68.58" y2="-485.14" width="0.1524" layer="91"/>
 <pinref part="SUPPLY16" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
@@ -11826,8 +11826,8 @@ Source: http://de.nanotec.com .. s094-095_leistungsendst_IMT901.pdf</description
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="3V3"/>
-<wire x1="40.64" y1="147.32" x2="55.88" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="147.32" x2="55.88" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="147.32" x2="50.8" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="147.32" x2="50.8" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="SUPPLY10" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
@@ -11885,10 +11885,10 @@ Source: http://de.nanotec.com .. s094-095_leistungsendst_IMT901.pdf</description
 </segment>
 <segment>
 <pinref part="SUPPLY2" gate="G$1" pin="5V"/>
-<wire x1="-63.5" y1="-393.7" x2="-63.5" y2="-396.24" width="0.1524" layer="91"/>
-<wire x1="-63.5" y1="-396.24" x2="-55.88" y2="-396.24" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="-375.92" x2="-63.5" y2="-378.46" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="-378.46" x2="-55.88" y2="-378.46" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="VCC"/>
-<wire x1="-55.88" y1="-396.24" x2="-55.88" y2="-391.16" width="0.1524" layer="91"/>
+<wire x1="-55.88" y1="-378.46" x2="-55.88" y2="-373.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
@@ -11964,12 +11964,12 @@ Source: http://de.nanotec.com .. s094-095_leistungsendst_IMT901.pdf</description
 </net>
 <net name="CS_RTC" class="0">
 <segment>
-<wire x1="16.488246875" y1="-174.67574375" x2="11.408246875" y2="-174.67574375" width="0.1524" layer="91"/>
-<label x="-13.991753125" y="-174.67574375" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="31.728246875" y1="-487.09574375" x2="26.648246875" y2="-487.09574375" width="0.1524" layer="91"/>
+<label x="1.248246875" y="-487.09574375" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="R18" gate="G$1" pin="1"/>
-<wire x1="11.408246875" y1="-174.67574375" x2="-13.991753125" y2="-174.67574375" width="0.1524" layer="91"/>
-<wire x1="11.408246875" y1="-144.19574375" x2="11.408246875" y2="-174.67574375" width="0.1524" layer="91"/>
-<junction x="11.408246875" y="-174.67574375"/>
+<wire x1="26.648246875" y1="-487.09574375" x2="1.248246875" y2="-487.09574375" width="0.1524" layer="91"/>
+<wire x1="26.648246875" y1="-456.61574375" x2="26.648246875" y2="-487.09574375" width="0.1524" layer="91"/>
+<junction x="26.648246875" y="-487.09574375"/>
 <pinref part="RTC_" gate="RTCCS" pin="1"/>
 </segment>
 <segment>
@@ -12010,12 +12010,12 @@ Source: http://de.nanotec.com .. s094-095_leistungsendst_IMT901.pdf</description
 <pinref part="ALBEDO2" gate="-3" pin="S"/>
 </segment>
 <segment>
-<wire x1="66.04" y1="208.28" x2="68.58" y2="208.28" width="0.1524" layer="91"/>
-<label x="81.28" y="208.28" size="1.27" layer="95" xref="yes"/>
+<wire x1="12.7" y1="66.04" x2="15.24" y2="66.04" width="0.1524" layer="91"/>
+<label x="27.94" y="66.04" size="1.27" layer="95" xref="yes"/>
 <pinref part="R11" gate="G$1" pin="1"/>
-<wire x1="68.58" y1="208.28" x2="81.28" y2="208.28" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="213.36" x2="68.58" y2="208.28" width="0.1524" layer="91"/>
-<junction x="68.58" y="208.28"/>
+<wire x1="15.24" y1="66.04" x2="27.94" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="71.12" x2="15.24" y2="66.04" width="0.1524" layer="91"/>
+<junction x="15.24" y="66.04"/>
 </segment>
 <segment>
 <label x="-30.48" y="-284.48" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -12038,8 +12038,8 @@ Source: http://de.nanotec.com .. s094-095_leistungsendst_IMT901.pdf</description
 <net name="CHB-1" class="0">
 <segment>
 <pinref part="R17" gate="G$1" pin="2"/>
-<wire x1="20.32" y1="-368.3" x2="15.24" y2="-368.3" width="0.1524" layer="91"/>
-<label x="15.24" y="-368.3" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="20.32" y1="-350.52" x2="15.24" y2="-350.52" width="0.1524" layer="91"/>
+<label x="15.24" y="-350.52" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="Y2"/>
@@ -12055,8 +12055,8 @@ Source: http://de.nanotec.com .. s094-095_leistungsendst_IMT901.pdf</description
 </segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="CHC"/>
-<wire x1="-71.12" y1="-381" x2="-73.66" y2="-381" width="0.1524" layer="91"/>
-<label x="-73.66" y="-381" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="-71.12" y1="-363.22" x2="-73.66" y2="-363.22" width="0.1524" layer="91"/>
+<label x="-73.66" y="-363.22" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="~INCHC-1" class="0">
@@ -12074,8 +12074,8 @@ Source: http://de.nanotec.com .. s094-095_leistungsendst_IMT901.pdf</description
 </segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="CHA"/>
-<wire x1="-71.12" y1="-370.84" x2="-73.66" y2="-370.84" width="0.1524" layer="91"/>
-<label x="-73.66" y="-370.84" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="-71.12" y1="-353.06" x2="-73.66" y2="-353.06" width="0.1524" layer="91"/>
+<label x="-73.66" y="-353.06" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="~INCHA-1" class="0">
@@ -12086,8 +12086,8 @@ Source: http://de.nanotec.com .. s094-095_leistungsendst_IMT901.pdf</description
 </segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="!CHA"/>
-<wire x1="-71.12" y1="-373.38" x2="-73.66" y2="-373.38" width="0.1524" layer="91"/>
-<label x="-73.66" y="-373.38" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="-71.12" y1="-355.6" x2="-73.66" y2="-355.6" width="0.1524" layer="91"/>
+<label x="-73.66" y="-355.6" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="~INCHB-1" class="0">
@@ -12098,8 +12098,8 @@ Source: http://de.nanotec.com .. s094-095_leistungsendst_IMT901.pdf</description
 </segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="!CHB"/>
-<wire x1="-71.12" y1="-378.46" x2="-73.66" y2="-378.46" width="0.1524" layer="91"/>
-<label x="-73.66" y="-378.46" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="-71.12" y1="-360.68" x2="-73.66" y2="-360.68" width="0.1524" layer="91"/>
+<label x="-73.66" y="-360.68" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="INCHB-1" class="0">
@@ -12110,15 +12110,15 @@ Source: http://de.nanotec.com .. s094-095_leistungsendst_IMT901.pdf</description
 </segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="CHB"/>
-<wire x1="-71.12" y1="-375.92" x2="-73.66" y2="-375.92" width="0.1524" layer="91"/>
-<label x="-73.66" y="-375.92" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="-71.12" y1="-358.14" x2="-73.66" y2="-358.14" width="0.1524" layer="91"/>
+<label x="-73.66" y="-358.14" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CHA-1" class="0">
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="-5.08" y1="-368.3" x2="-10.16" y2="-368.3" width="0.1524" layer="91"/>
-<label x="-10.16" y="-368.3" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="-5.08" y1="-350.52" x2="-10.16" y2="-350.52" width="0.1524" layer="91"/>
+<label x="-10.16" y="-350.52" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="Y1"/>
@@ -12129,8 +12129,8 @@ Source: http://de.nanotec.com .. s094-095_leistungsendst_IMT901.pdf</description
 <net name="CHC-1" class="0">
 <segment>
 <pinref part="R21" gate="G$1" pin="2"/>
-<wire x1="45.72" y1="-368.3" x2="40.64" y2="-368.3" width="0.1524" layer="91"/>
-<label x="40.64" y="-368.3" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="45.72" y1="-350.52" x2="40.64" y2="-350.52" width="0.1524" layer="91"/>
+<label x="40.64" y="-350.52" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="Y3"/>
@@ -12142,9 +12142,9 @@ Source: http://de.nanotec.com .. s094-095_leistungsendst_IMT901.pdf</description
 <segment>
 <pinref part="R7" gate="G$1" pin="1"/>
 <pinref part="R16" gate="G$1" pin="2"/>
-<wire x1="-5.08" y1="-378.46" x2="0" y2="-378.46" width="0.1524" layer="91"/>
-<junction x="-5.08" y="-378.46"/>
-<label x="0" y="-378.46" size="1.27" layer="95" xref="yes"/>
+<wire x1="-5.08" y1="-360.68" x2="0" y2="-360.68" width="0.1524" layer="91"/>
+<junction x="-5.08" y="-360.68"/>
+<label x="0" y="-360.68" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="PB8"/>
@@ -12156,9 +12156,9 @@ Source: http://de.nanotec.com .. s094-095_leistungsendst_IMT901.pdf</description
 <segment>
 <pinref part="R17" gate="G$1" pin="1"/>
 <pinref part="R20" gate="G$1" pin="2"/>
-<wire x1="20.32" y1="-378.46" x2="25.4" y2="-378.46" width="0.1524" layer="91"/>
-<junction x="20.32" y="-378.46"/>
-<label x="25.4" y="-378.46" size="1.27" layer="95" xref="yes"/>
+<wire x1="20.32" y1="-360.68" x2="25.4" y2="-360.68" width="0.1524" layer="91"/>
+<junction x="20.32" y="-360.68"/>
+<label x="25.4" y="-360.68" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="PB9"/>
@@ -12170,9 +12170,9 @@ Source: http://de.nanotec.com .. s094-095_leistungsendst_IMT901.pdf</description
 <segment>
 <pinref part="R21" gate="G$1" pin="1"/>
 <pinref part="R22" gate="G$1" pin="2"/>
-<wire x1="45.72" y1="-378.46" x2="50.8" y2="-378.46" width="0.1524" layer="91"/>
-<junction x="45.72" y="-378.46"/>
-<label x="50.8" y="-378.46" size="1.27" layer="95" xref="yes"/>
+<wire x1="45.72" y1="-360.68" x2="50.8" y2="-360.68" width="0.1524" layer="91"/>
+<junction x="45.72" y="-360.68"/>
+<label x="50.8" y="-360.68" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="PA0"/>
@@ -12229,12 +12229,12 @@ Source: http://de.nanotec.com .. s094-095_leistungsendst_IMT901.pdf</description
 <pinref part="ALBEDO2" gate="-2" pin="S"/>
 </segment>
 <segment>
-<wire x1="66.04" y1="210.82" x2="76.2" y2="210.82" width="0.1524" layer="91"/>
-<label x="81.28" y="210.82" size="1.27" layer="95" xref="yes"/>
+<wire x1="12.7" y1="68.58" x2="22.86" y2="68.58" width="0.1524" layer="91"/>
+<label x="27.94" y="68.58" size="1.27" layer="95" xref="yes"/>
 <pinref part="R10" gate="G$1" pin="1"/>
-<wire x1="76.2" y1="210.82" x2="81.28" y2="210.82" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="213.36" x2="76.2" y2="210.82" width="0.1524" layer="91"/>
-<junction x="76.2" y="210.82"/>
+<wire x1="22.86" y1="68.58" x2="27.94" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="71.12" x2="22.86" y2="68.58" width="0.1524" layer="91"/>
+<junction x="22.86" y="68.58"/>
 </segment>
 <segment>
 <wire x1="-17.78" y1="-281.94" x2="-30.48" y2="-281.94" width="0.1524" layer="91"/>
@@ -12273,8 +12273,8 @@ Source: http://de.nanotec.com .. s094-095_leistungsendst_IMT901.pdf</description
 <net name="IMU_INT" class="0">
 <segment>
 <pinref part="IMU" gate="-6" pin="S"/>
-<wire x1="-58.42" y1="-172.72" x2="-68.58" y2="-172.72" width="0.1524" layer="91"/>
-<label x="-68.58" y="-172.72" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="-43.18" y1="-480.06" x2="-53.34" y2="-480.06" width="0.1524" layer="91"/>
+<label x="-53.34" y="-480.06" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="12V" class="0">
@@ -12296,23 +12296,6 @@ Source: http://de.nanotec.com .. s094-095_leistungsendst_IMT901.pdf</description
 <wire x1="20.32" y1="-17.78" x2="12.7" y2="-17.78" width="0.1524" layer="91"/>
 <label x="12.7" y="-17.78" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="SD" gate="G$1" pin="DETECT"/>
-</segment>
-</net>
-<net name="N$1" class="0">
-<segment>
-<wire x1="-170.18" y1="-116.84" x2="165.1" y2="-116.84" width="0.1524" layer="91" style="longdash"/>
-</segment>
-<segment>
-<wire x1="-170.18" y1="76.2" x2="165.1" y2="76.2" width="0.1524" layer="91" style="longdash"/>
-</segment>
-<segment>
-<wire x1="-170.18" y1="251.46" x2="165.1" y2="251.46" width="0.1524" layer="91" style="longdash"/>
-</segment>
-<segment>
-<wire x1="-170.18" y1="-350.52" x2="165.1" y2="-350.52" width="0.1524" layer="91" style="longdash"/>
-</segment>
-<segment>
-<wire x1="-170.18" y1="287.02" x2="165.1" y2="287.02" width="0.1524" layer="91" style="longdash"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -12553,8 +12536,8 @@ Source: http://de.nanotec.com .. s094-095_leistungsendst_IMT901.pdf</description
 <net name="~INCHC1" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="!CHC"/>
-<wire x1="-71.12" y1="-383.54" x2="-73.66" y2="-383.54" width="0.1524" layer="91"/>
-<label x="-73.66" y="-383.54" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="-71.12" y1="-365.76" x2="-73.66" y2="-365.76" width="0.1524" layer="91"/>
+<label x="-73.66" y="-365.76" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
