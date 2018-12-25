@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.5.1">
+<eagle version="9.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -493,7 +493,7 @@ Source: http://pdf1.alldatasheet.com/datasheet-pdf/view/84563/STMICROELECTRONICS
 <pad name="SCK" x="3.81" y="0" drill="1.016" shape="octagon" rot="R90"/>
 <pad name="CS" x="6.35" y="0" drill="1.016" shape="octagon" rot="R90"/>
 <text x="-7.6962" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-7.62" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-3.81" y="5.715" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="3.556" y1="-0.254" x2="4.064" y2="0.254" layer="51"/>
 <rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
 <rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
@@ -504,8 +504,6 @@ Source: http://pdf1.alldatasheet.com/datasheet-pdf/view/84563/STMICROELECTRONICS
 <wire x1="8" y1="-2" x2="8" y2="30" width="0.127" layer="21"/>
 <wire x1="8" y1="30" x2="-8" y2="30" width="0.127" layer="21"/>
 <wire x1="-8" y1="30" x2="-8" y2="-2" width="0.127" layer="21"/>
-<text x="-7" y="26" size="1.27" layer="21">DS1302 
-WAVESHARE RTC</text>
 </package>
 <package name="OPENLOG">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
@@ -710,7 +708,7 @@ OpenLog</text>
 <pad name="VM" x="-1.27" y="0" drill="1.016" shape="octagon" rot="R90"/>
 <pad name="GND" x="1.27" y="0" drill="1.016" shape="octagon" rot="R90"/>
 <text x="-7.6962" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-7.62" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-7.62" y="3.81" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
 <rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
 <rectangle x1="-4.064" y1="-0.254" x2="-3.556" y2="0.254" layer="51"/>
@@ -731,9 +729,8 @@ OpenLog</text>
 <wire x1="-1.27" y1="12.7" x2="-1.27" y2="20.32" width="0.127" layer="21"/>
 <pad name="MOTOR_GND" x="5.08" y="16.51" drill="1.016" shape="octagon" rot="R90"/>
 <pad name="MOTOR_VCC" x="0" y="16.51" drill="1.016" shape="octagon" rot="R90"/>
-<text x="-6.35" y="6.35" size="1.27" layer="21">DRV8871</text>
-<text x="-10.16" y="11.43" size="1.27" layer="21">MOTOR</text>
-<text x="0" y="11.43" size="1.27" layer="21">POWER</text>
+<text x="-10.795" y="10.795" size="1.27" layer="21">MOTOR</text>
+<text x="-0.635" y="10.795" size="1.27" layer="21">POWER</text>
 </package>
 <package name="DIL08">
 <description>&lt;b&gt;Dual In Line Package&lt;/b&gt;</description>
@@ -844,8 +841,8 @@ dual in line package</description>
 </package>
 <package name="NUCLEO">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<text x="-31.9062" y="41.9988" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-31.83" y="39.535" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-31.9062" y="15.3288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="29.13" y="15.405" size="1.27" layer="27">&gt;VALUE</text>
 <wire x1="-33.1" y1="-35.3" x2="-33.1" y2="19.7" width="0.127" layer="21"/>
 <wire x1="-33.1" y1="20.7" x2="-33.1" y2="44.7" width="0.127" layer="21"/>
 <wire x1="-33.1" y1="44.7" x2="10.9" y2="44.7" width="0.127" layer="21"/>
@@ -1363,9 +1360,9 @@ dual in line package</description>
 <pad name="SCK" x="17" y="5.27" drill="1.016" shape="octagon"/>
 <pad name="RESET" x="19.54" y="5.27" drill="1.016" shape="octagon"/>
 <pad name="GND" x="22.08" y="5.27" drill="1.016" shape="octagon"/>
-<text x="9.412" y="0.809" size="1.27" layer="21" ratio="10">1</text>
-<text x="-0.35" y="-2.079" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="22.572" y="6.921" size="1.27" layer="21" ratio="10">10</text>
+<text x="10.682" y="0.809" size="1.27" layer="22" ratio="10" rot="MR0">1</text>
+<text x="16.795" y="6.811" size="1.27" layer="26" ratio="10" rot="MR0">&gt;NAME</text>
+<text x="22.572" y="6.921" size="1.27" layer="22" ratio="10" rot="MR0">10</text>
 <rectangle x1="14.206" y1="2.476" x2="14.714" y2="2.984" layer="51"/>
 <rectangle x1="11.666" y1="2.476" x2="12.174" y2="2.984" layer="51"/>
 <rectangle x1="16.746" y1="2.476" x2="17.254" y2="2.984" layer="51"/>
@@ -1394,7 +1391,7 @@ dual in line package</description>
 <circle x="31" y="52" radius="1.5" width="0.127" layer="21"/>
 <circle x="3" y="3.5" radius="1.5" width="0.127" layer="21"/>
 <circle x="31" y="3.5" radius="1.5" width="0.127" layer="21"/>
-<text x="9" y="23" size="2.54" layer="21">ENC28J60</text>
+<text x="26.78" y="23" size="2.54" layer="22" rot="MR0">ENC28J60</text>
 <wire x1="7" y1="27" x2="7" y2="21" width="0.127" layer="21"/>
 <wire x1="7" y1="21" x2="28" y2="21" width="0.127" layer="21"/>
 <wire x1="28" y1="21" x2="28" y2="27" width="0.127" layer="21"/>
@@ -1707,128 +1704,243 @@ RS-422 Receiver</text>
 </symbol>
 <symbol name="NUCLEO-64">
 <description>STM32F103RB Nucleo-64 board</description>
-<pin name="PC10" x="-15.24" y="55.88" length="middle" rot="R270"/>
-<pin name="PC11" x="-20.32" y="55.88" length="middle" rot="R270"/>
-<pin name="PC12" x="-25.4" y="55.88" length="middle" rot="R270"/>
+<pin name="PC10" x="-15.24" y="15.24" length="middle" rot="R180"/>
+<pin name="PC11" x="-15.24" y="20.32" length="middle" rot="R180"/>
+<pin name="PC12" x="-15.24" y="25.4" length="middle" rot="R180"/>
 <pin name="PD2" x="50.8" y="40.64" length="middle" rot="R180"/>
-<pin name="VDD" x="50.8" y="-25.4" length="middle" rot="R180"/>
-<pin name="E5V" x="50.8" y="-20.32" length="middle" rot="R180"/>
-<pin name="BOOT0" x="50.8" y="15.24" length="middle" rot="R180"/>
-<pin name="GND" x="5.08" y="5.08" length="middle"/>
-<pin name="IOREF" x="50.8" y="20.32" length="middle" rot="R180"/>
-<pin name="PA13" x="-55.88" y="-27.94" length="middle"/>
-<pin name="RESET" x="50.8" y="10.16" length="middle" rot="R180"/>
-<pin name="PA14" x="-55.88" y="-33.02" length="middle"/>
-<pin name="3V3" x="50.8" y="-15.24" length="middle" rot="R180"/>
-<pin name="PA15" x="-55.88" y="-38.1" length="middle"/>
-<pin name="5V" x="50.8" y="-10.16" length="middle" rot="R180"/>
-<pin name="GND2" x="5.08" y="0" length="middle"/>
-<pin name="GND3" x="5.08" y="-5.08" length="middle"/>
-<pin name="PB7" x="-5.08" y="-53.34" length="middle" rot="R90"/>
-<pin name="GND4" x="5.08" y="-10.16" length="middle"/>
-<pin name="PC13" x="-30.48" y="55.88" length="middle" rot="R270"/>
-<pin name="VIN" x="50.8" y="-35.56" length="middle" rot="R180"/>
-<pin name="PC14" x="-35.56" y="55.88" length="middle" rot="R270"/>
-<pin name="PC15" x="-40.64" y="55.88" length="middle" rot="R270"/>
-<pin name="PA0" x="-55.88" y="38.1" length="middle"/>
+<pin name="VDD" x="50.8" y="-15.24" length="middle" rot="R180"/>
+<pin name="E5V" x="50.8" y="-10.16" length="middle" rot="R180"/>
+<pin name="BOOT0" x="50.8" y="20.32" length="middle" rot="R180"/>
+<pin name="GND" x="50.8" y="-35.56" length="middle" rot="R180"/>
+<pin name="IOREF" x="50.8" y="25.4" length="middle" rot="R180"/>
+<pin name="PA13" x="-50.8" y="-25.4" length="middle"/>
+<pin name="RESET" x="50.8" y="15.24" length="middle" rot="R180"/>
+<pin name="PA14" x="-50.8" y="-30.48" length="middle"/>
+<pin name="3V3" x="50.8" y="-5.08" length="middle" rot="R180"/>
+<pin name="PA15" x="-50.8" y="-35.56" length="middle"/>
+<pin name="5V" x="50.8" y="0" length="middle" rot="R180"/>
+<pin name="GND2" x="-15.24" y="-40.64" length="middle" rot="R180"/>
+<pin name="GND3" x="-50.8" y="-40.64" length="middle"/>
+<pin name="PB7" x="20.32" y="5.08" length="middle"/>
+<pin name="GND4" x="20.32" y="-40.64" length="middle"/>
+<pin name="PC13" x="-15.24" y="30.48" length="middle" rot="R180"/>
+<pin name="VIN" x="50.8" y="-25.4" length="middle" rot="R180"/>
+<pin name="PC14" x="-15.24" y="35.56" length="middle" rot="R180"/>
+<pin name="PC15" x="-15.24" y="40.64" length="middle" rot="R180"/>
+<pin name="PA0" x="-50.8" y="40.64" length="middle"/>
 <pin name="PD0" x="50.8" y="30.48" length="middle" rot="R180"/>
-<pin name="PA1" x="-55.88" y="33.02" length="middle"/>
+<pin name="PA1" x="-50.8" y="35.56" length="middle"/>
 <pin name="PD1" x="50.8" y="35.56" length="middle" rot="R180"/>
-<pin name="PA4" x="-55.88" y="17.78" length="middle"/>
-<pin name="VBAT" x="50.8" y="0" length="middle" rot="R180"/>
-<pin name="PB0" x="-40.64" y="-53.34" length="middle" rot="R90"/>
-<pin name="PC2" x="25.4" y="55.88" length="middle" rot="R270"/>
-<pin name="PC1" x="30.48" y="55.88" length="middle" rot="R270"/>
-<pin name="PC3" x="20.32" y="55.88" length="middle" rot="R270"/>
-<pin name="PC0" x="35.56" y="55.88" length="middle" rot="R270"/>
-<pin name="PC9" x="-10.16" y="55.88" length="middle" rot="R270"/>
-<pin name="PC8" x="-5.08" y="55.88" length="middle" rot="R270"/>
-<pin name="PB8" x="0" y="-53.34" length="middle" rot="R90"/>
-<pin name="PC6" x="5.08" y="55.88" length="middle" rot="R270"/>
-<pin name="PB9" x="5.08" y="-53.34" length="middle" rot="R90"/>
-<pin name="PC5" x="10.16" y="55.88" length="middle" rot="R270"/>
-<pin name="AVDD" x="50.8" y="-30.48" length="middle" rot="R180"/>
-<pin name="U5V" x="50.8" y="-5.08" length="middle" rot="R180"/>
-<pin name="GND5" x="5.08" y="-15.24" length="middle"/>
-<pin name="PA5" x="-55.88" y="12.7" length="middle"/>
-<pin name="PA12" x="-55.88" y="-22.86" length="middle"/>
-<pin name="PA6" x="-55.88" y="7.62" length="middle"/>
-<pin name="PA11" x="-55.88" y="-17.78" length="middle"/>
-<pin name="PA7" x="-55.88" y="2.54" length="middle"/>
-<pin name="PB12" x="20.32" y="-53.34" length="middle" rot="R90"/>
-<pin name="PB6" x="-10.16" y="-53.34" length="middle" rot="R90"/>
-<pin name="PB11" x="15.24" y="-53.34" length="middle" rot="R90"/>
-<pin name="PC7" x="0" y="55.88" length="middle" rot="R270"/>
-<pin name="GND6" x="5.08" y="-20.32" length="middle"/>
-<pin name="PA9" x="-55.88" y="-7.62" length="middle"/>
-<pin name="PB2" x="-30.48" y="-53.34" length="middle" rot="R90"/>
-<pin name="PA8" x="-55.88" y="-2.54" length="middle"/>
-<pin name="PB1" x="-35.56" y="-53.34" length="middle" rot="R90"/>
-<pin name="PB10" x="10.16" y="-53.34" length="middle" rot="R90"/>
-<pin name="PB15" x="35.56" y="-53.34" length="middle" rot="R90"/>
-<pin name="PB4" x="-20.32" y="-53.34" length="middle" rot="R90"/>
-<pin name="PB14" x="30.48" y="-53.34" length="middle" rot="R90"/>
-<pin name="PB5" x="-15.24" y="-53.34" length="middle" rot="R90"/>
-<pin name="PB13" x="25.4" y="-53.34" length="middle" rot="R90"/>
-<pin name="PB3" x="-25.4" y="-53.34" length="middle" rot="R90"/>
-<pin name="AGND" x="5.08" y="10.16" length="middle"/>
-<pin name="PA10" x="-55.88" y="-12.7" length="middle"/>
-<pin name="PC4" x="15.24" y="55.88" length="middle" rot="R270"/>
-<pin name="PA2" x="-55.88" y="27.94" length="middle"/>
-<pin name="PA3" x="-55.88" y="22.86" length="middle"/>
-<wire x1="-50.8" y1="50.8" x2="-50.8" y2="-48.26" width="0.254" layer="94"/>
-<wire x1="-50.8" y1="50.8" x2="45.72" y2="50.8" width="0.254" layer="94"/>
-<wire x1="45.72" y1="-48.26" x2="-50.8" y2="-48.26" width="0.254" layer="94"/>
-<wire x1="45.72" y1="50.8" x2="45.72" y2="-48.26" width="0.254" layer="94"/>
-<text x="-22.86" y="25.4" size="3.81" layer="94">NUCLEO F103RB</text>
+<pin name="PA4" x="-50.8" y="20.32" length="middle"/>
+<pin name="VBAT" x="50.8" y="10.16" length="middle" rot="R180"/>
+<pin name="PB0" x="20.32" y="40.64" length="middle"/>
+<pin name="PC2" x="-15.24" y="-25.4" length="middle" rot="R180"/>
+<pin name="PC1" x="-15.24" y="-30.48" length="middle" rot="R180"/>
+<pin name="PC3" x="-15.24" y="-20.32" length="middle" rot="R180"/>
+<pin name="PC0" x="-15.24" y="-35.56" length="middle" rot="R180"/>
+<pin name="PC9" x="-15.24" y="10.16" length="middle" rot="R180"/>
+<pin name="PC8" x="-15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="PB8" x="20.32" y="0" length="middle"/>
+<pin name="PC6" x="-15.24" y="-5.08" length="middle" rot="R180"/>
+<pin name="PB9" x="20.32" y="-5.08" length="middle"/>
+<pin name="PC5" x="-15.24" y="-10.16" length="middle" rot="R180"/>
+<pin name="AVDD" x="50.8" y="-20.32" length="middle" rot="R180"/>
+<pin name="U5V" x="50.8" y="5.08" length="middle" rot="R180"/>
+<pin name="GND5" x="50.8" y="-40.64" length="middle" rot="R180"/>
+<pin name="PA5" x="-50.8" y="15.24" length="middle"/>
+<pin name="PA12" x="-50.8" y="-20.32" length="middle"/>
+<pin name="PA6" x="-50.8" y="10.16" length="middle"/>
+<pin name="PA11" x="-50.8" y="-15.24" length="middle"/>
+<pin name="PA7" x="-50.8" y="5.08" length="middle"/>
+<pin name="PB12" x="20.32" y="-20.32" length="middle"/>
+<pin name="PB6" x="20.32" y="10.16" length="middle"/>
+<pin name="PB11" x="20.32" y="-15.24" length="middle"/>
+<pin name="PC7" x="-15.24" y="0" length="middle" rot="R180"/>
+<pin name="GND6" x="20.32" y="-45.72" length="middle"/>
+<pin name="PA9" x="-50.8" y="-5.08" length="middle"/>
+<pin name="PB2" x="20.32" y="30.48" length="middle"/>
+<pin name="PA8" x="-50.8" y="0" length="middle"/>
+<pin name="PB1" x="20.32" y="35.56" length="middle"/>
+<pin name="PB10" x="20.32" y="-10.16" length="middle"/>
+<pin name="PB15" x="20.32" y="-35.56" length="middle"/>
+<pin name="PB4" x="20.32" y="20.32" length="middle"/>
+<pin name="PB14" x="20.32" y="-30.48" length="middle"/>
+<pin name="PB5" x="20.32" y="15.24" length="middle"/>
+<pin name="PB13" x="20.32" y="-25.4" length="middle"/>
+<pin name="PB3" x="20.32" y="25.4" length="middle"/>
+<pin name="AGND" x="50.8" y="-30.48" length="middle" rot="R180"/>
+<pin name="PA10" x="-50.8" y="-10.16" length="middle"/>
+<pin name="PC4" x="-15.24" y="-15.24" length="middle" rot="R180"/>
+<pin name="PA2" x="-50.8" y="30.48" length="middle"/>
+<pin name="PA3" x="-50.8" y="25.4" length="middle"/>
+<wire x1="-44.45" y1="30.48" x2="-45.72" y2="30.48" width="0.6096" layer="94"/>
+<wire x1="-44.45" y1="35.56" x2="-45.72" y2="35.56" width="0.6096" layer="94"/>
+<wire x1="-44.45" y1="40.64" x2="-45.72" y2="40.64" width="0.6096" layer="94"/>
+<wire x1="-44.45" y1="25.4" x2="-45.72" y2="25.4" width="0.6096" layer="94"/>
+<wire x1="-44.45" y1="20.32" x2="-45.72" y2="20.32" width="0.6096" layer="94"/>
+<wire x1="-44.45" y1="15.24" x2="-45.72" y2="15.24" width="0.6096" layer="94"/>
+<wire x1="-44.45" y1="10.16" x2="-45.72" y2="10.16" width="0.6096" layer="94"/>
+<wire x1="-44.45" y1="5.08" x2="-45.72" y2="5.08" width="0.6096" layer="94"/>
+<wire x1="-44.45" y1="0" x2="-45.72" y2="0" width="0.6096" layer="94"/>
+<wire x1="-44.45" y1="-5.08" x2="-45.72" y2="-5.08" width="0.6096" layer="94"/>
+<wire x1="-44.45" y1="-10.16" x2="-45.72" y2="-10.16" width="0.6096" layer="94"/>
+<wire x1="-44.45" y1="-15.24" x2="-45.72" y2="-15.24" width="0.6096" layer="94"/>
+<wire x1="-44.45" y1="-20.32" x2="-45.72" y2="-20.32" width="0.6096" layer="94"/>
+<wire x1="-44.45" y1="-25.4" x2="-45.72" y2="-25.4" width="0.6096" layer="94"/>
+<wire x1="-44.45" y1="-30.48" x2="-45.72" y2="-30.48" width="0.6096" layer="94"/>
+<wire x1="-44.45" y1="-35.56" x2="-45.72" y2="-35.56" width="0.6096" layer="94"/>
+<wire x1="-44.45" y1="-40.64" x2="-45.72" y2="-40.64" width="0.6096" layer="94"/>
+<wire x1="-21.59" y1="-40.64" x2="-20.32" y2="-40.64" width="0.6096" layer="94"/>
+<wire x1="-21.59" y1="-35.56" x2="-20.32" y2="-35.56" width="0.6096" layer="94"/>
+<wire x1="-21.59" y1="-30.48" x2="-20.32" y2="-30.48" width="0.6096" layer="94"/>
+<wire x1="-21.59" y1="-25.4" x2="-20.32" y2="-25.4" width="0.6096" layer="94"/>
+<wire x1="-21.59" y1="-20.32" x2="-20.32" y2="-20.32" width="0.6096" layer="94"/>
+<wire x1="-21.59" y1="-15.24" x2="-20.32" y2="-15.24" width="0.6096" layer="94"/>
+<wire x1="-21.59" y1="-10.16" x2="-20.32" y2="-10.16" width="0.6096" layer="94"/>
+<wire x1="-21.59" y1="-5.08" x2="-20.32" y2="-5.08" width="0.6096" layer="94"/>
+<wire x1="-21.59" y1="0" x2="-20.32" y2="0" width="0.6096" layer="94"/>
+<wire x1="-21.59" y1="5.08" x2="-20.32" y2="5.08" width="0.6096" layer="94"/>
+<wire x1="-21.59" y1="10.16" x2="-20.32" y2="10.16" width="0.6096" layer="94"/>
+<wire x1="-21.59" y1="15.24" x2="-20.32" y2="15.24" width="0.6096" layer="94"/>
+<wire x1="-21.59" y1="20.32" x2="-20.32" y2="20.32" width="0.6096" layer="94"/>
+<wire x1="-21.59" y1="25.4" x2="-20.32" y2="25.4" width="0.6096" layer="94"/>
+<wire x1="-21.59" y1="30.48" x2="-20.32" y2="30.48" width="0.6096" layer="94"/>
+<wire x1="-21.59" y1="35.56" x2="-20.32" y2="35.56" width="0.6096" layer="94"/>
+<wire x1="-21.59" y1="40.64" x2="-20.32" y2="40.64" width="0.6096" layer="94"/>
+<wire x1="44.45" y1="40.64" x2="45.72" y2="40.64" width="0.6096" layer="94"/>
+<wire x1="44.45" y1="35.56" x2="45.72" y2="35.56" width="0.6096" layer="94"/>
+<wire x1="44.45" y1="30.48" x2="45.72" y2="30.48" width="0.6096" layer="94"/>
+<wire x1="44.45" y1="25.4" x2="45.72" y2="25.4" width="0.6096" layer="94"/>
+<wire x1="44.45" y1="20.32" x2="45.72" y2="20.32" width="0.6096" layer="94"/>
+<wire x1="44.45" y1="15.24" x2="45.72" y2="15.24" width="0.6096" layer="94"/>
+<wire x1="44.45" y1="10.16" x2="45.72" y2="10.16" width="0.6096" layer="94"/>
+<wire x1="44.45" y1="5.08" x2="45.72" y2="5.08" width="0.6096" layer="94"/>
+<wire x1="44.45" y1="0" x2="45.72" y2="0" width="0.6096" layer="94"/>
+<wire x1="44.45" y1="-5.08" x2="45.72" y2="-5.08" width="0.6096" layer="94"/>
+<wire x1="44.45" y1="-10.16" x2="45.72" y2="-10.16" width="0.6096" layer="94"/>
+<wire x1="44.45" y1="-15.24" x2="45.72" y2="-15.24" width="0.6096" layer="94"/>
+<wire x1="44.45" y1="-20.32" x2="45.72" y2="-20.32" width="0.6096" layer="94"/>
+<wire x1="44.45" y1="-25.4" x2="45.72" y2="-25.4" width="0.6096" layer="94"/>
+<wire x1="44.45" y1="-30.48" x2="45.72" y2="-30.48" width="0.6096" layer="94"/>
+<wire x1="44.45" y1="-35.56" x2="45.72" y2="-35.56" width="0.6096" layer="94"/>
+<wire x1="44.45" y1="-40.64" x2="45.72" y2="-40.64" width="0.6096" layer="94"/>
+<wire x1="26.67" y1="-45.72" x2="25.4" y2="-45.72" width="0.6096" layer="94"/>
+<wire x1="26.67" y1="-40.64" x2="25.4" y2="-40.64" width="0.6096" layer="94"/>
+<wire x1="26.67" y1="-35.56" x2="25.4" y2="-35.56" width="0.6096" layer="94"/>
+<wire x1="26.67" y1="-30.48" x2="25.4" y2="-30.48" width="0.6096" layer="94"/>
+<wire x1="26.67" y1="-25.4" x2="25.4" y2="-25.4" width="0.6096" layer="94"/>
+<wire x1="26.67" y1="-20.32" x2="25.4" y2="-20.32" width="0.6096" layer="94"/>
+<wire x1="26.67" y1="-15.24" x2="25.4" y2="-15.24" width="0.6096" layer="94"/>
+<wire x1="26.67" y1="-10.16" x2="25.4" y2="-10.16" width="0.6096" layer="94"/>
+<wire x1="26.67" y1="-5.08" x2="25.4" y2="-5.08" width="0.6096" layer="94"/>
+<wire x1="26.67" y1="0" x2="25.4" y2="0" width="0.6096" layer="94"/>
+<wire x1="26.67" y1="5.08" x2="25.4" y2="5.08" width="0.6096" layer="94"/>
+<wire x1="26.67" y1="10.16" x2="25.4" y2="10.16" width="0.6096" layer="94"/>
+<wire x1="26.67" y1="15.24" x2="25.4" y2="15.24" width="0.6096" layer="94"/>
+<wire x1="26.67" y1="20.32" x2="25.4" y2="20.32" width="0.6096" layer="94"/>
+<wire x1="26.67" y1="25.4" x2="25.4" y2="25.4" width="0.6096" layer="94"/>
+<wire x1="26.67" y1="30.48" x2="25.4" y2="30.48" width="0.6096" layer="94"/>
+<wire x1="26.67" y1="35.56" x2="25.4" y2="35.56" width="0.6096" layer="94"/>
+<wire x1="26.67" y1="40.64" x2="25.4" y2="40.64" width="0.6096" layer="94"/>
+<text x="-38.1" y="43.18" size="1.524" layer="95">&gt;NAME</text>
+<text x="30.48" y="43.18" size="1.524" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="ETH">
-<pin name="CLKOUT" x="-5.08" y="15.24" length="middle"/>
-<pin name="WOL" x="-5.08" y="10.16" length="middle"/>
-<pin name="SI" x="-5.08" y="5.08" length="middle"/>
-<pin name="CS" x="-5.08" y="0" length="middle"/>
-<pin name="VCC" x="-5.08" y="-5.08" length="middle"/>
-<pin name="GND" x="27.94" y="-5.08" length="middle" rot="R180"/>
-<pin name="RESET" x="27.94" y="0" length="middle" rot="R180"/>
-<pin name="SCK" x="27.94" y="5.08" length="middle" rot="R180"/>
-<pin name="SO" x="27.94" y="10.16" length="middle" rot="R180"/>
-<pin name="INT" x="27.94" y="15.24" length="middle" rot="R180"/>
-<wire x1="0" y1="20.32" x2="22.86" y2="20.32" width="0.254" layer="94"/>
-<wire x1="22.86" y1="20.32" x2="22.86" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="22.86" y1="-10.16" x2="0" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="0" y1="-10.16" x2="0" y2="20.32" width="0.254" layer="94"/>
-<text x="2.54" y="21.59" size="2.54" layer="94">ENC28J60</text>
+<pin name="CLKOUT" x="-17.78" y="10.16" length="middle"/>
+<pin name="WOL" x="-17.78" y="5.08" length="middle"/>
+<pin name="SI" x="-17.78" y="0" length="middle"/>
+<pin name="CS" x="-17.78" y="-5.08" length="middle"/>
+<pin name="VCC" x="-17.78" y="-10.16" length="middle"/>
+<pin name="GND" x="15.24" y="-10.16" length="middle" rot="R180"/>
+<pin name="RESET" x="15.24" y="-5.08" length="middle" rot="R180"/>
+<pin name="SCK" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="SO" x="15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="INT" x="15.24" y="10.16" length="middle" rot="R180"/>
+<wire x1="-12.7" y1="10.16" x2="-11.43" y2="10.16" width="0.508" layer="94"/>
+<wire x1="-12.7" y1="5.08" x2="-11.43" y2="5.08" width="0.508" layer="94"/>
+<wire x1="-12.7" y1="0" x2="-11.43" y2="0" width="0.508" layer="94"/>
+<wire x1="-12.7" y1="-5.08" x2="-11.43" y2="-5.08" width="0.508" layer="94"/>
+<wire x1="-12.7" y1="-10.16" x2="-11.43" y2="-10.16" width="0.508" layer="94"/>
+<wire x1="8.89" y1="-10.16" x2="10.16" y2="-10.16" width="0.508" layer="94"/>
+<wire x1="8.89" y1="-5.08" x2="10.16" y2="-5.08" width="0.508" layer="94"/>
+<wire x1="8.89" y1="0" x2="10.16" y2="0" width="0.508" layer="94"/>
+<wire x1="8.89" y1="5.08" x2="10.16" y2="5.08" width="0.508" layer="94"/>
+<wire x1="8.89" y1="10.16" x2="10.16" y2="10.16" width="0.508" layer="94"/>
+<text x="-12.7" y="12.7" size="1.524" layer="95">&gt;NAME</text>
 </symbol>
 <symbol name="SD_SOCKET">
-<wire x1="-10.16" y1="15.24" x2="17.78" y2="15.24" width="0.254" layer="94"/>
-<wire x1="17.78" y1="15.24" x2="17.78" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="17.78" y1="-2.54" x2="-10.16" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-2.54" x2="-10.16" y2="15.24" width="0.254" layer="94"/>
-<pin name="GND" x="15.24" y="-7.62" length="middle" rot="R90"/>
-<pin name="VDD" x="12.7" y="-7.62" length="middle" rot="R90"/>
-<pin name="DAT2" x="22.86" y="12.7" length="middle" rot="R180"/>
-<pin name="IRQ/DAT1" x="22.86" y="10.16" length="middle" rot="R180"/>
-<pin name="GND2" x="7.62" y="-7.62" length="middle" rot="R90"/>
-<pin name="VDD2" x="5.08" y="-7.62" length="middle" rot="R90"/>
-<pin name="DI" x="-15.24" y="12.7" length="middle"/>
-<pin name="DO" x="-15.24" y="10.16" length="middle"/>
-<pin name="SCLK" x="-15.24" y="7.62" length="middle"/>
-<pin name="CS" x="-15.24" y="5.08" length="middle"/>
-<pin name="DETECT" x="-15.24" y="2.54" length="middle"/>
+<pin name="GND" x="20.32" y="0" length="middle" rot="R180"/>
+<pin name="VDD" x="20.32" y="-2.54" length="middle" rot="R180"/>
+<pin name="DAT2" x="20.32" y="5.08" length="middle" rot="R180"/>
+<pin name="IRQ/DAT1" x="20.32" y="2.54" length="middle" rot="R180"/>
+<pin name="GND2" x="20.32" y="-5.08" length="middle" rot="R180"/>
+<pin name="VDD2" x="20.32" y="-7.62" length="middle" rot="R180"/>
+<pin name="DI" x="-17.78" y="5.08" length="middle"/>
+<pin name="DO" x="-17.78" y="2.54" length="middle"/>
+<pin name="SCLK" x="-17.78" y="0" length="middle"/>
+<pin name="CS" x="-17.78" y="-2.54" length="middle"/>
+<pin name="DETECT" x="-17.78" y="-5.08" length="middle"/>
+<wire x1="-12.7" y1="5.08" x2="-11.43" y2="5.08" width="0.508" layer="94"/>
+<wire x1="-12.7" y1="2.54" x2="-11.43" y2="2.54" width="0.508" layer="94"/>
+<wire x1="-12.7" y1="0" x2="-11.43" y2="0" width="0.508" layer="94"/>
+<wire x1="-12.7" y1="-2.54" x2="-11.43" y2="-2.54" width="0.508" layer="94"/>
+<wire x1="-12.7" y1="-5.08" x2="-11.43" y2="-5.08" width="0.508" layer="94"/>
+<wire x1="13.97" y1="5.08" x2="15.24" y2="5.08" width="0.508" layer="94"/>
+<wire x1="13.97" y1="2.54" x2="15.24" y2="2.54" width="0.508" layer="94"/>
+<wire x1="13.97" y1="0" x2="15.24" y2="0" width="0.508" layer="94"/>
+<wire x1="13.97" y1="-2.54" x2="15.24" y2="-2.54" width="0.508" layer="94"/>
+<wire x1="13.97" y1="-5.08" x2="15.24" y2="-5.08" width="0.508" layer="94"/>
+<wire x1="13.97" y1="-7.62" x2="15.24" y2="-7.62" width="0.508" layer="94"/>
+<text x="-7.62" y="7.62" size="1.524" layer="95">&gt;NAME</text>
 </symbol>
 <symbol name="ENCODER">
-<pin name="GND" x="5.08" y="-15.24" length="middle" rot="R90"/>
-<pin name="VCC" x="2.54" y="-15.24" length="middle" rot="R90"/>
+<pin name="GND" x="12.7" y="0" length="middle" rot="R180"/>
+<pin name="VCC" x="12.7" y="-2.54" length="middle" rot="R180"/>
 <pin name="CHA" x="-12.7" y="5.08" length="middle"/>
 <pin name="!CHA" x="-12.7" y="2.54" length="middle"/>
 <pin name="CHB" x="-12.7" y="0" length="middle"/>
 <pin name="!CHB" x="-12.7" y="-2.54" length="middle"/>
-<pin name="CHC" x="-12.7" y="-5.08" length="middle"/>
-<pin name="!CHC" x="-12.7" y="-7.62" length="middle"/>
-<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-10.16" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-10.16" x2="7.62" y2="7.62" width="0.254" layer="94"/>
-<wire x1="7.62" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<pin name="CHC" x="12.7" y="5.08" length="middle" rot="R180"/>
+<pin name="!CHC" x="12.7" y="2.54" length="middle" rot="R180"/>
+<wire x1="-7.62" y1="5.08" x2="-6.35" y2="5.08" width="0.508" layer="94"/>
+<wire x1="-7.62" y1="2.54" x2="-6.35" y2="2.54" width="0.508" layer="94"/>
+<wire x1="-7.62" y1="0" x2="-6.35" y2="0" width="0.508" layer="94"/>
+<wire x1="-7.62" y1="-2.54" x2="-6.35" y2="-2.54" width="0.508" layer="94"/>
+<wire x1="6.35" y1="-2.54" x2="7.62" y2="-2.54" width="0.508" layer="94"/>
+<wire x1="6.35" y1="0" x2="7.62" y2="0" width="0.508" layer="94"/>
+<wire x1="6.35" y1="2.54" x2="7.62" y2="2.54" width="0.508" layer="94"/>
+<wire x1="6.35" y1="5.08" x2="7.62" y2="5.08" width="0.508" layer="94"/>
+<text x="-3.81" y="6.985" size="1.524" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="BRIDGE">
+<pin name="IN2" x="-12.7" y="5.08" length="middle"/>
+<pin name="IN1" x="-12.7" y="0" length="middle"/>
+<pin name="VM" x="-12.7" y="-5.08" length="middle"/>
+<pin name="GND" x="-12.7" y="-10.16" length="middle"/>
+<pin name="M-VCC" x="15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="M-GND" x="15.24" y="0" length="middle" rot="R180"/>
+<wire x1="-7.62" y1="5.08" x2="-6.35" y2="5.08" width="0.508" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="-6.35" y2="-5.08" width="0.508" layer="94"/>
+<wire x1="-7.62" y1="0" x2="-6.35" y2="0" width="0.508" layer="94"/>
+<wire x1="-7.62" y1="-10.16" x2="-6.35" y2="-10.16" width="0.508" layer="94"/>
+<wire x1="8.89" y1="0" x2="10.16" y2="0" width="0.508" layer="94"/>
+<wire x1="8.89" y1="5.08" x2="10.16" y2="5.08" width="0.508" layer="94"/>
+<text x="-3.81" y="6.985" size="1.524" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="RTC">
+<pin name="VCC" x="-7.62" y="12.7" length="middle"/>
+<pin name="GND" x="-7.62" y="7.62" length="middle"/>
+<pin name="MISO" x="-7.62" y="2.54" length="middle"/>
+<pin name="MOSI" x="-7.62" y="-2.54" length="middle"/>
+<pin name="SCK" x="-7.62" y="-7.62" length="middle"/>
+<pin name="CS" x="-7.62" y="-12.7" length="middle"/>
+<wire x1="-2.54" y1="12.7" x2="-1.27" y2="12.7" width="0.508" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-1.27" y2="2.54" width="0.508" layer="94"/>
+<wire x1="-2.54" y1="7.62" x2="-1.27" y2="7.62" width="0.508" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-1.27" y2="-2.54" width="0.508" layer="94"/>
+<wire x1="-1.27" y1="-7.62" x2="-2.54" y2="-7.62" width="0.508" layer="94"/>
+<wire x1="-1.27" y1="-12.7" x2="-2.54" y2="-12.7" width="0.508" layer="94"/>
+<text x="-1.27" y="17.145" size="1.524" layer="95">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1990,22 +2102,17 @@ Source: http://pdf1.alldatasheet.com/datasheet-pdf/view/84563/STMICROELECTRONICS
 </deviceset>
 <deviceset name="RTC_WAVESHARE">
 <gates>
-<gate name="RTCVCC" symbol="PIN" x="0" y="12.7"/>
-<gate name="RTCGND" symbol="PIN" x="0" y="7.62"/>
-<gate name="RTCMISO" symbol="PIN" x="0" y="2.54"/>
-<gate name="RTCMOSI" symbol="PIN" x="0" y="-2.54"/>
-<gate name="RTCSCK" symbol="PIN" x="0" y="-7.62"/>
-<gate name="RTCCS" symbol="PIN" x="0" y="-12.7"/>
+<gate name="G$1" symbol="RTC" x="2.54" y="0"/>
 </gates>
 <devices>
 <device name="" package="RTC">
 <connects>
-<connect gate="RTCCS" pin="1" pad="CS"/>
-<connect gate="RTCGND" pin="1" pad="GND"/>
-<connect gate="RTCMISO" pin="1" pad="MISO"/>
-<connect gate="RTCMOSI" pin="1" pad="MOSI"/>
-<connect gate="RTCSCK" pin="1" pad="SCK"/>
-<connect gate="RTCVCC" pin="1" pad="VCC"/>
+<connect gate="G$1" pin="CS" pad="CS"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="MISO" pad="MISO"/>
+<connect gate="G$1" pin="MOSI" pad="MOSI"/>
+<connect gate="G$1" pin="SCK" pad="SCK"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2073,22 +2180,17 @@ Source: http://pdf1.alldatasheet.com/datasheet-pdf/view/84563/STMICROELECTRONICS
 </deviceset>
 <deviceset name="DRV8871">
 <gates>
-<gate name="IN2" symbol="PIN" x="2.54" y="2.54"/>
-<gate name="IN1" symbol="PIN" x="2.54" y="7.62"/>
-<gate name="VM" symbol="PIN" x="2.54" y="-2.54"/>
-<gate name="GND" symbol="PIN" x="2.54" y="-7.62"/>
-<gate name="MOT_VCC" symbol="M" x="20.32" y="7.62"/>
-<gate name="MOT_GND" symbol="M" x="20.32" y="2.54"/>
+<gate name="G$1" symbol="BRIDGE" x="0" y="2.54"/>
 </gates>
 <devices>
 <device name="" package="DRIVER">
 <connects>
-<connect gate="GND" pin="1" pad="GND" route="any"/>
-<connect gate="IN1" pin="1" pad="IN1"/>
-<connect gate="IN2" pin="1" pad="IN2"/>
-<connect gate="MOT_GND" pin="S" pad="MOTOR_GND"/>
-<connect gate="MOT_VCC" pin="S" pad="MOTOR_VCC"/>
-<connect gate="VM" pin="1" pad="VM"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="IN1" pad="IN1"/>
+<connect gate="G$1" pin="IN2" pad="IN2"/>
+<connect gate="G$1" pin="M-GND" pad="MOTOR_GND"/>
+<connect gate="G$1" pin="M-VCC" pad="MOTOR_VCC"/>
+<connect gate="G$1" pin="VM" pad="VM"/>
 </connects>
 <technologies>
 <technology name=""/>
